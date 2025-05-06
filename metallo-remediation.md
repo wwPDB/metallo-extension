@@ -8,6 +8,7 @@
 - [Enhanced Annotation](#enhanced-annotation)
 - [Example Enhanced Annotation in CCD Files](#example-enhanced-annotation-in-ccd-files)
 - [Example Enhanced Annotation in Coordinate Files](#example-enhanced-annotation-in-coordinate-files)
+- [References](#references)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
