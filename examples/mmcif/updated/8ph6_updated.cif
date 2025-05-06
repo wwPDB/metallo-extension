@@ -107,8 +107,7 @@ _citation.journal_volume            253
 _citation.language                  ? 
 _citation.page_first                126666 
 _citation.page_last                 126666 
-_citation.title                     
-'Steric hindrance and charge influence on the cytotoxic activity and protein binding properties of diruthenium complexes.' 
+_citation.title                     'Steric hindrance and charge influence on the cytotoxic activity and protein binding properties of diruthenium complexes.' 
 _citation.year                      2023 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.ijbiomac.2023.126666 
@@ -373,149 +372,6 @@ ZWL non-polymer                       . '[Ru2(DPhF)(Formate)(CO3)]'             
 ZWO non-polymer                       . 'Ru2(DPhF)(CO3)3'                                     ?     'C16 H12 N2 O9 Ru2' 578.414 
 ZXE non-polymer                       . 'Ru2(DPhF)(CO3)2(Formate)'                            ?     'C16 H14 N2 O8 Ru2' 564.431 
 # 
-loop_
-_pdbx_poly_seq_scheme.asym_id 
-_pdbx_poly_seq_scheme.entity_id 
-_pdbx_poly_seq_scheme.seq_id 
-_pdbx_poly_seq_scheme.mon_id 
-_pdbx_poly_seq_scheme.ndb_seq_num 
-_pdbx_poly_seq_scheme.pdb_seq_num 
-_pdbx_poly_seq_scheme.auth_seq_num 
-_pdbx_poly_seq_scheme.pdb_mon_id 
-_pdbx_poly_seq_scheme.auth_mon_id 
-_pdbx_poly_seq_scheme.pdb_strand_id 
-_pdbx_poly_seq_scheme.pdb_ins_code 
-_pdbx_poly_seq_scheme.hetero 
-A 1 1   LYS 1   1   1   LYS LYS A . n 
-A 1 2   VAL 2   2   2   VAL VAL A . n 
-A 1 3   PHE 3   3   3   PHE PHE A . n 
-A 1 4   GLY 4   4   4   GLY GLY A . n 
-A 1 5   ARG 5   5   5   ARG ARG A . n 
-A 1 6   CYS 6   6   6   CYS CYS A . n 
-A 1 7   GLU 7   7   7   GLU GLU A . n 
-A 1 8   LEU 8   8   8   LEU LEU A . n 
-A 1 9   ALA 9   9   9   ALA ALA A . n 
-A 1 10  ALA 10  10  10  ALA ALA A . n 
-A 1 11  ALA 11  11  11  ALA ALA A . n 
-A 1 12  MET 12  12  12  MET MET A . n 
-A 1 13  LYS 13  13  13  LYS LYS A . n 
-A 1 14  ARG 14  14  14  ARG ARG A . n 
-A 1 15  HIS 15  15  15  HIS HIS A . n 
-A 1 16  GLY 16  16  16  GLY GLY A . n 
-A 1 17  LEU 17  17  17  LEU LEU A . n 
-A 1 18  ASP 18  18  18  ASP ASP A . n 
-A 1 19  ASN 19  19  19  ASN ASN A . n 
-A 1 20  TYR 20  20  20  TYR TYR A . n 
-A 1 21  ARG 21  21  21  ARG ARG A . n 
-A 1 22  GLY 22  22  22  GLY GLY A . n 
-A 1 23  TYR 23  23  23  TYR TYR A . n 
-A 1 24  SER 24  24  24  SER SER A . n 
-A 1 25  LEU 25  25  25  LEU LEU A . n 
-A 1 26  GLY 26  26  26  GLY GLY A . n 
-A 1 27  ASN 27  27  27  ASN ASN A . n 
-A 1 28  TRP 28  28  28  TRP TRP A . n 
-A 1 29  VAL 29  29  29  VAL VAL A . n 
-A 1 30  CYS 30  30  30  CYS CYS A . n 
-A 1 31  ALA 31  31  31  ALA ALA A . n 
-A 1 32  ALA 32  32  32  ALA ALA A . n 
-A 1 33  LYS 33  33  33  LYS LYS A . n 
-A 1 34  PHE 34  34  34  PHE PHE A . n 
-A 1 35  GLU 35  35  35  GLU GLU A . n 
-A 1 36  SER 36  36  36  SER SER A . n 
-A 1 37  ASN 37  37  37  ASN ASN A . n 
-A 1 38  PHE 38  38  38  PHE PHE A . n 
-A 1 39  ASN 39  39  39  ASN ASN A . n 
-A 1 40  THR 40  40  40  THR THR A . n 
-A 1 41  GLN 41  41  41  GLN GLN A . n 
-A 1 42  ALA 42  42  42  ALA ALA A . n 
-A 1 43  THR 43  43  43  THR THR A . n 
-A 1 44  ASN 44  44  44  ASN ASN A . n 
-A 1 45  ARG 45  45  45  ARG ARG A . n 
-A 1 46  ASN 46  46  46  ASN ASN A . n 
-A 1 47  THR 47  47  47  THR THR A . n 
-A 1 48  ASP 48  48  48  ASP ASP A . n 
-A 1 49  GLY 49  49  49  GLY GLY A . n 
-A 1 50  SER 50  50  50  SER SER A . n 
-A 1 51  THR 51  51  51  THR THR A . n 
-A 1 52  ASP 52  52  52  ASP ASP A . n 
-A 1 53  TYR 53  53  53  TYR TYR A . n 
-A 1 54  GLY 54  54  54  GLY GLY A . n 
-A 1 55  ILE 55  55  55  ILE ILE A . n 
-A 1 56  LEU 56  56  56  LEU LEU A . n 
-A 1 57  GLN 57  57  57  GLN GLN A . n 
-A 1 58  ILE 58  58  58  ILE ILE A . n 
-A 1 59  ASN 59  59  59  ASN ASN A . n 
-A 1 60  SER 60  60  60  SER SER A . n 
-A 1 61  ARG 61  61  61  ARG ARG A . n 
-A 1 62  TRP 62  62  62  TRP TRP A . n 
-A 1 63  TRP 63  63  63  TRP TRP A . n 
-A 1 64  CYS 64  64  64  CYS CYS A . n 
-A 1 65  ASN 65  65  65  ASN ASN A . n 
-A 1 66  ASP 66  66  66  ASP ASP A . n 
-A 1 67  GLY 67  67  67  GLY GLY A . n 
-A 1 68  ARG 68  68  68  ARG ARG A . n 
-A 1 69  THR 69  69  69  THR THR A . n 
-A 1 70  PRO 70  70  70  PRO PRO A . n 
-A 1 71  GLY 71  71  71  GLY GLY A . n 
-A 1 72  SER 72  72  72  SER SER A . n 
-A 1 73  ARG 73  73  73  ARG ARG A . n 
-A 1 74  ASN 74  74  74  ASN ASN A . n 
-A 1 75  LEU 75  75  75  LEU LEU A . n 
-A 1 76  CYS 76  76  76  CYS CYS A . n 
-A 1 77  ASN 77  77  77  ASN ASN A . n 
-A 1 78  ILE 78  78  78  ILE ILE A . n 
-A 1 79  PRO 79  79  79  PRO PRO A . n 
-A 1 80  CYS 80  80  80  CYS CYS A . n 
-A 1 81  SER 81  81  81  SER SER A . n 
-A 1 82  ALA 82  82  82  ALA ALA A . n 
-A 1 83  LEU 83  83  83  LEU LEU A . n 
-A 1 84  LEU 84  84  84  LEU LEU A . n 
-A 1 85  SER 85  85  85  SER SER A . n 
-A 1 86  SER 86  86  86  SER SER A . n 
-A 1 87  ASP 87  87  87  ASP ASP A . n 
-A 1 88  ILE 88  88  88  ILE ILE A . n 
-A 1 89  THR 89  89  89  THR THR A . n 
-A 1 90  ALA 90  90  90  ALA ALA A . n 
-A 1 91  SER 91  91  91  SER SER A . n 
-A 1 92  VAL 92  92  92  VAL VAL A . n 
-A 1 93  ASN 93  93  93  ASN ASN A . n 
-A 1 94  CYS 94  94  94  CYS CYS A . n 
-A 1 95  ALA 95  95  95  ALA ALA A . n 
-A 1 96  LYS 96  96  96  LYS LYS A . n 
-A 1 97  LYS 97  97  97  LYS LYS A . n 
-A 1 98  ILE 98  98  98  ILE ILE A . n 
-A 1 99  VAL 99  99  99  VAL VAL A . n 
-A 1 100 SER 100 100 100 SER SER A . n 
-A 1 101 ASP 101 101 101 ASP ASP A . n 
-A 1 102 GLY 102 102 102 GLY GLY A . n 
-A 1 103 ASN 103 103 103 ASN ASN A . n 
-A 1 104 GLY 104 104 104 GLY GLY A . n 
-A 1 105 MET 105 105 105 MET MET A . n 
-A 1 106 ASN 106 106 106 ASN ASN A . n 
-A 1 107 ALA 107 107 107 ALA ALA A . n 
-A 1 108 TRP 108 108 108 TRP TRP A . n 
-A 1 109 VAL 109 109 109 VAL VAL A . n 
-A 1 110 ALA 110 110 110 ALA ALA A . n 
-A 1 111 TRP 111 111 111 TRP TRP A . n 
-A 1 112 ARG 112 112 112 ARG ARG A . n 
-A 1 113 ASN 113 113 113 ASN ASN A . n 
-A 1 114 ARG 114 114 114 ARG ARG A . n 
-A 1 115 CYS 115 115 115 CYS CYS A . n 
-A 1 116 LYS 116 116 116 LYS LYS A . n 
-A 1 117 GLY 117 117 117 GLY GLY A . n 
-A 1 118 THR 118 118 118 THR THR A . n 
-A 1 119 ASP 119 119 119 ASP ASP A . n 
-A 1 120 VAL 120 120 120 VAL VAL A . n 
-A 1 121 GLN 121 121 121 GLN GLN A . n 
-A 1 122 ALA 122 122 122 ALA ALA A . n 
-A 1 123 TRP 123 123 123 TRP TRP A . n 
-A 1 124 ILE 124 124 124 ILE ILE A . n 
-A 1 125 ARG 125 125 125 ARG ARG A . n 
-A 1 126 GLY 126 126 126 GLY GLY A . n 
-A 1 127 CYS 127 127 127 CYS CYS A . n 
-A 1 128 ARG 128 128 128 ARG ARG A . n 
-A 1 129 LEU 129 129 129 LEU LEU A . n 
-# 
 _pdbx_entity_instance_feature.ordinal        1 
 _pdbx_entity_instance_feature.comp_id        ZWL 
 _pdbx_entity_instance_feature.asym_id        ? 
@@ -527,287 +383,74 @@ _pdbx_entity_instance_feature.feature_type   'SUBJECT OF INVESTIGATION'
 _pdbx_entity_instance_feature.details        ? 
 # 
 loop_
-_pdbx_nonpoly_scheme.asym_id 
-_pdbx_nonpoly_scheme.entity_id 
-_pdbx_nonpoly_scheme.mon_id 
-_pdbx_nonpoly_scheme.ndb_seq_num 
-_pdbx_nonpoly_scheme.pdb_seq_num 
-_pdbx_nonpoly_scheme.auth_seq_num 
-_pdbx_nonpoly_scheme.pdb_mon_id 
-_pdbx_nonpoly_scheme.auth_mon_id 
-_pdbx_nonpoly_scheme.pdb_strand_id 
-_pdbx_nonpoly_scheme.pdb_ins_code 
-B 2 EPE 1   201 202 EPE EPE A . 
-C 3 ZWL 1   202 1   ZWL TMW A . 
-D 4 YWV 1   203 2   YWV TMW A . 
-E 5 ZWO 1   204 3   ZWO TMW A . 
-F 6 ZXE 1   205 4   ZXE TMW A . 
-G 7 HOH 1   301 169 HOH HOH A . 
-G 7 HOH 2   302 143 HOH HOH A . 
-G 7 HOH 3   303 124 HOH HOH A . 
-G 7 HOH 4   304 221 HOH HOH A . 
-G 7 HOH 5   305 168 HOH HOH A . 
-G 7 HOH 6   306 86  HOH HOH A . 
-G 7 HOH 7   307 71  HOH HOH A . 
-G 7 HOH 8   308 173 HOH HOH A . 
-G 7 HOH 9   309 157 HOH HOH A . 
-G 7 HOH 10  310 195 HOH HOH A . 
-G 7 HOH 11  311 11  HOH HOH A . 
-G 7 HOH 12  312 64  HOH HOH A . 
-G 7 HOH 13  313 39  HOH HOH A . 
-G 7 HOH 14  314 33  HOH HOH A . 
-G 7 HOH 15  315 58  HOH HOH A . 
-G 7 HOH 16  316 220 HOH HOH A . 
-G 7 HOH 17  317 49  HOH HOH A . 
-G 7 HOH 18  318 117 HOH HOH A . 
-G 7 HOH 19  319 201 HOH HOH A . 
-G 7 HOH 20  320 87  HOH HOH A . 
-G 7 HOH 21  321 46  HOH HOH A . 
-G 7 HOH 22  322 174 HOH HOH A . 
-G 7 HOH 23  323 70  HOH HOH A . 
-G 7 HOH 24  324 154 HOH HOH A . 
-G 7 HOH 25  325 193 HOH HOH A . 
-G 7 HOH 26  326 81  HOH HOH A . 
-G 7 HOH 27  327 110 HOH HOH A . 
-G 7 HOH 28  328 112 HOH HOH A . 
-G 7 HOH 29  329 223 HOH HOH A . 
-G 7 HOH 30  330 25  HOH HOH A . 
-G 7 HOH 31  331 89  HOH HOH A . 
-G 7 HOH 32  332 22  HOH HOH A . 
-G 7 HOH 33  333 60  HOH HOH A . 
-G 7 HOH 34  334 2   HOH HOH A . 
-G 7 HOH 35  335 57  HOH HOH A . 
-G 7 HOH 36  336 187 HOH HOH A . 
-G 7 HOH 37  337 13  HOH HOH A . 
-G 7 HOH 38  338 73  HOH HOH A . 
-G 7 HOH 39  339 150 HOH HOH A . 
-G 7 HOH 40  340 53  HOH HOH A . 
-G 7 HOH 41  341 3   HOH HOH A . 
-G 7 HOH 42  342 99  HOH HOH A . 
-G 7 HOH 43  343 91  HOH HOH A . 
-G 7 HOH 44  344 72  HOH HOH A . 
-G 7 HOH 45  345 186 HOH HOH A . 
-G 7 HOH 46  346 104 HOH HOH A . 
-G 7 HOH 47  347 32  HOH HOH A . 
-G 7 HOH 48  348 123 HOH HOH A . 
-G 7 HOH 49  349 126 HOH HOH A . 
-G 7 HOH 50  350 204 HOH HOH A . 
-G 7 HOH 51  351 148 HOH HOH A . 
-G 7 HOH 52  352 202 HOH HOH A . 
-G 7 HOH 53  353 165 HOH HOH A . 
-G 7 HOH 54  354 181 HOH HOH A . 
-G 7 HOH 55  355 36  HOH HOH A . 
-G 7 HOH 56  356 93  HOH HOH A . 
-G 7 HOH 57  357 34  HOH HOH A . 
-G 7 HOH 58  358 120 HOH HOH A . 
-G 7 HOH 59  359 8   HOH HOH A . 
-G 7 HOH 60  360 167 HOH HOH A . 
-G 7 HOH 61  361 147 HOH HOH A . 
-G 7 HOH 62  362 12  HOH HOH A . 
-G 7 HOH 63  363 4   HOH HOH A . 
-G 7 HOH 64  364 105 HOH HOH A . 
-G 7 HOH 65  365 65  HOH HOH A . 
-G 7 HOH 66  366 156 HOH HOH A . 
-G 7 HOH 67  367 138 HOH HOH A . 
-G 7 HOH 68  368 54  HOH HOH A . 
-G 7 HOH 69  369 19  HOH HOH A . 
-G 7 HOH 70  370 211 HOH HOH A . 
-G 7 HOH 71  371 102 HOH HOH A . 
-G 7 HOH 72  372 24  HOH HOH A . 
-G 7 HOH 73  373 59  HOH HOH A . 
-G 7 HOH 74  374 45  HOH HOH A . 
-G 7 HOH 75  375 77  HOH HOH A . 
-G 7 HOH 76  376 98  HOH HOH A . 
-G 7 HOH 77  377 134 HOH HOH A . 
-G 7 HOH 78  378 44  HOH HOH A . 
-G 7 HOH 79  379 114 HOH HOH A . 
-G 7 HOH 80  380 109 HOH HOH A . 
-G 7 HOH 81  381 82  HOH HOH A . 
-G 7 HOH 82  382 106 HOH HOH A . 
-G 7 HOH 83  383 200 HOH HOH A . 
-G 7 HOH 84  384 218 HOH HOH A . 
-G 7 HOH 85  385 63  HOH HOH A . 
-G 7 HOH 86  386 55  HOH HOH A . 
-G 7 HOH 87  387 189 HOH HOH A . 
-G 7 HOH 88  388 142 HOH HOH A . 
-G 7 HOH 89  389 30  HOH HOH A . 
-G 7 HOH 90  390 31  HOH HOH A . 
-G 7 HOH 91  391 163 HOH HOH A . 
-G 7 HOH 92  392 40  HOH HOH A . 
-G 7 HOH 93  393 27  HOH HOH A . 
-G 7 HOH 94  394 10  HOH HOH A . 
-G 7 HOH 95  395 7   HOH HOH A . 
-G 7 HOH 96  396 14  HOH HOH A . 
-G 7 HOH 97  397 26  HOH HOH A . 
-G 7 HOH 98  398 184 HOH HOH A . 
-G 7 HOH 99  399 52  HOH HOH A . 
-G 7 HOH 100 400 37  HOH HOH A . 
-G 7 HOH 101 401 144 HOH HOH A . 
-G 7 HOH 102 402 6   HOH HOH A . 
-G 7 HOH 103 403 146 HOH HOH A . 
-G 7 HOH 104 404 23  HOH HOH A . 
-G 7 HOH 105 405 161 HOH HOH A . 
-G 7 HOH 106 406 29  HOH HOH A . 
-G 7 HOH 107 407 188 HOH HOH A . 
-G 7 HOH 108 408 121 HOH HOH A . 
-G 7 HOH 109 409 170 HOH HOH A . 
-G 7 HOH 110 410 190 HOH HOH A . 
-G 7 HOH 111 411 171 HOH HOH A . 
-G 7 HOH 112 412 18  HOH HOH A . 
-G 7 HOH 113 413 196 HOH HOH A . 
-G 7 HOH 114 414 67  HOH HOH A . 
-G 7 HOH 115 415 78  HOH HOH A . 
-G 7 HOH 116 416 28  HOH HOH A . 
-G 7 HOH 117 417 203 HOH HOH A . 
-G 7 HOH 118 418 133 HOH HOH A . 
-G 7 HOH 119 419 75  HOH HOH A . 
-G 7 HOH 120 420 50  HOH HOH A . 
-G 7 HOH 121 421 15  HOH HOH A . 
-G 7 HOH 122 422 145 HOH HOH A . 
-G 7 HOH 123 423 42  HOH HOH A . 
-G 7 HOH 124 424 175 HOH HOH A . 
-G 7 HOH 125 425 131 HOH HOH A . 
-G 7 HOH 126 426 43  HOH HOH A . 
-G 7 HOH 127 427 216 HOH HOH A . 
-G 7 HOH 128 428 76  HOH HOH A . 
-G 7 HOH 129 429 122 HOH HOH A . 
-G 7 HOH 130 430 108 HOH HOH A . 
-G 7 HOH 131 431 160 HOH HOH A . 
-G 7 HOH 132 432 162 HOH HOH A . 
-G 7 HOH 133 433 185 HOH HOH A . 
-G 7 HOH 134 434 191 HOH HOH A . 
-G 7 HOH 135 435 139 HOH HOH A . 
-G 7 HOH 136 436 74  HOH HOH A . 
-G 7 HOH 137 437 107 HOH HOH A . 
-G 7 HOH 138 438 62  HOH HOH A . 
-G 7 HOH 139 439 85  HOH HOH A . 
-G 7 HOH 140 440 84  HOH HOH A . 
-G 7 HOH 141 441 136 HOH HOH A . 
-G 7 HOH 142 442 155 HOH HOH A . 
-G 7 HOH 143 443 94  HOH HOH A . 
-G 7 HOH 144 444 149 HOH HOH A . 
-G 7 HOH 145 445 88  HOH HOH A . 
-G 7 HOH 146 446 182 HOH HOH A . 
-G 7 HOH 147 447 180 HOH HOH A . 
-G 7 HOH 148 448 225 HOH HOH A . 
-G 7 HOH 149 449 113 HOH HOH A . 
-G 7 HOH 150 450 152 HOH HOH A . 
-G 7 HOH 151 451 80  HOH HOH A . 
-G 7 HOH 152 452 130 HOH HOH A . 
-G 7 HOH 153 453 224 HOH HOH A . 
-G 7 HOH 154 454 68  HOH HOH A . 
-G 7 HOH 155 455 222 HOH HOH A . 
-G 7 HOH 156 456 214 HOH HOH A . 
-G 7 HOH 157 457 197 HOH HOH A . 
-G 7 HOH 158 458 226 HOH HOH A . 
-G 7 HOH 159 459 101 HOH HOH A . 
-G 7 HOH 160 460 153 HOH HOH A . 
-G 7 HOH 161 461 96  HOH HOH A . 
-G 7 HOH 162 462 41  HOH HOH A . 
-G 7 HOH 163 463 95  HOH HOH A . 
-G 7 HOH 164 464 177 HOH HOH A . 
-G 7 HOH 165 465 66  HOH HOH A . 
-G 7 HOH 166 466 199 HOH HOH A . 
-G 7 HOH 167 467 97  HOH HOH A . 
-G 7 HOH 168 468 158 HOH HOH A . 
-G 7 HOH 169 469 164 HOH HOH A . 
-G 7 HOH 170 470 183 HOH HOH A . 
-G 7 HOH 171 471 151 HOH HOH A . 
-G 7 HOH 172 472 194 HOH HOH A . 
-G 7 HOH 173 473 212 HOH HOH A . 
-G 7 HOH 174 474 79  HOH HOH A . 
-G 7 HOH 175 475 118 HOH HOH A . 
-G 7 HOH 176 476 176 HOH HOH A . 
-G 7 HOH 177 477 116 HOH HOH A . 
-G 7 HOH 178 478 192 HOH HOH A . 
-G 7 HOH 179 479 140 HOH HOH A . 
-G 7 HOH 180 480 208 HOH HOH A . 
-G 7 HOH 181 481 207 HOH HOH A . 
-G 7 HOH 182 482 92  HOH HOH A . 
-G 7 HOH 183 483 198 HOH HOH A . 
-G 7 HOH 184 484 61  HOH HOH A . 
-G 7 HOH 185 485 35  HOH HOH A . 
-G 7 HOH 186 486 137 HOH HOH A . 
-G 7 HOH 187 487 135 HOH HOH A . 
-G 7 HOH 188 488 159 HOH HOH A . 
-G 7 HOH 189 489 100 HOH HOH A . 
-G 7 HOH 190 490 111 HOH HOH A . 
-G 7 HOH 191 491 166 HOH HOH A . 
-G 7 HOH 192 492 209 HOH HOH A . 
-G 7 HOH 193 493 205 HOH HOH A . 
-G 7 HOH 194 494 56  HOH HOH A . 
-G 7 HOH 195 495 206 HOH HOH A . 
-G 7 HOH 196 496 132 HOH HOH A . 
-# 
-loop_
-_pdbx_nonpoly_atom_feature.ordinal
-_pdbx_nonpoly_atom_feature.comp_id
-_pdbx_nonpoly_atom_feature.atom_id
-_pdbx_nonpoly_atom_feature.label_asym_id
-_pdbx_nonpoly_atom_feature.type
-_pdbx_nonpoly_atom_feature.value
+_pdbx_nonpoly_atom_feature.ordinal 
+_pdbx_nonpoly_atom_feature.comp_id 
+_pdbx_nonpoly_atom_feature.atom_id 
+_pdbx_nonpoly_atom_feature.label_asym_id 
+_pdbx_nonpoly_atom_feature.type 
+_pdbx_nonpoly_atom_feature.value 
 _pdbx_nonpoly_atom_feature.provenance 
-_pdbx_nonpoly_atom_feature.assessment
-1  ZWL RU1 C 'Coordination number' 	   4 																					   						  FindGeo	 ?
-2  ZWL RU1 C 'Coordination geometry'   'square plane' 																								  FindGeo	 Expected
-3  ZWL RU1 C 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-4  ZWL RU1 C 'Coordination number' 	   4 																					   						  metalCoord ?
-5  ZWL RU1 C 'Coordination geometry'   square-planar 																								  metalCoord Expected
-6  ZWL RU1 C 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-7  ZWL RU2 C 'Coordination number' 	   5 																					   						  FindGeo	 ?
-8  ZWL RU2 C 'Coordination geometry'   'square pyramid' 																			   				  FindGeo	 Expected
-9  ZWL RU2 C 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-10 ZWL RU2 C 'Coordination number' 	   5 																					   						  metalCoord ?
-11 ZWL RU2 C 'Coordination geometry'   square-pyramid 																			   				  	  metalCoord Expected
-12 ZWL RU2 C 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-13 YWV RU1 D 'Coordination number' 	   4 																					   						  FindGeo	 ?
-14 YWV RU1 D 'Coordination geometry'   'square plane' 																								  FindGeo	 Expected
-15 YWV RU1 D 'Coordination descriptor' Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>} 										  PDB		 ?
-16 YWV RU1 D 'Coordination number' 	   5 																					   						  metalCoord ?
-17 YWV RU1 D 'Coordination geometry'   square-pyramid 																								  metalCoord Expected
-18 YWV RU1 D 'Coordination descriptor' Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-19 YWV RU2 D 'Coordination number' 	   5 																					   						  FindGeo	 ?
-20 YWV RU2 D 'Coordination geometry'   'square pyramid' 																			   				  FindGeo	 Expected
-21 YWV RU2 D 'Coordination descriptor' Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-22 YWV RU2 D 'Coordination number' 	   5 																					   						  metalCoord ?
-23 YWV RU2 D 'Coordination geometry'   square-pyramid 																			   				  	  metalCoord Expected
-24 YWV RU2 D 'Coordination descriptor' Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-25 ZWO RU1 E 'Coordination number' 	   4 																					   						  FindGeo	 ?
-26 ZWO RU1 E 'Coordination geometry'   'square plane' 																								  FindGeo	 Expected
-27 ZWO RU1 E 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-28 ZWO RU1 E 'Coordination number' 	   4 																					   						  metalCoord ?
-29 ZWO RU1 E 'Coordination geometry'   square-planar 																								  metalCoord Expected
-30 ZWO RU1 E 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-31 ZWO RU2 E 'Coordination number' 	   5 																					   						  FindGeo	 ?
-32 ZWO RU2 E 'Coordination geometry'   'square pyramid' 																			   				  FindGeo	 Expected
-33 ZWO RU2 E 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-34 ZWO RU2 E 'Coordination number' 	   5 																					   						  metalCoord ?
-35 ZWO RU2 E 'Coordination geometry'   square-pyramid 																			   				  	  metalCoord Expected
-36 ZWO RU2 E 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-37 ZXE RU1 F 'Coordination number' 	   4 																					   						  FindGeo	 ?
-38 ZXE RU1 F 'Coordination geometry'   'square plane' 																								  FindGeo	 Expected
-39 ZXE RU1 F 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-40 ZXE RU1 F 'Coordination number' 	   5 																					   						  metalCoord ?
-41 ZXE RU1 F 'Coordination geometry'   square-pyramid 																								  metalCoord Expected
-42 ZXE RU1 F 'Coordination descriptor' Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} 										  PDB		 ?
-43 ZXE RU2 F 'Coordination number' 	   5 																					   						  FindGeo	 ?
-44 ZXE RU2 F 'Coordination geometry'   'square pyramid' 																			   				  FindGeo	 Expected
-45 ZXE RU2 F 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
-46 ZXE RU2 F 'Coordination number' 	   5 																					   						  metalCoord ?
-47 ZXE RU2 F 'Coordination geometry'   square-pyramid 																			   				      metalCoord Expected
-48 ZXE RU2 F 'Coordination descriptor' Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>} PDB		 ?
+_pdbx_nonpoly_atom_feature.assessment 
+1  ZWL RU1 C 'Coordination number'     4                                                                                                                FindGeo    ?        
+2  ZWL RU1 C 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+3  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+4  ZWL RU1 C 'Coordination number'     4                                                                                                                metalCoord ?        
+5  ZWL RU1 C 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
+6  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+7  ZWL RU2 C 'Coordination number'     5                                                                                                                FindGeo    ?        
+8  ZWL RU2 C 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+9  ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+10 ZWL RU2 C 'Coordination number'     5                                                                                                                metalCoord ?        
+11 ZWL RU2 C 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+12 ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+13 YWV RU1 D 'Coordination number'     4                                                                                                                FindGeo    ?        
+14 YWV RU1 D 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+15 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>}'                                        PDB        ?        
+16 YWV RU1 D 'Coordination number'     5                                                                                                                metalCoord ?        
+17 YWV RU1 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+18 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+19 YWV RU2 D 'Coordination number'     5                                                                                                                FindGeo    ?        
+20 YWV RU2 D 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+21 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+22 YWV RU2 D 'Coordination number'     5                                                                                                                metalCoord ?        
+23 YWV RU2 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+24 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+25 ZWO RU1 E 'Coordination number'     4                                                                                                                FindGeo    ?        
+26 ZWO RU1 E 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+27 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+28 ZWO RU1 E 'Coordination number'     4                                                                                                                metalCoord ?        
+29 ZWO RU1 E 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
+30 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+31 ZWO RU2 E 'Coordination number'     5                                                                                                                FindGeo    ?        
+32 ZWO RU2 E 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+33 ZWO RU2 E 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+34 ZWO RU2 E 'Coordination number'     5                                                                                                                metalCoord ?        
+35 ZWO RU2 E 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+36 ZWO RU2 E 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+37 ZXE RU1 F 'Coordination number'     4                                                                                                                FindGeo    ?        
+38 ZXE RU1 F 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+39 ZXE RU1 F 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+40 ZXE RU1 F 'Coordination number'     5                                                                                                                metalCoord ?        
+41 ZXE RU1 F 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+42 ZXE RU1 F 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
+43 ZXE RU2 F 'Coordination number'     5                                                                                                                FindGeo    ?        
+44 ZXE RU2 F 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+45 ZXE RU2 F 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
+46 ZXE RU2 F 'Coordination number'     5                                                                                                                metalCoord ?        
+47 ZXE RU2 F 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+48 ZXE RU2 F 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 # 
 loop_
-_pdbx_nonpoly_feature.ordinal
-_pdbx_nonpoly_feature.comp_id
-_pdbx_nonpoly_feature.label_asym_id
-_pdbx_nonpoly_feature.type
-_pdbx_nonpoly_feature.value
-_pdbx_nonpoly_feature.provenance
-1 ZWL C 'Group charge' 1  Author
-2 YWV D 'Group charge' 4  Author
-3 ZWO E 'Group charge' -1 Author
-4 ZXE F 'Group charge' 0  Author
+_pdbx_nonpoly_feature.ordinal 
+_pdbx_nonpoly_feature.comp_id 
+_pdbx_nonpoly_feature.label_asym_id 
+_pdbx_nonpoly_feature.type 
+_pdbx_nonpoly_feature.value 
+_pdbx_nonpoly_feature.provenance 
+1 ZWL C 'Group charge' 1  Author 
+2 YWV D 'Group charge' 4  Author 
+3 ZWO E 'Group charge' -1 Author 
+4 ZXE F 'Group charge' 0  Author 
 # 
 loop_
 _software.citation_id 
@@ -1361,8 +1004,7 @@ _refine_ls_shell.R_factor_R_free
 'X-RAY DIFFRACTION' 4.768 54.36 . . 33  646  99.4144  . . . . 0.282 . . . . . . . . . . . 0.353 
 # 
 _struct.entry_id                     8PH6 
-_struct.title                        
-'X-ray structure of the adduct formed upon reaction of Lysozyme with K2[Ru2(DPhF)(CO3)3] in condition B' 
+_struct.title                        'X-ray structure of the adduct formed upon reaction of Lysozyme with K2[Ru2(DPhF)(CO3)3] in condition B' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -3092,6 +2734,362 @@ N  7  7  12.2220 0.0057  3.1346  9.8933  2.0141 28.9975 1.1672 0.5826  -11.5379
 O  8  8  3.0487  13.2771 2.2870  5.7011  1.5464 0.3239  0.8671 32.9089 0.2508   
 RU 44 44 19.2695 0.8085  12.9196 8.4347  4.8639 24.7997 1.5677 94.2928 4.6906   
 S  16 16 6.9054  1.4679  5.2035  22.2151 1.4379 0.2536  1.5863 56.1720 1.0555   
+# 
+loop_
+_pdbx_poly_seq_scheme.asym_id 
+_pdbx_poly_seq_scheme.entity_id 
+_pdbx_poly_seq_scheme.seq_id 
+_pdbx_poly_seq_scheme.mon_id 
+_pdbx_poly_seq_scheme.ndb_seq_num 
+_pdbx_poly_seq_scheme.pdb_seq_num 
+_pdbx_poly_seq_scheme.auth_seq_num 
+_pdbx_poly_seq_scheme.pdb_mon_id 
+_pdbx_poly_seq_scheme.auth_mon_id 
+_pdbx_poly_seq_scheme.pdb_strand_id 
+_pdbx_poly_seq_scheme.pdb_ins_code 
+_pdbx_poly_seq_scheme.hetero 
+A 1 1   LYS 1   1   1   LYS LYS A . n 
+A 1 2   VAL 2   2   2   VAL VAL A . n 
+A 1 3   PHE 3   3   3   PHE PHE A . n 
+A 1 4   GLY 4   4   4   GLY GLY A . n 
+A 1 5   ARG 5   5   5   ARG ARG A . n 
+A 1 6   CYS 6   6   6   CYS CYS A . n 
+A 1 7   GLU 7   7   7   GLU GLU A . n 
+A 1 8   LEU 8   8   8   LEU LEU A . n 
+A 1 9   ALA 9   9   9   ALA ALA A . n 
+A 1 10  ALA 10  10  10  ALA ALA A . n 
+A 1 11  ALA 11  11  11  ALA ALA A . n 
+A 1 12  MET 12  12  12  MET MET A . n 
+A 1 13  LYS 13  13  13  LYS LYS A . n 
+A 1 14  ARG 14  14  14  ARG ARG A . n 
+A 1 15  HIS 15  15  15  HIS HIS A . n 
+A 1 16  GLY 16  16  16  GLY GLY A . n 
+A 1 17  LEU 17  17  17  LEU LEU A . n 
+A 1 18  ASP 18  18  18  ASP ASP A . n 
+A 1 19  ASN 19  19  19  ASN ASN A . n 
+A 1 20  TYR 20  20  20  TYR TYR A . n 
+A 1 21  ARG 21  21  21  ARG ARG A . n 
+A 1 22  GLY 22  22  22  GLY GLY A . n 
+A 1 23  TYR 23  23  23  TYR TYR A . n 
+A 1 24  SER 24  24  24  SER SER A . n 
+A 1 25  LEU 25  25  25  LEU LEU A . n 
+A 1 26  GLY 26  26  26  GLY GLY A . n 
+A 1 27  ASN 27  27  27  ASN ASN A . n 
+A 1 28  TRP 28  28  28  TRP TRP A . n 
+A 1 29  VAL 29  29  29  VAL VAL A . n 
+A 1 30  CYS 30  30  30  CYS CYS A . n 
+A 1 31  ALA 31  31  31  ALA ALA A . n 
+A 1 32  ALA 32  32  32  ALA ALA A . n 
+A 1 33  LYS 33  33  33  LYS LYS A . n 
+A 1 34  PHE 34  34  34  PHE PHE A . n 
+A 1 35  GLU 35  35  35  GLU GLU A . n 
+A 1 36  SER 36  36  36  SER SER A . n 
+A 1 37  ASN 37  37  37  ASN ASN A . n 
+A 1 38  PHE 38  38  38  PHE PHE A . n 
+A 1 39  ASN 39  39  39  ASN ASN A . n 
+A 1 40  THR 40  40  40  THR THR A . n 
+A 1 41  GLN 41  41  41  GLN GLN A . n 
+A 1 42  ALA 42  42  42  ALA ALA A . n 
+A 1 43  THR 43  43  43  THR THR A . n 
+A 1 44  ASN 44  44  44  ASN ASN A . n 
+A 1 45  ARG 45  45  45  ARG ARG A . n 
+A 1 46  ASN 46  46  46  ASN ASN A . n 
+A 1 47  THR 47  47  47  THR THR A . n 
+A 1 48  ASP 48  48  48  ASP ASP A . n 
+A 1 49  GLY 49  49  49  GLY GLY A . n 
+A 1 50  SER 50  50  50  SER SER A . n 
+A 1 51  THR 51  51  51  THR THR A . n 
+A 1 52  ASP 52  52  52  ASP ASP A . n 
+A 1 53  TYR 53  53  53  TYR TYR A . n 
+A 1 54  GLY 54  54  54  GLY GLY A . n 
+A 1 55  ILE 55  55  55  ILE ILE A . n 
+A 1 56  LEU 56  56  56  LEU LEU A . n 
+A 1 57  GLN 57  57  57  GLN GLN A . n 
+A 1 58  ILE 58  58  58  ILE ILE A . n 
+A 1 59  ASN 59  59  59  ASN ASN A . n 
+A 1 60  SER 60  60  60  SER SER A . n 
+A 1 61  ARG 61  61  61  ARG ARG A . n 
+A 1 62  TRP 62  62  62  TRP TRP A . n 
+A 1 63  TRP 63  63  63  TRP TRP A . n 
+A 1 64  CYS 64  64  64  CYS CYS A . n 
+A 1 65  ASN 65  65  65  ASN ASN A . n 
+A 1 66  ASP 66  66  66  ASP ASP A . n 
+A 1 67  GLY 67  67  67  GLY GLY A . n 
+A 1 68  ARG 68  68  68  ARG ARG A . n 
+A 1 69  THR 69  69  69  THR THR A . n 
+A 1 70  PRO 70  70  70  PRO PRO A . n 
+A 1 71  GLY 71  71  71  GLY GLY A . n 
+A 1 72  SER 72  72  72  SER SER A . n 
+A 1 73  ARG 73  73  73  ARG ARG A . n 
+A 1 74  ASN 74  74  74  ASN ASN A . n 
+A 1 75  LEU 75  75  75  LEU LEU A . n 
+A 1 76  CYS 76  76  76  CYS CYS A . n 
+A 1 77  ASN 77  77  77  ASN ASN A . n 
+A 1 78  ILE 78  78  78  ILE ILE A . n 
+A 1 79  PRO 79  79  79  PRO PRO A . n 
+A 1 80  CYS 80  80  80  CYS CYS A . n 
+A 1 81  SER 81  81  81  SER SER A . n 
+A 1 82  ALA 82  82  82  ALA ALA A . n 
+A 1 83  LEU 83  83  83  LEU LEU A . n 
+A 1 84  LEU 84  84  84  LEU LEU A . n 
+A 1 85  SER 85  85  85  SER SER A . n 
+A 1 86  SER 86  86  86  SER SER A . n 
+A 1 87  ASP 87  87  87  ASP ASP A . n 
+A 1 88  ILE 88  88  88  ILE ILE A . n 
+A 1 89  THR 89  89  89  THR THR A . n 
+A 1 90  ALA 90  90  90  ALA ALA A . n 
+A 1 91  SER 91  91  91  SER SER A . n 
+A 1 92  VAL 92  92  92  VAL VAL A . n 
+A 1 93  ASN 93  93  93  ASN ASN A . n 
+A 1 94  CYS 94  94  94  CYS CYS A . n 
+A 1 95  ALA 95  95  95  ALA ALA A . n 
+A 1 96  LYS 96  96  96  LYS LYS A . n 
+A 1 97  LYS 97  97  97  LYS LYS A . n 
+A 1 98  ILE 98  98  98  ILE ILE A . n 
+A 1 99  VAL 99  99  99  VAL VAL A . n 
+A 1 100 SER 100 100 100 SER SER A . n 
+A 1 101 ASP 101 101 101 ASP ASP A . n 
+A 1 102 GLY 102 102 102 GLY GLY A . n 
+A 1 103 ASN 103 103 103 ASN ASN A . n 
+A 1 104 GLY 104 104 104 GLY GLY A . n 
+A 1 105 MET 105 105 105 MET MET A . n 
+A 1 106 ASN 106 106 106 ASN ASN A . n 
+A 1 107 ALA 107 107 107 ALA ALA A . n 
+A 1 108 TRP 108 108 108 TRP TRP A . n 
+A 1 109 VAL 109 109 109 VAL VAL A . n 
+A 1 110 ALA 110 110 110 ALA ALA A . n 
+A 1 111 TRP 111 111 111 TRP TRP A . n 
+A 1 112 ARG 112 112 112 ARG ARG A . n 
+A 1 113 ASN 113 113 113 ASN ASN A . n 
+A 1 114 ARG 114 114 114 ARG ARG A . n 
+A 1 115 CYS 115 115 115 CYS CYS A . n 
+A 1 116 LYS 116 116 116 LYS LYS A . n 
+A 1 117 GLY 117 117 117 GLY GLY A . n 
+A 1 118 THR 118 118 118 THR THR A . n 
+A 1 119 ASP 119 119 119 ASP ASP A . n 
+A 1 120 VAL 120 120 120 VAL VAL A . n 
+A 1 121 GLN 121 121 121 GLN GLN A . n 
+A 1 122 ALA 122 122 122 ALA ALA A . n 
+A 1 123 TRP 123 123 123 TRP TRP A . n 
+A 1 124 ILE 124 124 124 ILE ILE A . n 
+A 1 125 ARG 125 125 125 ARG ARG A . n 
+A 1 126 GLY 126 126 126 GLY GLY A . n 
+A 1 127 CYS 127 127 127 CYS CYS A . n 
+A 1 128 ARG 128 128 128 ARG ARG A . n 
+A 1 129 LEU 129 129 129 LEU LEU A . n 
+# 
+loop_
+_pdbx_nonpoly_scheme.asym_id 
+_pdbx_nonpoly_scheme.entity_id 
+_pdbx_nonpoly_scheme.mon_id 
+_pdbx_nonpoly_scheme.ndb_seq_num 
+_pdbx_nonpoly_scheme.pdb_seq_num 
+_pdbx_nonpoly_scheme.auth_seq_num 
+_pdbx_nonpoly_scheme.pdb_mon_id 
+_pdbx_nonpoly_scheme.auth_mon_id 
+_pdbx_nonpoly_scheme.pdb_strand_id 
+_pdbx_nonpoly_scheme.pdb_ins_code 
+B 2 EPE 1   201 202 EPE EPE A . 
+C 3 ZWL 1   202 1   ZWL TMW A . 
+D 4 YWV 1   203 2   YWV TMW A . 
+E 5 ZWO 1   204 3   ZWO TMW A . 
+F 6 ZXE 1   205 4   ZXE TMW A . 
+G 7 HOH 1   301 169 HOH HOH A . 
+G 7 HOH 2   302 143 HOH HOH A . 
+G 7 HOH 3   303 124 HOH HOH A . 
+G 7 HOH 4   304 221 HOH HOH A . 
+G 7 HOH 5   305 168 HOH HOH A . 
+G 7 HOH 6   306 86  HOH HOH A . 
+G 7 HOH 7   307 71  HOH HOH A . 
+G 7 HOH 8   308 173 HOH HOH A . 
+G 7 HOH 9   309 157 HOH HOH A . 
+G 7 HOH 10  310 195 HOH HOH A . 
+G 7 HOH 11  311 11  HOH HOH A . 
+G 7 HOH 12  312 64  HOH HOH A . 
+G 7 HOH 13  313 39  HOH HOH A . 
+G 7 HOH 14  314 33  HOH HOH A . 
+G 7 HOH 15  315 58  HOH HOH A . 
+G 7 HOH 16  316 220 HOH HOH A . 
+G 7 HOH 17  317 49  HOH HOH A . 
+G 7 HOH 18  318 117 HOH HOH A . 
+G 7 HOH 19  319 201 HOH HOH A . 
+G 7 HOH 20  320 87  HOH HOH A . 
+G 7 HOH 21  321 46  HOH HOH A . 
+G 7 HOH 22  322 174 HOH HOH A . 
+G 7 HOH 23  323 70  HOH HOH A . 
+G 7 HOH 24  324 154 HOH HOH A . 
+G 7 HOH 25  325 193 HOH HOH A . 
+G 7 HOH 26  326 81  HOH HOH A . 
+G 7 HOH 27  327 110 HOH HOH A . 
+G 7 HOH 28  328 112 HOH HOH A . 
+G 7 HOH 29  329 223 HOH HOH A . 
+G 7 HOH 30  330 25  HOH HOH A . 
+G 7 HOH 31  331 89  HOH HOH A . 
+G 7 HOH 32  332 22  HOH HOH A . 
+G 7 HOH 33  333 60  HOH HOH A . 
+G 7 HOH 34  334 2   HOH HOH A . 
+G 7 HOH 35  335 57  HOH HOH A . 
+G 7 HOH 36  336 187 HOH HOH A . 
+G 7 HOH 37  337 13  HOH HOH A . 
+G 7 HOH 38  338 73  HOH HOH A . 
+G 7 HOH 39  339 150 HOH HOH A . 
+G 7 HOH 40  340 53  HOH HOH A . 
+G 7 HOH 41  341 3   HOH HOH A . 
+G 7 HOH 42  342 99  HOH HOH A . 
+G 7 HOH 43  343 91  HOH HOH A . 
+G 7 HOH 44  344 72  HOH HOH A . 
+G 7 HOH 45  345 186 HOH HOH A . 
+G 7 HOH 46  346 104 HOH HOH A . 
+G 7 HOH 47  347 32  HOH HOH A . 
+G 7 HOH 48  348 123 HOH HOH A . 
+G 7 HOH 49  349 126 HOH HOH A . 
+G 7 HOH 50  350 204 HOH HOH A . 
+G 7 HOH 51  351 148 HOH HOH A . 
+G 7 HOH 52  352 202 HOH HOH A . 
+G 7 HOH 53  353 165 HOH HOH A . 
+G 7 HOH 54  354 181 HOH HOH A . 
+G 7 HOH 55  355 36  HOH HOH A . 
+G 7 HOH 56  356 93  HOH HOH A . 
+G 7 HOH 57  357 34  HOH HOH A . 
+G 7 HOH 58  358 120 HOH HOH A . 
+G 7 HOH 59  359 8   HOH HOH A . 
+G 7 HOH 60  360 167 HOH HOH A . 
+G 7 HOH 61  361 147 HOH HOH A . 
+G 7 HOH 62  362 12  HOH HOH A . 
+G 7 HOH 63  363 4   HOH HOH A . 
+G 7 HOH 64  364 105 HOH HOH A . 
+G 7 HOH 65  365 65  HOH HOH A . 
+G 7 HOH 66  366 156 HOH HOH A . 
+G 7 HOH 67  367 138 HOH HOH A . 
+G 7 HOH 68  368 54  HOH HOH A . 
+G 7 HOH 69  369 19  HOH HOH A . 
+G 7 HOH 70  370 211 HOH HOH A . 
+G 7 HOH 71  371 102 HOH HOH A . 
+G 7 HOH 72  372 24  HOH HOH A . 
+G 7 HOH 73  373 59  HOH HOH A . 
+G 7 HOH 74  374 45  HOH HOH A . 
+G 7 HOH 75  375 77  HOH HOH A . 
+G 7 HOH 76  376 98  HOH HOH A . 
+G 7 HOH 77  377 134 HOH HOH A . 
+G 7 HOH 78  378 44  HOH HOH A . 
+G 7 HOH 79  379 114 HOH HOH A . 
+G 7 HOH 80  380 109 HOH HOH A . 
+G 7 HOH 81  381 82  HOH HOH A . 
+G 7 HOH 82  382 106 HOH HOH A . 
+G 7 HOH 83  383 200 HOH HOH A . 
+G 7 HOH 84  384 218 HOH HOH A . 
+G 7 HOH 85  385 63  HOH HOH A . 
+G 7 HOH 86  386 55  HOH HOH A . 
+G 7 HOH 87  387 189 HOH HOH A . 
+G 7 HOH 88  388 142 HOH HOH A . 
+G 7 HOH 89  389 30  HOH HOH A . 
+G 7 HOH 90  390 31  HOH HOH A . 
+G 7 HOH 91  391 163 HOH HOH A . 
+G 7 HOH 92  392 40  HOH HOH A . 
+G 7 HOH 93  393 27  HOH HOH A . 
+G 7 HOH 94  394 10  HOH HOH A . 
+G 7 HOH 95  395 7   HOH HOH A . 
+G 7 HOH 96  396 14  HOH HOH A . 
+G 7 HOH 97  397 26  HOH HOH A . 
+G 7 HOH 98  398 184 HOH HOH A . 
+G 7 HOH 99  399 52  HOH HOH A . 
+G 7 HOH 100 400 37  HOH HOH A . 
+G 7 HOH 101 401 144 HOH HOH A . 
+G 7 HOH 102 402 6   HOH HOH A . 
+G 7 HOH 103 403 146 HOH HOH A . 
+G 7 HOH 104 404 23  HOH HOH A . 
+G 7 HOH 105 405 161 HOH HOH A . 
+G 7 HOH 106 406 29  HOH HOH A . 
+G 7 HOH 107 407 188 HOH HOH A . 
+G 7 HOH 108 408 121 HOH HOH A . 
+G 7 HOH 109 409 170 HOH HOH A . 
+G 7 HOH 110 410 190 HOH HOH A . 
+G 7 HOH 111 411 171 HOH HOH A . 
+G 7 HOH 112 412 18  HOH HOH A . 
+G 7 HOH 113 413 196 HOH HOH A . 
+G 7 HOH 114 414 67  HOH HOH A . 
+G 7 HOH 115 415 78  HOH HOH A . 
+G 7 HOH 116 416 28  HOH HOH A . 
+G 7 HOH 117 417 203 HOH HOH A . 
+G 7 HOH 118 418 133 HOH HOH A . 
+G 7 HOH 119 419 75  HOH HOH A . 
+G 7 HOH 120 420 50  HOH HOH A . 
+G 7 HOH 121 421 15  HOH HOH A . 
+G 7 HOH 122 422 145 HOH HOH A . 
+G 7 HOH 123 423 42  HOH HOH A . 
+G 7 HOH 124 424 175 HOH HOH A . 
+G 7 HOH 125 425 131 HOH HOH A . 
+G 7 HOH 126 426 43  HOH HOH A . 
+G 7 HOH 127 427 216 HOH HOH A . 
+G 7 HOH 128 428 76  HOH HOH A . 
+G 7 HOH 129 429 122 HOH HOH A . 
+G 7 HOH 130 430 108 HOH HOH A . 
+G 7 HOH 131 431 160 HOH HOH A . 
+G 7 HOH 132 432 162 HOH HOH A . 
+G 7 HOH 133 433 185 HOH HOH A . 
+G 7 HOH 134 434 191 HOH HOH A . 
+G 7 HOH 135 435 139 HOH HOH A . 
+G 7 HOH 136 436 74  HOH HOH A . 
+G 7 HOH 137 437 107 HOH HOH A . 
+G 7 HOH 138 438 62  HOH HOH A . 
+G 7 HOH 139 439 85  HOH HOH A . 
+G 7 HOH 140 440 84  HOH HOH A . 
+G 7 HOH 141 441 136 HOH HOH A . 
+G 7 HOH 142 442 155 HOH HOH A . 
+G 7 HOH 143 443 94  HOH HOH A . 
+G 7 HOH 144 444 149 HOH HOH A . 
+G 7 HOH 145 445 88  HOH HOH A . 
+G 7 HOH 146 446 182 HOH HOH A . 
+G 7 HOH 147 447 180 HOH HOH A . 
+G 7 HOH 148 448 225 HOH HOH A . 
+G 7 HOH 149 449 113 HOH HOH A . 
+G 7 HOH 150 450 152 HOH HOH A . 
+G 7 HOH 151 451 80  HOH HOH A . 
+G 7 HOH 152 452 130 HOH HOH A . 
+G 7 HOH 153 453 224 HOH HOH A . 
+G 7 HOH 154 454 68  HOH HOH A . 
+G 7 HOH 155 455 222 HOH HOH A . 
+G 7 HOH 156 456 214 HOH HOH A . 
+G 7 HOH 157 457 197 HOH HOH A . 
+G 7 HOH 158 458 226 HOH HOH A . 
+G 7 HOH 159 459 101 HOH HOH A . 
+G 7 HOH 160 460 153 HOH HOH A . 
+G 7 HOH 161 461 96  HOH HOH A . 
+G 7 HOH 162 462 41  HOH HOH A . 
+G 7 HOH 163 463 95  HOH HOH A . 
+G 7 HOH 164 464 177 HOH HOH A . 
+G 7 HOH 165 465 66  HOH HOH A . 
+G 7 HOH 166 466 199 HOH HOH A . 
+G 7 HOH 167 467 97  HOH HOH A . 
+G 7 HOH 168 468 158 HOH HOH A . 
+G 7 HOH 169 469 164 HOH HOH A . 
+G 7 HOH 170 470 183 HOH HOH A . 
+G 7 HOH 171 471 151 HOH HOH A . 
+G 7 HOH 172 472 194 HOH HOH A . 
+G 7 HOH 173 473 212 HOH HOH A . 
+G 7 HOH 174 474 79  HOH HOH A . 
+G 7 HOH 175 475 118 HOH HOH A . 
+G 7 HOH 176 476 176 HOH HOH A . 
+G 7 HOH 177 477 116 HOH HOH A . 
+G 7 HOH 178 478 192 HOH HOH A . 
+G 7 HOH 179 479 140 HOH HOH A . 
+G 7 HOH 180 480 208 HOH HOH A . 
+G 7 HOH 181 481 207 HOH HOH A . 
+G 7 HOH 182 482 92  HOH HOH A . 
+G 7 HOH 183 483 198 HOH HOH A . 
+G 7 HOH 184 484 61  HOH HOH A . 
+G 7 HOH 185 485 35  HOH HOH A . 
+G 7 HOH 186 486 137 HOH HOH A . 
+G 7 HOH 187 487 135 HOH HOH A . 
+G 7 HOH 188 488 159 HOH HOH A . 
+G 7 HOH 189 489 100 HOH HOH A . 
+G 7 HOH 190 490 111 HOH HOH A . 
+G 7 HOH 191 491 166 HOH HOH A . 
+G 7 HOH 192 492 209 HOH HOH A . 
+G 7 HOH 193 493 205 HOH HOH A . 
+G 7 HOH 194 494 56  HOH HOH A . 
+G 7 HOH 195 495 206 HOH HOH A . 
+G 7 HOH 196 496 132 HOH HOH A . 
 # 
 loop_
 _atom_site.group_PDB 
