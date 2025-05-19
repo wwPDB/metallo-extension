@@ -392,37 +392,37 @@ _pdbx_nonpoly_atom_feature.value
 _pdbx_nonpoly_atom_feature.provenance 
 _pdbx_nonpoly_atom_feature.assessment 
 1  ZWL RU1 C 'Coordination number'     4                                                                                                                FindGeo    ?        
-2  ZWL RU1 C 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+2  ZWL RU1 C 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 3  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 4  ZWL RU1 C 'Coordination number'     4                                                                                                                metalCoord ?        
 5  ZWL RU1 C 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
 6  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 7  ZWL RU2 C 'Coordination number'     5                                                                                                                FindGeo    ?        
-8  ZWL RU2 C 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+8  ZWL RU2 C 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 9  ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 10 ZWL RU2 C 'Coordination number'     5                                                                                                                metalCoord ?        
 11 ZWL RU2 C 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
 12 ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 13 YWV RU1 D 'Coordination number'     4                                                                                                                FindGeo    ?        
-14 YWV RU1 D 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+14 YWV RU1 D 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 15 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>}'                                        PDB        ?        
 16 YWV RU1 D 'Coordination number'     5                                                                                                                metalCoord ?        
 17 YWV RU1 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
 18 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 19 YWV RU2 D 'Coordination number'     5                                                                                                                FindGeo    ?        
-20 YWV RU2 D 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+20 YWV RU2 D 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 21 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 22 YWV RU2 D 'Coordination number'     5                                                                                                                metalCoord ?        
 23 YWV RU2 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
 24 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 25 ZWO RU1 E 'Coordination number'     4                                                                                                                FindGeo    ?        
-26 ZWO RU1 E 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
+26 ZWO RU1 E 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 27 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 28 ZWO RU1 E 'Coordination number'     4                                                                                                                metalCoord ?        
 29 ZWO RU1 E 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
 30 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 31 ZWO RU2 E 'Coordination number'     5                                                                                                                FindGeo    ?        
-32 ZWO RU2 E 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
+32 ZWO RU2 E 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 33 ZWO RU2 E 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 34 ZWO RU2 E 'Coordination number'     5                                                                                                                metalCoord ?        
 35 ZWO RU2 E 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
@@ -1332,10 +1332,16 @@ _pdbx_modification_feature.ref_pcm_id
 _pdbx_modification_feature.ref_comp_id 
 _pdbx_modification_feature.type 
 _pdbx_modification_feature.category 
-1 CYS A 6  ? CYS A 127 ? CYS A 6  ? 1_555 CYS A 127 ? 1_555 SG SG . . . None 'Disulfide bridge' 
-2 CYS A 30 ? CYS A 115 ? CYS A 30 ? 1_555 CYS A 115 ? 1_555 SG SG . . . None 'Disulfide bridge' 
-3 CYS A 64 ? CYS A 80  ? CYS A 64 ? 1_555 CYS A 80  ? 1_555 SG SG . . . None 'Disulfide bridge' 
-4 CYS A 76 ? CYS A 94  ? CYS A 76 ? 1_555 CYS A 94  ? 1_555 SG SG . . . None 'Disulfide bridge' 
+1  CYS A 6  ? CYS A 127 ? CYS A 6   ? 1_555 CYS A 127 ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
+2  CYS A 30 ? CYS A 115 ? CYS A 30  ? 1_555 CYS A 115 ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
+3  CYS A 64 ? CYS A 80  ? CYS A 64  ? 1_555 CYS A 80  ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
+4  CYS A 76 ? CYS A 94  ? CYS A 76  ? 1_555 CYS A 94  ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
+5  ZWL C .  ? ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU1 OD1 ASP 1 ZWL None 'Metal coordination' 
+6  ZWL C .  ? ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU2 OD2 ASP 2 ZWL None 'Metal coordination' 
+7  YWV D .  ? ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU1 OD1 ASP 1 YWV None 'Metal coordination' 
+8  YWV D .  ? ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU2 OD2 ASP 2 YWV None 'Metal coordination' 
+9  YWV D .  ? ARG A 125 ? YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU1 NH2 ARG 3 YWV None 'Metal coordination' 
+10 YWV D .  ? ARG A 125 ? YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU2 NH1 ARG 4 YWV None 'Metal coordination' 
 # 
 _struct_sheet.id               AA1 
 _struct_sheet.type             ? 
