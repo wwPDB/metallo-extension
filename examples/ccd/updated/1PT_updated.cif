@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         OXALIPLATIN 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2003-06-03 
-_chem_comp.pdbx_modified_date                    2020-06-17 
+_chem_comp.pdbx_modified_date                    2025-05-16 
 _chem_comp.pdbx_ambiguous_flag                   Y 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -19,12 +19,13 @@ _chem_comp.one_letter_code                       ?
 _chem_comp.three_letter_code                     1PT 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
 _chem_comp.pdbx_ideal_coordinates_missing_flag   N 
 _chem_comp.pdbx_model_coordinates_db_code        1PG9 
 _chem_comp.pdbx_subcomponent_list                ? 
 _chem_comp.pdbx_comp_type                        'metal-containing ligand' 
 _chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              Y 
 # 
 loop_
 _chem_comp_atom.comp_id 
@@ -45,29 +46,29 @@ _chem_comp_atom.pdbx_model_Cartn_z_ideal
 _chem_comp_atom.pdbx_component_atom_id 
 _chem_comp_atom.pdbx_component_comp_id 
 _chem_comp_atom.pdbx_ordinal 
-1PT PT  PT  PT ? 0 N N N -0.083 2.214 2.698  -0.083 2.214 2.698  PT  1PT 1  
-1PT N1  N1  N  0 1 N N N -1.960 2.680 2.095  -1.960 2.680 2.095  N1  1PT 2  
-1PT N2  N2  N  0 1 N N N 0.536  3.428 1.201  0.536  3.428 1.201  N2  1PT 3  
-1PT C1  C1  C  0 1 N N R -1.880 3.903 1.158  -1.880 3.903 1.158  C1  1PT 4  
-1PT C2  C2  C  0 1 N N R -0.664 3.699 0.272  -0.664 3.699 0.272  C2  1PT 5  
-1PT C3  C3  C  0 1 N N N -0.445 4.880 -0.628 -0.445 4.880 -0.628 C3  1PT 6  
-1PT C4  C4  C  0 1 N N N -1.661 5.126 -1.490 -1.661 5.126 -1.490 C4  1PT 7  
-1PT C5  C5  C  0 1 N N N -2.981 5.347 -0.596 -2.981 5.347 -0.596 C5  1PT 8  
-1PT C6  C6  C  0 1 N N N -3.114 4.090 0.340  -3.114 4.090 0.340  C6  1PT 9  
-1PT H11 H11 H  0 1 N N N -2.360 1.905 1.606  -2.360 1.905 1.606  H11 1PT 10 
-1PT H12 H12 H  0 1 N N N -2.525 2.900 2.890  -2.526 2.900 2.890  H12 1PT 11 
-1PT H21 H21 H  0 1 N N N 0.871  4.290 1.581  0.871  4.290 1.581  H21 1PT 12 
-1PT H22 H22 H  0 1 N N N 1.269  2.984 0.686  1.269  2.984 0.686  H22 1PT 13 
-1PT H1  H1  H  0 1 N N N -1.720 4.800 1.774  -1.720 4.800 1.774  H1  1PT 14 
-1PT H2  H2  H  0 1 N N N -0.829 2.806 -0.349 -0.828 2.806 -0.349 H2  1PT 15 
-1PT H31 H31 H  0 1 N N N -0.251 5.772 -0.013 -0.252 5.772 -0.014 H31 1PT 16 
-1PT H32 H32 H  0 1 N N N 0.423  4.685 -1.275 0.423  4.685 -1.275 H32 1PT 17 
-1PT H41 H41 H  0 1 N N N -1.490 6.023 -2.103 -1.490 6.023 -2.103 H41 1PT 18 
-1PT H42 H42 H  0 1 N N N -1.815 4.257 -2.147 -1.815 4.257 -2.147 H42 1PT 19 
-1PT H51 H51 H  0 1 N N N -2.880 6.260 0.009  -2.880 6.260 0.009  H51 1PT 20 
-1PT H52 H52 H  0 1 N N N -3.866 5.432 -1.243 -3.866 5.432 -1.243 H52 1PT 21 
-1PT H61 H61 H  0 1 N N N -3.275 3.195 -0.279 -3.275 3.195 -0.279 H61 1PT 22 
-1PT H62 H62 H  0 1 N N N -3.974 4.230 1.012  -3.974 4.230 1.012  H62 1PT 23 
+1PT PT  PT  PT ? 0 N N N -0.083 2.214 2.698  -0.139 2.234 2.632  PT  1PT 1  
+1PT N1  N1  N  0 1 N N N -1.960 2.680 2.095  -2.024 2.667 2.032  N1  1PT 2  
+1PT N2  N2  N  0 1 N N N 0.536  3.428 1.201  0.537  3.479 1.186  N2  1PT 3  
+1PT C1  C1  C  0 1 N N R -1.880 3.903 1.158  -1.889 3.867 1.187  C1  1PT 4  
+1PT C2  C2  C  0 1 N N R -0.664 3.699 0.272  -0.620 3.699 0.299  C2  1PT 5  
+1PT C3  C3  C  0 1 N N N -0.445 4.880 -0.628 -0.441 4.899 -0.639 C3  1PT 6  
+1PT C4  C4  C  0 1 N N N -1.661 5.126 -1.490 -1.686 5.194 -1.487 C4  1PT 7  
+1PT C5  C5  C  0 1 N N N -2.981 5.347 -0.596 -2.951 5.328 -0.630 C5  1PT 8  
+1PT C6  C6  C  0 1 N N N -3.114 4.090 0.340  -3.130 4.142 0.327  C6  1PT 9  
+1PT H11 H11 H  0 1 N N N -2.360 1.905 1.606  -2.573 2.812 2.713  H11 1PT 10 
+1PT H12 H12 H  0 1 N N N -2.525 2.900 2.890  -2.328 1.959 1.587  H12 1PT 11 
+1PT H21 H21 H  0 1 N N N 0.871  4.290 1.581  1.225  3.141 0.740  H21 1PT 12 
+1PT H22 H22 H  0 1 N N N 1.269  2.984 0.686  0.815  4.223 1.588  H22 1PT 13 
+1PT H1  H1  H  0 1 N N N -1.720 4.800 1.774  -1.750 4.647 1.783  H1  1PT 14 
+1PT H2  H2  H  0 1 N N N -0.829 2.806 -0.349 -0.736 2.887 -0.259 H2  1PT 15 
+1PT H31 H31 H  0 1 N N N -0.251 5.772 -0.013 0.320  4.722 -1.237 H31 1PT 16 
+1PT H32 H32 H  0 1 N N N 0.423  4.685 -1.275 -0.219 5.694 -0.103 H32 1PT 17 
+1PT H41 H41 H  0 1 N N N -1.490 6.023 -2.103 -1.812 4.470 -2.139 H41 1PT 18 
+1PT H42 H42 H  0 1 N N N -1.815 4.257 -2.147 -1.545 6.027 -1.986 H42 1PT 19 
+1PT H51 H51 H  0 1 N N N -2.880 6.260 0.009  -3.735 5.387 -1.219 H51 1PT 20 
+1PT H52 H52 H  0 1 N N N -3.866 5.432 -1.243 -2.903 6.159 -0.109 H52 1PT 21 
+1PT H61 H61 H  0 1 N N N -3.275 3.195 -0.279 -3.893 4.322 0.923  H61 1PT 22 
+1PT H62 H62 H  0 1 N N N -3.974 4.230 1.012  -3.343 3.334 -0.194 H62 1PT 23 
 # 
 loop_
 _chem_comp_bond.comp_id 
@@ -220,7 +221,7 @@ _pdbx_chem_comp_audit.processing_site
 1PT 'Create component'         2003-06-03 RCSB 
 1PT 'Other modification'       2018-04-23 RCSB 
 1PT 'Modify synonyms'          2020-06-05 PDBE 
-1PT 'Modify metal description' 2025-05-05 RCSB 
+1PT 'Modify metal description' 2025-05-16 RCSB 
 # 
 _pdbx_chem_comp_synonyms.ordinal      1 
 _pdbx_chem_comp_synonyms.comp_id      1PT 

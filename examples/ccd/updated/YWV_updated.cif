@@ -1,0 +1,254 @@
+data_YWV
+# 
+_chem_comp.id                                    YWV 
+_chem_comp.name                                  '[Ru2(DPhF)(Formate)]' 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               'C14 H12 N2 O2 Ru2' 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    -2 
+_chem_comp.pdbx_initial_date                     2023-06-22 
+_chem_comp.pdbx_modified_date                    2025-05-16 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        442.397 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ? 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8PH6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+_chem_comp.pdbx_comp_type                        'metal-containing ligand' 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.pdbx_n_terminal_atom_flag 
+_chem_comp_atom.pdbx_backbone_atom_flag 
+_chem_comp_atom.pdbx_c_terminal_atom_flag 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+YWV N1  N1  N  0  1 N N N N N N -34.581 -13.404 -20.392 -34.367 -13.807 -20.557 N1  YWV 1  
+YWV RU1 RU1 RU ?  0 N N N N N N -34.540 -11.379 -20.128 -34.075 -12.075 -20.583 RU1 YWV 2  
+YWV RU2 RU2 RU ?  0 N N N N N N -35.827 -11.102 -21.997 -35.695 -11.987 -22.319 RU2 YWV 3  
+YWV O1  O1  O  0  1 N N N N N N -36.235 -11.587 -18.990 -35.705 -11.712 -19.276 O1  YWV 4  
+YWV O2  O2  O  -1 1 N N N N N N -37.498 -11.109 -20.810 -37.157 -11.706 -20.984 O2  YWV 5  
+YWV N2  N2  N  -1 1 N N N N N N -35.985 -13.135 -22.164 -35.900 -13.577 -22.356 N2  YWV 6  
+YWV C1  C1  C  0  1 N N N N N N -37.401 -11.308 -19.539 -36.843 -11.612 -19.778 C1  YWV 7  
+YWV C7  C2  C  0  1 N N N N N N -35.228 -13.915 -21.405 -35.221 -14.325 -21.463 C7  YWV 8  
+YWV C20 C3  C  0  1 Y N N N N N -36.119 -15.089 -23.685 -36.760 -15.326 -23.910 C20 YWV 9  
+YWV C9  C4  C  0  1 Y N N N N N -32.449 -14.057 -19.435 -32.693 -13.732 -18.816 C9  YWV 10 
+YWV C10 C5  C  0  1 Y N N N N N -31.670 -14.939 -18.739 -31.925 -14.323 -17.828 C10 YWV 11 
+YWV C15 C6  C  0  1 Y N N N N N -36.574 -13.860 -23.229 -36.723 -14.013 -23.441 C15 YWV 12 
+YWV C8  C7  C  0  1 Y N N N N N -33.755 -14.318 -19.619 -33.606 -14.481 -19.550 C8  YWV 13 
+YWV C13 C8  C  0  1 Y N N N N N -34.323 -15.501 -19.048 -33.733 -15.836 -19.246 C13 YWV 14 
+YWV C16 C9  C  0  1 Y N N N N N -37.668 -13.501 -24.015 -37.496 -13.064 -24.101 C16 YWV 15 
+YWV C17 C10 C  0  1 Y N N N N N -38.345 -13.990 -25.096 -38.305 -13.426 -25.163 C17 YWV 16 
+YWV C11 C11 C  0  1 Y N N N N N -32.206 -16.079 -18.194 -32.060 -15.659 -17.546 C11 YWV 17 
+YWV C12 C12 C  0  1 Y N N N N N -33.558 -16.394 -18.357 -32.962 -16.413 -18.254 C12 YWV 18 
+YWV C18 C13 C  0  1 Y N N N N N -37.835 -15.200 -25.478 -38.340 -14.726 -25.602 C18 YWV 19 
+YWV C19 C14 C  0  1 Y N N N N N -36.778 -15.718 -24.761 -37.569 -15.673 -24.976 C19 YWV 20 
+YWV H1  H1  H  0  1 N N N N N N -38.283 -11.245 -18.919 -37.561 -11.455 -19.167 H1  YWV 21 
+YWV H3  H3  H  0  1 N N N N N N -35.147 -14.970 -21.624 -35.362 -15.257 -21.464 H3  YWV 22 
+YWV H5  H5  H  0  1 N N N N N N -35.266 -15.560 -23.219 -36.239 -15.988 -23.493 H5  YWV 23 
+YWV H6  H6  H  0  1 N N N N N N -32.016 -13.152 -19.836 -32.585 -12.817 -18.999 H6  YWV 24 
+YWV H7  H7  H  0  1 N N N N N N -30.616 -14.736 -18.616 -31.307 -13.801 -17.344 H7  YWV 25 
+YWV H8  H8  H  0  1 N N N N N N -35.380 -15.691 -19.167 -34.345 -16.369 -19.720 H8  YWV 26 
+YWV H9  H9  H  0  1 N N N N N N -38.103 -12.574 -23.672 -37.490 -12.170 -23.807 H9  YWV 27 
+YWV H10 H10 H  0  1 N N N N N N -39.170 -13.490 -25.582 -38.833 -12.772 -25.590 H10 YWV 28 
+YWV H11 H11 H  0  1 N N N N N N -31.571 -16.745 -17.629 -31.536 -16.057 -16.869 H11 YWV 29 
+YWV H12 H12 H  0  1 N N N N N N -33.978 -17.304 -17.954 -33.059 -17.332 -18.064 H12 YWV 30 
+YWV H13 H13 H  0  1 N N N N N N -38.250 -15.736 -26.319 -38.890 -14.967 -26.330 H13 YWV 31 
+YWV H14 H14 H  0  1 N N N N N N -36.422 -16.696 -25.050 -37.589 -16.568 -25.273 H14 YWV 32 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_metal_coordination_flag 
+_chem_comp_bond.pdbx_metal_pi_flag 
+_chem_comp_bond.pdbx_ordinal 
+YWV C18 C17 DOUB Y N N N 1  
+YWV C18 C19 SING Y N N N 2  
+YWV C17 C16 SING Y N N N 3  
+YWV C19 C20 DOUB Y N N N 4  
+YWV C16 C15 DOUB Y N N N 5  
+YWV C20 C15 SING Y N N N 6  
+YWV C15 N2  SING N N N N 7  
+YWV N2  RU2 SING N N Y N 8  
+YWV N2  C7  SING N N N N 9  
+YWV RU2 O2  SING N N Y N 10 
+YWV RU2 RU1 SING N N Y N 11 
+YWV C7  N1  DOUB N N N N 12 
+YWV O2  C1  SING N N N N 13 
+YWV N1  RU1 SING N N Y N 14 
+YWV N1  C8  SING N N N N 15 
+YWV RU1 O1  SING N N Y N 16 
+YWV C8  C9  DOUB Y N N N 17 
+YWV C8  C13 SING Y N N N 18 
+YWV C1  O1  DOUB N N N N 19 
+YWV C9  C10 SING Y N N N 20 
+YWV C13 C12 DOUB Y N N N 21 
+YWV C10 C11 DOUB Y N N N 22 
+YWV C12 C11 SING Y N N N 23 
+YWV C1  H1  SING N N N N 24 
+YWV C7  H3  SING N N N N 25 
+YWV C20 H5  SING N N N N 26 
+YWV C9  H6  SING N N N N 27 
+YWV C10 H7  SING N N N N 28 
+YWV C13 H8  SING N N N N 29 
+YWV C16 H9  SING N N N N 30 
+YWV C17 H10 SING N N N N 31 
+YWV C11 H11 SING N N N N 32 
+YWV C12 H12 SING N N N N 33 
+YWV C18 H13 SING N N N N 34 
+YWV C19 H14 SING N N N N 35 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+YWV SMILES           ACDLabs              14.52   'C1=N([Ru]2O=CO[Ru]2N1c1ccccc1)c1ccccc1'                                                                         
+YWV InChI            InChI                1.06    'InChI=1S/C13H11N2.CH2O2.2Ru/c1-3-7-12(8-4-1)14-11-15-13-9-5-2-6-10-13;2-1-3;;/h1-11H;1H,(H,2,3);;/q-1;;;+2/p-1' 
+YWV InChIKey         InChI                1.06    DXSDYTFSKSZJCS-UHFFFAOYSA-M                                                                                      
+YWV SMILES_CANONICAL CACTVS               3.385   '[Ru].O=CO[Ru]N(C=Nc1ccccc1)c2ccccc2'                                                                            
+YWV SMILES           CACTVS               3.385   '[Ru].O=CO[Ru]N(C=Nc1ccccc1)c2ccccc2'                                                                            
+YWV SMILES_CANONICAL 'OpenEye OEToolkits' 3.1.0.0 'c1ccc(cc1)[N]2=CN([Ru]3[Ru]2O=CO3)c4ccccc4'                                                                     
+YWV SMILES           'OpenEye OEToolkits' 3.1.0.0 'c1ccc(cc1)[N]2=CN([Ru]3[Ru]2O=CO3)c4ccccc4'                                                                     
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+YWV 'SYSTEMATIC NAME' ACDLabs              14.52   "(mu-formato-kappaO:kappaO')-(mu-{N-[(phenylimino-kappaN)methyl]benzenaminido-kappaN})diruthenium(Ru-Ru)" 
+YWV 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 3.1.0.0 '6,8-diphenyl-2$l^{3},4-dioxa-6,8$l^{4}-diaza-1$l^{3},5$l^{3}-diruthenabicyclo[3.3.0]octa-2,7-diene'      
+# 
+loop_
+_pdbx_chem_comp_atom_feature.ordinal 
+_pdbx_chem_comp_atom_feature.id 
+_pdbx_chem_comp_atom_feature.comp_id 
+_pdbx_chem_comp_atom_feature.atom_id 
+_pdbx_chem_comp_atom_feature.type 
+_pdbx_chem_comp_atom_feature.value 
+_pdbx_chem_comp_atom_feature.provenance 
+1  1 YWV RU1 'Coordination number'     4                                                                                                                FindGeo    
+2  1 YWV RU1 'Coordination geometry'   'square plane'                                                                                                   FindGeo    
+3  1 YWV RU1 'Coordination descriptor' 'Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>}'                                        PDB        
+4  2 YWV RU1 'Coordination number'     5                                                                                                                metalCoord 
+5  2 YWV RU1 'Coordination geometry'   square-pyramid                                                                                                   metalCoord 
+6  2 YWV RU1 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
+7  3 YWV RU2 'Coordination number'     5                                                                                                                FindGeo    
+8  3 YWV RU2 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    
+9  3 YWV RU2 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
+10 4 YWV RU2 'Coordination number'     5                                                                                                                metalCoord 
+11 4 YWV RU2 'Coordination geometry'   square-pyramid                                                                                                   metalCoord 
+12 4 YWV RU2 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
+# 
+loop_
+_pdbx_chem_comp_pcm.pcm_id 
+_pdbx_chem_comp_pcm.comp_id 
+_pdbx_chem_comp_pcm.modified_residue_id 
+_pdbx_chem_comp_pcm.type 
+_pdbx_chem_comp_pcm.category 
+_pdbx_chem_comp_pcm.position 
+_pdbx_chem_comp_pcm.polypeptide_position 
+_pdbx_chem_comp_pcm.comp_id_linking_atom 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession 
+1 YWV ASP None 'Metal coordination' 'Amino-acid side chain' 'Any position' RU1 OD1 ? ? 
+2 YWV ASP None 'Metal coordination' 'Amino-acid side chain' 'Any position' RU2 OD2 ? ? 
+3 YWV ARG None 'Metal coordination' 'Amino-acid side chain' 'Any position' RU1 NH2 ? ? 
+4 YWV ARG None 'Metal coordination' 'Amino-acid side chain' 'Any position' RU2 NH1 ? ? 
+# 
+_pdbx_chem_comp_precursor_set.id        1 
+_pdbx_chem_comp_precursor_set.class     substitution 
+_pdbx_chem_comp_precursor_set.details   'CO3 groups are displaced by formate, ASP, and ARG' 
+# 
+loop_
+_pdbx_chem_comp_precursor.id 
+_pdbx_chem_comp_precursor.comp_id 
+_pdbx_chem_comp_precursor.set_id 
+_pdbx_chem_comp_precursor.precursor_comp_id 
+_pdbx_chem_comp_precursor.formula 
+_pdbx_chem_comp_precursor.details 
+1 YWV 1 ZWO 'C16 H12 N2 O9 Ru2' 'CO3 groups are displaced by formate, ASP, and ARG' 
+2 YWV 1 FMT 'C H2 O2'           'Formate binds both Ru and displaces CO3'           
+# 
+loop_
+_pdbx_chem_comp_precursor_descriptor.ordinal 
+_pdbx_chem_comp_precursor_descriptor.comp_id 
+_pdbx_chem_comp_precursor_descriptor.precursor_id 
+_pdbx_chem_comp_precursor_descriptor.type 
+_pdbx_chem_comp_precursor_descriptor.descriptor 
+_pdbx_chem_comp_precursor_descriptor.source 
+_pdbx_chem_comp_precursor_descriptor.source_version 
+_pdbx_chem_comp_precursor_descriptor.program 
+_pdbx_chem_comp_precursor_descriptor.program_version 
+1  YWV 1 InChI            'InChI=1S/C13H11N2.3CH2O3.2Ru/c1-3-7-12(8-4-1)14-11-15-13-9-5-2-6-10-13;3*2-1(3)4;;/h1-11H;3*(H2,2,3,4);;/q-1;;;;+3;+4/p-6' ? ? InChI                1.06    
+2  YWV 1 InChIKey         YJUNPPYBRZKKCK-UHFFFAOYSA-H                                                                                                 ? ? InChI                1.06    
+3  YWV 1 SMILES_CANONICAL 'O=C1O[Ru]2OC(=O)O[Ru](O1)(OC(=O)O2)N(C=Nc3ccccc3)c4ccccc4'                                                                 ? ? CACTVS               3.385   
+4  YWV 1 SMILES           'O=C1O[Ru]2OC(=O)O[Ru](O1)(OC(=O)O2)N(C=Nc3ccccc3)c4ccccc4'                                                                 ? ? CACTVS               3.385   
+5  YWV 1 SMILES_CANONICAL 'c1ccc(cc1)[N]2=CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6'                                                       ? ? 'OpenEye OEToolkits' 3.1.0.0 
+6  YWV 1 SMILES           'c1ccc(cc1)[N]2=CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6'                                                       ? ? 'OpenEye OEToolkits' 3.1.0.0 
+7  YWV 2 SMILES           O=CO                                                                                                                        ? ? ACDLabs              11.02   
+8  YWV 2 SMILES_CANONICAL OC=O                                                                                                                        ? ? CACTVS               3.352   
+9  YWV 2 SMILES           OC=O                                                                                                                        ? ? CACTVS               3.352   
+10 YWV 2 SMILES_CANONICAL 'C(=O)O'                                                                                                                    ? ? 'OpenEye OEToolkits' 1.7.0   
+11 YWV 2 SMILES           'C(=O)O'                                                                                                                    ? ? 'OpenEye OEToolkits' 1.7.0   
+12 YWV 2 InChI            'InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)'                                                                                         ? ? InChI                1.03    
+13 YWV 2 InChIKey         BDAGIHXWWSANSR-UHFFFAOYSA-N                                                                                                 ? ? InChI                1.03    
+# 
+loop_
+_pdbx_chem_comp_precursor_identifier.ordinal 
+_pdbx_chem_comp_precursor_identifier.comp_id 
+_pdbx_chem_comp_precursor_identifier.precursor_id 
+_pdbx_chem_comp_precursor_identifier.type 
+_pdbx_chem_comp_precursor_identifier.identifier 
+_pdbx_chem_comp_precursor_identifier.source 
+_pdbx_chem_comp_precursor_identifier.source_version 
+_pdbx_chem_comp_precursor_identifier.program 
+_pdbx_chem_comp_precursor_identifier.program_version 
+1 YWV 1 'SYSTEMATIC NAME' '12,14-diphenyl-2,4,6,8,9,11-hexaoxa-12,14-diaza-1$l^{5},5$l^{5}-diruthenatetracyclo[3.3.3.3^{1,5}.0^{1,5}]tetradecane-3,7,10-trione' ? ? 'OpenEye OEToolkits' 3.1.0.0 
+2 YWV 2 'SYSTEMATIC NAME' 'formic acid'                                                                                                                         ? ? ACDLabs              11.02   
+3 YWV 2 'SYSTEMATIC NAME' 'methanoic acid'                                                                                                                      ? ? 'OpenEye OEToolkits' 1.6.1   
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+YWV 'Create component'         2023-06-22 PDBE 
+YWV 'Modify coordinates'       2023-07-05 PDBE 
+YWV 'Modify name'              2023-07-07 PDBE 
+YWV 'Initial release'          2023-09-13 RCSB 
+YWV 'Modify metal description' 2025-05-16 RCSB 
+# 

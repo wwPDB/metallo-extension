@@ -1,0 +1,149 @@
+data_AF3
+# 
+_chem_comp.id                                    AF3 
+_chem_comp.name                                  'ALUMINUM FLUORIDE' 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               'Al F3' 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     1999-07-08 
+_chem_comp.pdbx_modified_date                    2025-05-16 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        83.977 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     AF3 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        5UKD 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_comp_type                        'metal-containing ligand' 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+AF3 AL AL AL 3  0 N N N 36.776 67.463 -13.515 36.736 67.476 -13.511 AL AF3 1 
+AF3 F1 F1 F  -1 1 N N N 35.047 67.448 -13.645 34.847 67.357 -13.687 F1 AF3 2 
+AF3 F2 F2 F  -1 1 N N N 37.765 66.871 -14.893 37.861 66.833 -14.901 F2 AF3 3 
+AF3 F3 F3 F  -1 1 N N N 37.378 68.077 -12.032 37.498 68.239 -11.947 F3 AF3 4 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_metal_coordination_flag 
+_chem_comp_bond.pdbx_metal_pi_flag 
+_chem_comp_bond.pdbx_ordinal 
+AF3 AL F1 SING N N Y N 1 
+AF3 AL F2 SING N N Y N 2 
+AF3 AL F3 SING N N Y N 3 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+AF3 SMILES           ACDLabs              10.04 'F[Al](F)F'                       
+AF3 SMILES_CANONICAL CACTVS               3.341 'F[Al](F)F'                       
+AF3 SMILES           CACTVS               3.341 'F[Al](F)F'                       
+AF3 SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0 'F[Al](F)F'                       
+AF3 SMILES           'OpenEye OEToolkits' 1.5.0 'F[Al](F)F'                       
+AF3 InChI            InChI                1.03  InChI=1S/Al.3FH/h;3*1H/q+3;;;/p-3 
+AF3 InChIKey         InChI                1.03  KLZUFWVZNOTSEM-UHFFFAOYSA-K       
+# 
+loop_
+_pdbx_chem_comp_identifier.comp_id 
+_pdbx_chem_comp_identifier.type 
+_pdbx_chem_comp_identifier.program 
+_pdbx_chem_comp_identifier.program_version 
+_pdbx_chem_comp_identifier.identifier 
+AF3 'SYSTEMATIC NAME' ACDLabs              10.04 'aluminum trifluoride' 
+AF3 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0 trifluoroalumane       
+# 
+loop_
+_pdbx_chem_comp_atom_feature.ordinal 
+_pdbx_chem_comp_atom_feature.id 
+_pdbx_chem_comp_atom_feature.comp_id 
+_pdbx_chem_comp_atom_feature.atom_id 
+_pdbx_chem_comp_atom_feature.type 
+_pdbx_chem_comp_atom_feature.value 
+_pdbx_chem_comp_atom_feature.provenance 
+1  1 AF3 AL 'Coordination number'     4                                                                                                                  FindGeo    
+2  1 AF3 AL 'Coordination geometry'   'trigonal bipyramid with a vacancy (axial)'                                                                        FindGeo    
+3  1 AF3 AL 'Coordination descriptor' 'Al(O)(F)(F)(F){OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}'                                         PDB        
+4  2 AF3 AL 'Coordination number'     5                                                                                                                  FindGeo    
+5  2 AF3 AL 'Coordination geometry'   'trigonal bipyramid'                                                                                               FindGeo    
+6  2 AF3 AL 'Coordination descriptor' 'Al(O)(O)(F)(F)(F){OAlO<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
+7  3 AF3 AL 'Coordination number'     5                                                                                                                  FindGeo    
+8  3 AF3 AL 'Coordination geometry'   'trigonal bipyramid'                                                                                               FindGeo    
+9  3 AF3 AL 'Coordination descriptor' 'Al(N)(O)(F)(F)(F){NAlO<180>,NAlF<90>,NAlF<90>,NAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
+10 4 AF3 AL 'Coordination number'     4                                                                                                                  metalCoord 
+11 4 AF3 AL 'Coordination geometry'   trigonal-pyramid                                                                                                   metalCoord 
+12 4 AF3 AL 'Coordination descriptor' 'Al(O)(F)(F)(F){OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}'                                         PDB        
+13 5 AF3 AL 'Coordination number'     4                                                                                                                  metalCoord 
+14 5 AF3 AL 'Coordination geometry'   tetrahedral                                                                                                        metalCoord 
+15 5 AF3 AL 'Coordination descriptor' 'Al(O)(F)(F)(F){OAlF<109.5>,OAlF<109.5>,OAlF<109.5>,FAlF<109.5>,FAlF<109.5>,FAlF<109.5>}'                          PDB        
+16 6 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
+17 6 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+18 6 AF3 AL 'Coordination descriptor' 'Al(O)(O)(F)(F)(F){OAlO<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
+19 7 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
+20 7 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+21 7 AF3 AL 'Coordination descriptor' 'Al(O)(O)(F)(F)(F){OAlO<90>,OAlF<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<120>,OAlF<120>,FAlF<90>,FAlF<90>,FAlF<120>}' PDB        
+22 8 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
+23 8 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+24 8 AF3 AL 'Coordination descriptor' 'Al(N)(O)(F)(F)(F){NAlO<180>,NAlF<90>,NAlF<90>,NAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
+# 
+loop_
+_pdbx_chem_comp_pcm.pcm_id 
+_pdbx_chem_comp_pcm.comp_id 
+_pdbx_chem_comp_pcm.modified_residue_id 
+_pdbx_chem_comp_pcm.type 
+_pdbx_chem_comp_pcm.category 
+_pdbx_chem_comp_pcm.position 
+_pdbx_chem_comp_pcm.polypeptide_position 
+_pdbx_chem_comp_pcm.comp_id_linking_atom 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession 
+1 AF3 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' AL ND1 ? ? 
+2 AF3 SER None 'Metal coordination' 'Amino-acid side chain' 'Any position' AL OG  ? ? 
+3 AF3 ASP None 'Metal coordination' 'Amino-acid side chain' 'Any position' AL OD1 ? ? 
+4 AF3 THR None 'Metal coordination' 'Amino-acid side chain' 'Any position' AL OG1 ? ? 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+AF3 'Create component'         1999-07-08 RCSB 
+AF3 'Modify descriptor'        2011-06-04 RCSB 
+AF3 'Modify metal description' 2025-05-16 RCSB 
+# 

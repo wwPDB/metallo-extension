@@ -1,0 +1,226 @@
+data_1MK
+# 
+_chem_comp.id                                    1MK 
+_chem_comp.name                                  'chlorido(eta-6-p-cymene)(N-fluorophenyl-2-pyridinecarbothioamide)osmium(II)' 
+_chem_comp.type                                  NON-POLYMER 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               'C22 H23 Cl F N2 Os S' 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2013-04-01 
+_chem_comp.pdbx_modified_date                    2025-05-16
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        592.178 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     1MK 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        4J8W 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_comp_type                        'metal-containing ligand' 
+_chem_comp.pdbx_processing_site                  RCSB 
+_chem_comp.pdbx_pcm                              Y 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+1MK C1   C1   C  0 1 Y N N -26.233 -52.150 37.470 -26.157 -52.460 38.876 C1   1MK 1  
+1MK C2   C2   C  0 1 Y N N -27.531 -52.573 37.727 -27.330 -52.754 39.524 C2   1MK 2  
+1MK C3   C3   C  0 1 Y N N -28.351 -51.787 38.528 -28.199 -51.731 39.790 C3   1MK 3  
+1MK C4   C4   C  0 1 Y N N -27.835 -50.586 39.053 -27.864 -50.448 39.412 C4   1MK 4  
+1MK C5   C5   C  0 1 Y N N -26.528 -50.215 38.762 -26.658 -50.226 38.746 C5   1MK 5  
+1MK C6   C6   C  0 1 N N N -25.919 -48.957 39.290 -26.203 -48.859 38.295 C6   1MK 6  
+1MK N1   N1   N  0 1 Y N N -25.710 -50.988 37.966 -25.792 -51.226 38.505 N1   1MK 7  
+1MK C7   C7   C  0 1 Y N N -26.469 -46.603 39.946 -26.465 -46.498 39.319 C7   1MK 8  
+1MK S1   S1   S  0 1 N N N -24.160 -48.880 39.301 -24.860 -48.792 37.283 S1   1MK 9  
+1MK OS1  OS1  OS 0 0 N N N -23.708 -50.434 37.514 -23.943 -51.057 37.367 OS1  1MK 10 
+1MK C8   C8   C  0 1 Y N N -26.530 -45.617 38.970 -27.469 -45.586 39.633 C8   1MK 11 
+1MK C9   C9   C  0 1 Y N N -26.262 -44.293 39.297 -27.157 -44.329 40.125 C9   1MK 12 
+1MK C10  C10  C  0 1 Y N N -25.951 -43.960 40.610 -25.845 -44.017 40.332 C10  1MK 13 
+1MK C11  C11  C  0 1 Y N N -25.900 -44.949 41.585 -24.829 -44.891 40.069 C11  1MK 14 
+1MK C12  C12  C  0 1 Y N N -26.165 -46.275 41.249 -25.144 -46.146 39.573 C12  1MK 15 
+1MK C13  C13  C  0 1 Y N N -22.253 -51.225 39.032 -22.579 -52.130 38.792 C13  1MK 16 
+1MK C14  C14  C  0 1 Y N N -21.673 -49.993 38.432 -22.321 -50.773 38.844 C14  1MK 17 
+1MK C15  C15  C  0 1 Y N N -21.558 -49.979 37.045 -22.033 -50.048 37.701 C15  1MK 18 
+1MK C16  C16  C  0 1 Y N N -22.010 -51.049 36.155 -21.989 -50.659 36.451 C16  1MK 19 
+1MK C17  C17  C  0 1 Y N N -22.576 -52.217 36.760 -22.238 -52.031 36.407 C17  1MK 20 
+1MK N2   N2   N  0 1 N N N -26.746 -47.980 39.623 -26.839 -47.789 38.843 N2   1MK 21 
+1MK C18  C18  C  0 1 Y N N -22.710 -52.327 38.170 -22.526 -52.747 37.557 C18  1MK 22 
+1MK C19  C19  C  0 1 N N N -22.372 -51.177 40.532 -22.860 -52.914 40.056 C19  1MK 23 
+1MK C20  C20  C  0 1 N N N -21.842 -50.839 34.657 -21.669 -49.851 35.185 C20  1MK 24 
+1MK C21  C21  C  0 1 N N N -20.371 -50.581 34.330 -20.312 -50.247 34.579 C21  1MK 25 
+1MK C22  C22  C  0 1 N N N -22.453 -51.896 33.733 -22.782 -49.874 34.123 C22  1MK 26 
+1MK F1   F1   F  0 1 N N N -25.703 -42.649 40.885 -25.536 -42.785 40.821 F1   1MK 27 
+1MK H1   H1   H  0 1 N N N -25.605 -52.770 36.847 -25.560 -53.166 38.695 H1   1MK 28 
+1MK H2   H2   H  0 1 N N N -27.898 -53.499 37.310 -27.533 -53.640 39.775 H2   1MK 29 
+1MK H3   H3   H  0 1 N N N -29.365 -52.091 38.744 -29.015 -51.901 40.231 H3   1MK 30 
+1MK H4   H4   H  0 1 N N N -28.452 -49.957 39.678 -28.452 -49.750 39.584 H4   1MK 31 
+1MK H5   H5   H  0 1 N N N -26.786 -45.880 37.954 -28.369 -45.810 39.480 H5   1MK 32 
+1MK H6   H6   H  0 1 N N N -26.295 -43.528 38.536 -27.836 -43.707 40.315 H6   1MK 33 
+1MK H7   H7   H  0 1 N N N -25.655 -44.689 42.604 -23.935 -44.647 40.221 H7   1MK 34 
+1MK H8   H8   H  0 1 N N N -26.132 -47.043 42.008 -24.454 -46.755 39.387 H8   1MK 35 
+1MK H12  H12  H  0 1 N N N -27.712 -48.236 39.656 -27.709 -47.863 38.816 H12  1MK 36 
+1MK H14  H14  H  0 1 N N N -21.490 -51.652 40.986 -23.457 -53.655 39.857 H14  1MK 37 
+1MK H15  H15  H  0 1 N N N -22.434 -50.129 40.861 -23.279 -52.336 40.717 H15  1MK 38 
+1MK H16  H16  H  0 1 N N N -23.279 -51.715 40.845 -22.026 -53.261 40.416 H16  1MK 39 
+1MK H17  H17  H  0 1 N N N -22.368 -49.901 34.425 -21.581 -48.906 35.479 H17  1MK 40 
+1MK H18  H18  H  0 1 N N N -20.257 -50.430 33.246 -20.074 -49.627 33.869 H18  1MK 41 
+1MK H19  H19  H  0 1 N N N -20.029 -49.682 34.863 -20.364 -51.149 34.218 H19  1MK 42 
+1MK H20  H20  H  0 1 N N N -19.768 -51.446 34.645 -19.630 -50.219 35.271 H20  1MK 43 
+1MK H21  H21  H  0 1 N N N -22.260 -51.623 32.685 -23.625 -49.621 34.535 H21  1MK 44 
+1MK H22  H22  H  0 1 N N N -22.000 -52.875 33.946 -22.863 -50.768 33.749 H22  1MK 45 
+1MK H23  H23  H  0 1 N N N -23.538 -51.949 33.904 -22.571 -49.244 33.412 H23  1MK 46 
+1MK H201 H201 H  0 0 N N N -21.359 -49.157 39.039 -22.342 -50.333 39.679 H201 1MK 47 
+1MK H211 H211 H  0 0 N N N -21.100 -49.112 36.591 -21.870 -49.121 37.770 H211 1MK 48 
+1MK H221 H221 H  0 0 N N N -22.908 -53.031 36.132 -22.216 -52.482 35.578 H221 1MK 49 
+1MK H231 H231 H  0 0 N N N -23.145 -53.214 38.607 -22.688 -53.675 37.499 H231 1MK 50 
+1MK CL1  CL1  CL 0 0 N Y N -24.237 -51.616 35.662 -25.334 -52.033 35.628 CL1  1MK 51 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_metal_coordination_flag 
+_chem_comp_bond.pdbx_metal_pi_flag 
+_chem_comp_bond.pdbx_ordinal 
+1MK C1  C2   DOUB Y N N N 1  
+1MK C1  N1   SING Y N N N 2  
+1MK C1  H1   SING N N N N 3  
+1MK C2  C3   SING Y N N N 4  
+1MK C2  H2   SING N N N N 5  
+1MK C3  C4   DOUB Y N N N 6  
+1MK C3  H3   SING N N N N 7  
+1MK C4  C5   SING Y N N N 8  
+1MK C4  H4   SING N N N N 9  
+1MK C5  C6   SING N N N N 10 
+1MK C5  N1   DOUB Y N N N 11 
+1MK C6  S1   DOUB N N N N 12 
+1MK C6  N2   SING N N N N 13 
+1MK N1  OS1  SING N N Y N 14 
+1MK C7  C8   DOUB Y N N N 15 
+1MK C7  C12  SING Y N N N 16 
+1MK C7  N2   SING N N N N 17 
+1MK OS1 C13  SING N N Y Y 18 
+1MK OS1 C16  SING N N Y Y 19 
+1MK C8  C9   SING Y N N N 20 
+1MK C8  H5   SING N N N N 21 
+1MK C9  C10  DOUB Y N N N 22 
+1MK C9  H6   SING N N N N 23 
+1MK C10 C11  SING Y N N N 24 
+1MK C10 F1   SING N N N N 25 
+1MK C11 C12  DOUB Y N N N 26 
+1MK C11 H7   SING N N N N 27 
+1MK C12 H8   SING N N N N 28 
+1MK C13 C14  SING Y N N N 29 
+1MK C13 C18  DOUB Y N N N 30 
+1MK C13 C19  SING N N N N 31 
+1MK C14 C15  DOUB Y N N N 32 
+1MK C15 C16  SING Y N N N 33 
+1MK C16 C17  DOUB Y N N N 34 
+1MK C16 C20  SING N N N N 35 
+1MK C17 C18  SING Y N N N 36 
+1MK N2  H12  SING N N N N 37 
+1MK C19 H14  SING N N N N 38 
+1MK C19 H15  SING N N N N 39 
+1MK C19 H16  SING N N N N 40 
+1MK C20 C21  SING N N N N 41 
+1MK C20 C22  SING N N N N 42 
+1MK C20 H17  SING N N N N 43 
+1MK C21 H18  SING N N N N 44 
+1MK C21 H19  SING N N N N 45 
+1MK C21 H20  SING N N N N 46 
+1MK C22 H21  SING N N N N 47 
+1MK C22 H22  SING N N N N 48 
+1MK C22 H23  SING N N N N 49 
+1MK C14 H201 SING N N N N 50 
+1MK C15 H211 SING N N N N 51 
+1MK C17 H221 SING N N N N 52 
+1MK C18 H231 SING N N N N 53 
+1MK OS1 CL1  SING N N Y N 54 
+1MK OS1 C14  SING N N Y Y 55 
+1MK OS1 C15  SING N N Y Y 56 
+1MK OS1 C17  SING N N Y Y 57 
+1MK OS1 C18  SING N N Y Y 58 
+1MK S1  OS1  SING N N Y N 59 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+1MK SMILES           ACDLabs              12.01 'Fc1ccc(cc1)NC(=S)c2n(cccc2)[Os]4(Cl)C=3(C=CC4(=CC=3)C(C)C)C'                                                                                       
+1MK InChI            InChI                1.03  'InChI=1S/C12H9FN2S.C10H14.ClH.Os/c13-9-4-6-10(7-5-9)15-12(16)11-3-1-2-8-14-11;1-8(2)10-6-4-9(3)5-7-10;;/h1-8H,(H,15,16);4-8H,1-3H3;1H;/q;;;+1/p-1' 
+1MK InChIKey         InChI                1.03  BSRBCHDQAAJOCM-UHFFFAOYSA-M                                                                                                                         
+1MK SMILES_CANONICAL CACTVS               3.370 'CC(C)c12|[Os](Cl)(|n3ccccc3C(=S)Nc4ccc(F)cc4)|c(C)(cc1)cc2'                                                                                        
+1MK SMILES           CACTVS               3.370 'CC(C)c12|[Os](Cl)(|n3ccccc3C(=S)Nc4ccc(F)cc4)|c(C)(cc1)cc2'                                                                                        
+1MK SMILES_CANONICAL 'OpenEye OEToolkits' 1.7.6 'CC(C)C12=CC=C([Os]1([N]3=C(C=CC=C3)C(=S)Nc4ccc(cc4)F)Cl)(C=C2)C'                                                                                   
+1MK SMILES           'OpenEye OEToolkits' 1.7.6 'CC(C)C12=CC=C([Os]1([N]3=C(C=CC=C3)C(=S)Nc4ccc(cc4)F)Cl)(C=C2)C'                                                                                   
+# 
+_pdbx_chem_comp_identifier.comp_id           1MK 
+_pdbx_chem_comp_identifier.type              'SYSTEMATIC NAME' 
+_pdbx_chem_comp_identifier.program           ACDLabs 
+_pdbx_chem_comp_identifier.program_version   12.01 
+_pdbx_chem_comp_identifier.identifier        'chloro[N-(4-fluorophenyl)pyridine-2-carbothioamide-kappaN~1~][1-methyl-4-(propan-2-yl)benzene-kappa~2~C~1~,C~4~]osmium' 
+# 
+loop_
+_pdbx_chem_comp_atom_feature.ordinal 
+_pdbx_chem_comp_atom_feature.id 
+_pdbx_chem_comp_atom_feature.comp_id 
+_pdbx_chem_comp_atom_feature.atom_id 
+_pdbx_chem_comp_atom_feature.type 
+_pdbx_chem_comp_atom_feature.value 
+_pdbx_chem_comp_atom_feature.provenance 
+1 1 1MK OS1 'Coordination number'     8                                                                                                                                                                                                                                                                                                                                                                                                                                                  metalCoord 
+2 1 1MK OS1 'Coordination geometry'   sandwich_6_2                                                                                                                                                                                                                                                                                                                                                                                                                                       metalCoord 
+3 1 1MK OS1 'Coordination descriptor' 'Os(C)(C)(C)(C)(C)(C)(N)(S){COsC<37.6>,COsC<67.6>,COsC<79.6>,COsC<66.7>,COsC<37.1>,COsN<127.3>,COsS<118.7>,COsC<36.9>,COsC<66.6>,COsC<78.4>,COsC<66.7>,COsN<161.2>,COsS<100.3>,COsC<37.1>,COsC<66.8>,COsC<79>,COsN<161.7>,COsS<105.7>,COsC<37.3>,COsC<66.9>,COsN<128.5>,COsS<132.3>,COsC<36.7>,COsN<107.1>,COsS<169.1>,COsN<106.6>,COsS<152.4>,NOsS<77.6>}'                                                                                        PDB        
+4 2 1MK OS1 'Coordination number'     9                                                                                                                                                                                                                                                                                                                                                                                                                                                  metalCoord 
+5 2 1MK OS1 'Coordination geometry'   sandwich_6_3                                                                                                                                                                                                                                                                                                                                                                                                                                       metalCoord 
+6 2 1MK OS1 'Coordination descriptor' 'Os(C)(C)(C)(C)(C)(C)(N)(N)(S){COsC<37.2>,COsC<66.7>,COsC<78.6>,COsC<66.7>,COsC<36.7>,COsN<87.4>,COsN<124.7>,COsS<145.4>,COsC<36.7>,COsC<66.5>,COsC<78.6>,COsC<66.5>,COsN<94.5>,COsN<160.9>,COsS<109>,COsC<37.2>,COsC<66.6>,COsC<78.7>,COsN<124.8>,COsN<145.4>,COsS<87.4>,COsC<36.7>,COsC<66.5>,COsN<160.9>,COsN<109>,COsS<94.5>,COsC<37.2>,COsN<145.5>,COsN<87.4>,COsS<124.7>,COsN<109>,COsN<94.5>,COsS<160.9>,NOsN<89.6>,NOsS<89.6>,NOsS<89.7>}' PDB        
+# 
+_pdbx_chem_comp_pcm.pcm_id                             1 
+_pdbx_chem_comp_pcm.comp_id                            1MK 
+_pdbx_chem_comp_pcm.modified_residue_id                HIS 
+_pdbx_chem_comp_pcm.type                               None 
+_pdbx_chem_comp_pcm.category                           'Metal coordination' 
+_pdbx_chem_comp_pcm.position                           'Amino-acid side chain' 
+_pdbx_chem_comp_pcm.polypeptide_position               'Any position' 
+_pdbx_chem_comp_pcm.comp_id_linking_atom               OS1 
+_pdbx_chem_comp_pcm.modified_residue_id_linking_atom   NE2 
+_pdbx_chem_comp_pcm.uniprot_specific_ptm_accession     ? 
+_pdbx_chem_comp_pcm.uniprot_generic_ptm_accession      ? 
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+1MK 'Create component'         2013-04-01 RCSB 
+1MK 'Initial release'          2013-04-17 RCSB 
+1MK 'Modify metal description' 2025-05-16 RCSB 
+# 
