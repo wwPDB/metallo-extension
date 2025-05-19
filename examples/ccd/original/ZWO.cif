@@ -1,0 +1,165 @@
+data_ZWO
+# 
+_chem_comp.id                                    ZWO 
+_chem_comp.name                                  "Ru2(DPhF)(CO3)3" 
+_chem_comp.type                                  non-polymer 
+_chem_comp.pdbx_type                             HETAIN 
+_chem_comp.formula                               "C16 H12 N2 O9 Ru2" 
+_chem_comp.mon_nstd_parent_comp_id               ? 
+_chem_comp.pdbx_synonyms                         ? 
+_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_initial_date                     2023-07-07 
+_chem_comp.pdbx_modified_date                    2023-09-08 
+_chem_comp.pdbx_ambiguous_flag                   N 
+_chem_comp.pdbx_release_status                   REL 
+_chem_comp.pdbx_replaced_by                      ? 
+_chem_comp.pdbx_replaces                         ? 
+_chem_comp.formula_weight                        578.414 
+_chem_comp.one_letter_code                       ? 
+_chem_comp.three_letter_code                     ZWO 
+_chem_comp.pdbx_model_coordinates_details        ? 
+_chem_comp.pdbx_model_coordinates_missing_flag   N 
+_chem_comp.pdbx_ideal_coordinates_details        Corina 
+_chem_comp.pdbx_ideal_coordinates_missing_flag   N 
+_chem_comp.pdbx_model_coordinates_db_code        8PH6 
+_chem_comp.pdbx_subcomponent_list                ? 
+_chem_comp.pdbx_processing_site                  PDBE 
+# 
+loop_
+_chem_comp_atom.comp_id 
+_chem_comp_atom.atom_id 
+_chem_comp_atom.alt_atom_id 
+_chem_comp_atom.type_symbol 
+_chem_comp_atom.charge 
+_chem_comp_atom.pdbx_align 
+_chem_comp_atom.pdbx_aromatic_flag 
+_chem_comp_atom.pdbx_leaving_atom_flag 
+_chem_comp_atom.pdbx_stereo_config 
+_chem_comp_atom.model_Cartn_x 
+_chem_comp_atom.model_Cartn_y 
+_chem_comp_atom.model_Cartn_z 
+_chem_comp_atom.pdbx_model_Cartn_x_ideal 
+_chem_comp_atom.pdbx_model_Cartn_y_ideal 
+_chem_comp_atom.pdbx_model_Cartn_z_ideal 
+_chem_comp_atom.pdbx_component_atom_id 
+_chem_comp_atom.pdbx_component_comp_id 
+_chem_comp_atom.pdbx_ordinal 
+ZWO N1  N1  N  0 1 N N N -19.104 -19.066 -2.122 -1.372 1.097  -0.388 N1  ZWO 1  
+ZWO C5  C1  C  0 1 N N N -18.960 -15.636 -0.777 1.283  -0.771 -1.982 C5  ZWO 2  
+ZWO RU1 RU1 RU 0 0 N N N -19.610 -18.474 -0.222 -1.078 -0.787 -0.551 RU1 ZWO 3  
+ZWO RU2 RU2 RU 0 0 N N N -21.384 -17.313 -1.007 1.106  -0.767 0.561  RU2 ZWO 4  
+ZWO O6  O1  O  0 1 N N N -20.188 -15.669 -1.137 2.021  -1.228 -0.945 O6  ZWO 5  
+ZWO O1  O2  O  0 1 N N N -20.782 -20.138 -0.060 -1.649 -0.870 1.193  O1  ZWO 6  
+ZWO O2  O3  O  0 1 N N N -22.625 -18.904 -0.777 0.433  -0.464 2.224  O2  ZWO 7  
+ZWO O5  O4  O  0 1 N N N -18.468 -16.777 -0.333 0.002  -0.559 -2.013 O5  ZWO 8  
+ZWO O3  O5  O  0 1 N N N -20.205 -18.039 1.705  -1.185 -2.585 -0.756 O3  ZWO 9  
+ZWO O4  O6  O  0 1 N N N -21.874 -16.723 0.909  0.606  -2.532 0.750  O4  ZWO 10 
+ZWO N2  N2  N  0 1 N N N -20.880 -17.869 -2.903 1.149  1.091  0.041  N2  ZWO 11 
+ZWO C1  C2  C  0 1 N N N -22.039 -19.955 -0.362 -0.825 -0.966 2.188  C1  ZWO 12 
+ZWO C7  C3  C  0 1 N N N -19.785 -18.590 -3.132 -0.045 1.698  -0.465 C7  ZWO 13 
+ZWO C3  C4  C  0 1 N N N -21.132 -17.120 1.889  -0.049 -3.097 -0.237 C3  ZWO 14 
+ZWO O8  O7  O  0 1 N N N -22.980 -21.056 -0.324 -1.225 -1.572 3.201  O8  ZWO 15 
+ZWO C20 C5  C  0 1 Y N N -21.050 -16.767 -5.076 2.312  3.210  -0.241 C20 ZWO 16 
+ZWO C9  C6  C  0 1 Y N N -17.619 -20.980 -1.957 -2.627 3.133  -0.132 C9  ZWO 17 
+ZWO C10 C7  C  0 1 Y N N -16.448 -21.652 -2.212 -3.839 3.778  0.013  C10 ZWO 18 
+ZWO C15 C8  C  0 1 Y N N -21.617 -17.526 -4.054 2.328  1.876  0.146  C15 ZWO 19 
+ZWO C8  C9  C  0 1 Y N N -17.871 -19.761 -2.472 -2.587 1.748  -0.237 C8  ZWO 20 
+ZWO O7  O8  O  0 1 N N N -18.362 -14.544 -0.826 1.904  -0.523 -3.039 O7  ZWO 21 
+ZWO C13 C10 C  0 1 Y N N -16.902 -19.196 -3.370 -3.767 1.017  -0.189 C13 ZWO 22 
+ZWO C16 C11 C  0 1 Y N N -22.971 -17.841 -4.165 3.500  1.312  0.634  C16 ZWO 23 
+ZWO C17 C12 C  0 1 Y N N -23.676 -17.486 -5.289 4.644  2.079  0.734  C17 ZWO 24 
+ZWO C11 C13 C  0 1 Y N N -15.521 -21.116 -3.077 -5.012 3.047  0.060  C11 ZWO 25 
+ZWO C12 C14 C  0 1 Y N N -15.753 -19.869 -3.663 -4.976 1.669  -0.038 C12 ZWO 26 
+ZWO O9  O9  O  0 1 N N N -21.307 -16.624 3.016  0.403  -4.154 -0.708 O9  ZWO 27 
+ZWO C18 C15 C  0 1 Y N N -23.110 -16.775 -6.325 4.624  3.407  0.349  C18 ZWO 28 
+ZWO C19 C16 C  0 1 Y N N -21.794 -16.386 -6.210 3.461  3.970  -0.142 C19 ZWO 29 
+ZWO H1  H1  H  0 1 N N N -20.091 -19.450 -3.745 0.153  1.911  -1.531 H1  ZWO 30 
+ZWO H2  H2  H  0 1 N N N -19.098 -17.954 -3.709 -0.112 2.686  0.028  H2  ZWO 31 
+ZWO H3  H3  H  0 1 N N N -20.016 -16.464 -4.997 1.403  3.652  -0.622 H3  ZWO 32 
+ZWO H4  H4  H  0 1 N N N -18.361 -21.444 -1.324 -1.711 3.704  -0.169 H4  ZWO 33 
+ZWO H5  H5  H  0 1 N N N -16.255 -22.601 -1.734 -3.871 4.855  0.090  H5  ZWO 34 
+ZWO H6  H6  H  0 1 N N N -17.085 -18.230 -3.817 -3.740 -0.060 -0.270 H6  ZWO 35 
+ZWO H7  H7  H  0 1 N N N -23.468 -18.367 -3.363 3.515  0.275  0.936  H7  ZWO 36 
+ZWO H8  H8  H  0 1 N N N -24.714 -17.775 -5.364 5.555  1.640  1.115  H8  ZWO 37 
+ZWO H9  H9  H  0 1 N N N -14.615 -21.659 -3.303 -5.959 3.555  0.174  H9  ZWO 38 
+ZWO H10 H10 H  0 1 N N N -15.029 -19.442 -4.342 -5.894 1.101  -0.001 H10 ZWO 39 
+ZWO H11 H11 H  0 1 N N N -23.685 -16.529 -7.206 5.521  4.003  0.426  H11 ZWO 40 
+ZWO H12 H12 H  0 1 N N N -21.334 -15.792 -6.986 3.449  5.007  -0.443 H12 ZWO 41 
+# 
+loop_
+_chem_comp_bond.comp_id 
+_chem_comp_bond.atom_id_1 
+_chem_comp_bond.atom_id_2 
+_chem_comp_bond.value_order 
+_chem_comp_bond.pdbx_aromatic_flag 
+_chem_comp_bond.pdbx_stereo_config 
+_chem_comp_bond.pdbx_ordinal 
+ZWO C18 C19 DOUB Y N 1  
+ZWO C18 C17 SING Y N 2  
+ZWO C19 C20 SING Y N 3  
+ZWO C17 C16 DOUB Y N 4  
+ZWO C20 C15 DOUB Y N 5  
+ZWO C16 C15 SING Y N 6  
+ZWO C15 N2  SING N N 7  
+ZWO C12 C13 DOUB Y N 8  
+ZWO C12 C11 SING Y N 9  
+ZWO C13 C8  SING Y N 10 
+ZWO C7  N2  SING N N 11 
+ZWO C7  N1  SING N N 12 
+ZWO C11 C10 DOUB Y N 13 
+ZWO N2  RU2 SING N N 14 
+ZWO C8  N1  SING N N 15 
+ZWO C8  C9  DOUB Y N 16 
+ZWO C10 C9  SING Y N 17 
+ZWO N1  RU1 SING N N 18 
+ZWO O6  RU2 SING N N 19 
+ZWO O6  C5  SING N N 20 
+ZWO RU2 O2  SING N N 21 
+ZWO RU2 RU1 SING N N 22 
+ZWO RU2 O4  SING N N 23 
+ZWO O7  C5  DOUB N N 24 
+ZWO C5  O5  SING N N 25 
+ZWO O2  C1  SING N N 26 
+ZWO C1  O8  DOUB N N 27 
+ZWO C1  O1  SING N N 28 
+ZWO O5  RU1 SING N N 29 
+ZWO RU1 O1  SING N N 30 
+ZWO RU1 O3  SING N N 31 
+ZWO O4  C3  SING N N 32 
+ZWO O3  C3  SING N N 33 
+ZWO C3  O9  DOUB N N 34 
+ZWO C7  H1  SING N N 35 
+ZWO C7  H2  SING N N 36 
+ZWO C20 H3  SING N N 37 
+ZWO C9  H4  SING N N 38 
+ZWO C10 H5  SING N N 39 
+ZWO C13 H6  SING N N 40 
+ZWO C16 H7  SING N N 41 
+ZWO C17 H8  SING N N 42 
+ZWO C11 H9  SING N N 43 
+ZWO C12 H10 SING N N 44 
+ZWO C18 H11 SING N N 45 
+ZWO C19 H12 SING N N 46 
+# 
+loop_
+_pdbx_chem_comp_descriptor.comp_id 
+_pdbx_chem_comp_descriptor.type 
+_pdbx_chem_comp_descriptor.program 
+_pdbx_chem_comp_descriptor.program_version 
+_pdbx_chem_comp_descriptor.descriptor 
+ZWO InChI            InChI                1.06  "InChI=1S/C13H12N2.3CH2O3.2Ru/c1-3-7-12(8-4-1)14-11-15-13-9-5-2-6-10-13;3*2-1(3)4;;/h1-10H,11H2;3*(H2,2,3,4);;/q-2;;;;2*+4/p-6" 
+ZWO InChIKey         InChI                1.06  TZCHHEUOTVFLIC-UHFFFAOYSA-H                                                                                                     
+ZWO SMILES_CANONICAL CACTVS               3.385 "O=C1O[Ru]23OC(=O)O[Ru](O1)(OC(=O)O2)N(CN3c4ccccc4)c5ccccc5"                                                                    
+ZWO SMILES           CACTVS               3.385 "O=C1O[Ru]23OC(=O)O[Ru](O1)(OC(=O)O2)N(CN3c4ccccc4)c5ccccc5"                                                                    
+ZWO SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)N2CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6"                                                              
+ZWO SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)N2CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6"                                                              
+# 
+loop_
+_pdbx_chem_comp_audit.comp_id 
+_pdbx_chem_comp_audit.action_type 
+_pdbx_chem_comp_audit.date 
+_pdbx_chem_comp_audit.processing_site 
+ZWO "Create component" 2023-07-07 PDBE 
+ZWO "Modify name"      2023-07-07 PDBE 
+ZWO "Initial release"  2023-09-13 RCSB 
+# 
