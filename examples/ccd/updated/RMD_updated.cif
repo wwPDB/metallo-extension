@@ -19,7 +19,7 @@ _chem_comp.one_letter_code                       ?
 _chem_comp.three_letter_code                     ? 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_details        MetalCoord 
 _chem_comp.pdbx_ideal_coordinates_missing_flag   N 
 _chem_comp.pdbx_model_coordinates_db_code        3WJC 
 _chem_comp.pdbx_subcomponent_list                ? 

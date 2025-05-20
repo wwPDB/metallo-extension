@@ -19,7 +19,7 @@ _chem_comp.one_letter_code                       ?
 _chem_comp.three_letter_code                     ? 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_details        MetalCoord 
 _chem_comp.pdbx_ideal_coordinates_missing_flag   N 
 _chem_comp.pdbx_model_coordinates_db_code        8PH6 
 _chem_comp.pdbx_subcomponent_list                ? 
@@ -176,14 +176,14 @@ _pdbx_chem_comp_atom_feature.provenance
 1  1 ZXE RU1 'Coordination number'     4                                                                                                                FindGeo    
 2  1 ZXE RU1 'Coordination geometry'   'square plane'                                                                                                   FindGeo    
 3  1 ZXE RU1 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        
-4  2 ZXE RU1 'Coordination number'     5                                                                                                                metalCoord 
-5  2 ZXE RU1 'Coordination geometry'   square-pyramid                                                                                                   metalCoord 
+4  2 ZXE RU1 'Coordination number'     5                                                                                                                MetalCoord 
+5  2 ZXE RU1 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord 
 6  2 ZXE RU1 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
 7  3 ZXE RU2 'Coordination number'     5                                                                                                                FindGeo    
 8  3 ZXE RU2 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    
 9  3 ZXE RU2 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
-10 4 ZXE RU2 'Coordination number'     5                                                                                                                metalCoord 
-11 4 ZXE RU2 'Coordination geometry'   square-pyramid                                                                                                   metalCoord 
+10 4 ZXE RU2 'Coordination number'     5                                                                                                                MetalCoord 
+11 4 ZXE RU2 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord 
 12 4 ZXE RU2 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
 # 
 _pdbx_chem_comp_precursor_set.id        1 

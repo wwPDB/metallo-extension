@@ -19,7 +19,7 @@ _chem_comp.one_letter_code                       ?
 _chem_comp.three_letter_code                     AF3 
 _chem_comp.pdbx_model_coordinates_details        ? 
 _chem_comp.pdbx_model_coordinates_missing_flag   N 
-_chem_comp.pdbx_ideal_coordinates_details        metalCoord 
+_chem_comp.pdbx_ideal_coordinates_details        MetalCoord 
 _chem_comp.pdbx_ideal_coordinates_missing_flag   N 
 _chem_comp.pdbx_model_coordinates_db_code        5UKD 
 _chem_comp.pdbx_subcomponent_list                ? 
@@ -105,20 +105,20 @@ _pdbx_chem_comp_atom_feature.provenance
 7  3 AF3 AL 'Coordination number'     5                                                                                                                  FindGeo    
 8  3 AF3 AL 'Coordination geometry'   'trigonal bipyramid'                                                                                               FindGeo    
 9  3 AF3 AL 'Coordination descriptor' 'Al(N)(O)(F)(F)(F){NAlO<180>,NAlF<90>,NAlF<90>,NAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
-10 4 AF3 AL 'Coordination number'     4                                                                                                                  metalCoord 
-11 4 AF3 AL 'Coordination geometry'   trigonal-pyramid                                                                                                   metalCoord 
+10 4 AF3 AL 'Coordination number'     4                                                                                                                  MetalCoord 
+11 4 AF3 AL 'Coordination geometry'   trigonal-pyramid                                                                                                   MetalCoord 
 12 4 AF3 AL 'Coordination descriptor' 'Al(O)(F)(F)(F){OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}'                                         PDB        
-13 5 AF3 AL 'Coordination number'     4                                                                                                                  metalCoord 
-14 5 AF3 AL 'Coordination geometry'   tetrahedral                                                                                                        metalCoord 
+13 5 AF3 AL 'Coordination number'     4                                                                                                                  MetalCoord 
+14 5 AF3 AL 'Coordination geometry'   tetrahedral                                                                                                        MetalCoord 
 15 5 AF3 AL 'Coordination descriptor' 'Al(O)(F)(F)(F){OAlF<109.5>,OAlF<109.5>,OAlF<109.5>,FAlF<109.5>,FAlF<109.5>,FAlF<109.5>}'                          PDB        
-16 6 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
-17 6 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+16 6 AF3 AL 'Coordination number'     5                                                                                                                  MetalCoord 
+17 6 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 MetalCoord 
 18 6 AF3 AL 'Coordination descriptor' 'Al(O)(O)(F)(F)(F){OAlO<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
-19 7 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
-20 7 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+19 7 AF3 AL 'Coordination number'     5                                                                                                                  MetalCoord 
+20 7 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 MetalCoord 
 21 7 AF3 AL 'Coordination descriptor' 'Al(O)(O)(F)(F)(F){OAlO<90>,OAlF<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<120>,OAlF<120>,FAlF<90>,FAlF<90>,FAlF<120>}' PDB        
-22 8 AF3 AL 'Coordination number'     5                                                                                                                  metalCoord 
-23 8 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 metalCoord 
+22 8 AF3 AL 'Coordination number'     5                                                                                                                  MetalCoord 
+23 8 AF3 AL 'Coordination geometry'   trigonal-bipyramid                                                                                                 MetalCoord 
 24 8 AF3 AL 'Coordination descriptor' 'Al(N)(O)(F)(F)(F){NAlO<180>,NAlF<90>,NAlF<90>,NAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB        
 # 
 loop_
