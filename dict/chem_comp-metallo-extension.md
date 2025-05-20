@@ -90,9 +90,9 @@ category.
 
     *Enumeration:*
 
-      * Coordination number
       * Coordination descriptor
       * Coordination geometry
+      * Coordination number
 
 
 * **_pdbx_chem_comp_atom_feature.value**
@@ -105,10 +105,9 @@ category.
     *Enumeration:*
 
       * metalCoord
-      * PDB
-      * FindGeo
       * Author
-
+      * FindGeo
+      * PDB
 
 
 ## pdbx_chem_comp_pcm
@@ -141,13 +140,12 @@ a set of precursors in the PDBX_CHEM_COMP_PRECURSOR category
     *Enumeration:*
 
       * Addition
-      * Ring opening
-      * Substitution
-      * Elimination
       * Cyclization
       * Redox
+      * Ring opening
       * Multi-step
-
+      * Substitution
+      * Elimination
 
 
 * **_pdbx_chem_comp_precursor_set.details**
@@ -228,20 +226,20 @@ category.
 
     *Enumeration:*
 
-      * InChI_MAIN_FORMULA
-      * InChI_FIXEDH
-      * InChI_CHARGE
-      * InChI
       * InChI_MAIN
-      * InChI_MAIN_HATOM
-      * SMILES
-      * InChI_RECONNECT
-      * SMILES_CANNONICAL
-      * InChI_MAIN_CONNECT
-      * InChIKey
-      * InChI_ISOTOPE
       * SMILES_CANONICAL
+      * InChI_RECONNECT
+      * InChI
+      * SMILES_CANNONICAL
+      * InChI_CHARGE
       * InChI_STEREO
+      * InChI_FIXEDH
+      * InChI_MAIN_FORMULA
+      * InChI_MAIN_HATOM
+      * InChI_ISOTOPE
+      * SMILES
+      * InChIKey
+      * InChI_MAIN_CONNECT
 
 
 * **_pdbx_chem_comp_precursor_descriptor.descriptor**
@@ -256,12 +254,12 @@ component. This data item is used when the descriptor is obtained from the autho
 
     *Enumeration:*
 
-      * PDB
-      * CAS
       * ChEMBL
-      * ChEBI
       * Author
       * PubChem
+      * ChEBI
+      * CAS
+      * PDB
 
 
 * **_pdbx_chem_comp_precursor_descriptor.source_version**
@@ -278,10 +276,10 @@ or library used to compute the descriptor. This data item is
 
       * ACDLabs
       * InChI
-      * CACTVS
+      * OpenEye OEToolkits
       * DAYLIGHT
       * OTHER
-      * OpenEye OEToolkits
+      * CACTVS
 
 
 * **_pdbx_chem_comp_precursor_descriptor.program_version**
@@ -313,18 +311,18 @@ category.
 
     *Enumeration:*
 
-      * PUBCHEM Identifier
-      * IUPAC CARBOHYDRATE SYMBOL
-      * IUPAC CARB SYMBOL
-      * SNFG CARB SYMBOL
-      * CONDENSED IUPAC CARB SYMBOL
-      * SYSTEMATIC NAME
-      * COMMON NAME
-      * CAS REGISTRY NUMBER
       * CONDENSED IUPAC CARBOHYDRATE SYMBOL
+      * PUBCHEM Identifier
+      * SYSTEMATIC NAME
       * SNFG CARBOHYDRATE SYMBOL
-      * MDL Identifier
+      * CAS REGISTRY NUMBER
+      * IUPAC CARB SYMBOL
       * SYNONYM
+      * COMMON NAME
+      * CONDENSED IUPAC CARB SYMBOL
+      * SNFG CARB SYMBOL
+      * MDL Identifier
+      * IUPAC CARBOHYDRATE SYMBOL
 
 
 * **_pdbx_chem_comp_precursor_identifier.identifier**
@@ -339,12 +337,12 @@ component. This data item is used when the identifier is obtained
 
     *Enumeration:*
 
-      * PDB
-      * CAS
       * ChEMBL
-      * ChEBI
       * Author
       * PubChem
+      * ChEBI
+      * CAS
+      * PDB
 
 
 * **_pdbx_chem_comp_precursor_identifier.source_version**
@@ -360,12 +358,12 @@ or library used to compute the identifier. This data item is used
     *Enumeration:*
 
       * ACDLabs
-      * ChemDraw
-      * DAYLIGHT
       * Chemaxon
-      * Lexichem
-      * BIOVIA
       * OpenEye OEToolkits
+      * ChemDraw
+      * Lexichem
+      * DAYLIGHT
+      * BIOVIA
 
 
 * **_pdbx_chem_comp_precursor_identifier.program_version**
@@ -461,9 +459,9 @@ category.
 
     *Enumeration:*
 
+      * Mossbauer spectroscopy
       * UV-Vis spectroscopy
       * Electron paramagnetic resonance spectroscopy
-      * Mossbauer spectroscopy
       * Other
 
 
@@ -498,10 +496,10 @@ category.
 
     *Enumeration:*
 
-      * Coordination descriptor
-      * Coordination number
       * Oxidation state
+      * Coordination descriptor
       * Coordination geometry
+      * Coordination number
 
 
 * **_pdbx_nonpoly_atom_feature.value**
@@ -513,10 +511,10 @@ category.
 
     *Enumeration:*
 
-      * Author
-      * PDB
-      * FindGeo
       * metalCoord
+      * Author
+      * FindGeo
+      * PDB
 
 
 * **_pdbx_nonpoly_atom_feature.assessment**
@@ -532,8 +530,9 @@ assessment will be annotated as unexpected.
 
     *Enumeration:*
 
-      * Expected
       * Unexpected
+      * No reference
+      * Expected
 
 
 ## pdbx_nonpoly_atom_feature_evidence
@@ -564,9 +563,9 @@ category.
     *Enumeration:*
 
       * Metal identity
-      * Coordination number
       * Oxidation state
       * Coordination geometry
+      * Coordination number
 
 
 * **_pdbx_nonpoly_atom_feature_evidence.experimental_support**
@@ -574,16 +573,16 @@ category.
 
     *Enumeration:*
 
-      * Inductively coupled plasma mass spectrometry
       * Infrared spectroscopy
       * Electron paramagnetic resonance spectroscopy
-      * Anomalous scattering
-      * UV-Vis spectroscopy
-      * X-ray absorption spectroscopy
       * X-ray fluorescence
-      * Other
+      * X-ray absorption spectroscopy
       * Raman spectroscopy
+      * Inductively coupled plasma mass spectrometry
+      * Anomalous scattering
       * Mossbauer spectroscopy
+      * UV-Vis spectroscopy
+      * Other
 
 
 * **_pdbx_nonpoly_atom_feature_evidence.details**
