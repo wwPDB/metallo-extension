@@ -144,17 +144,17 @@ _pdbx_chem_comp_atom_feature.provenance
 10 4 1PT PT 'Coordination number'     4                                                                         FindGeo    
 11 4 1PT PT 'Coordination geometry'   'square plane'                                                            FindGeo    
 12 4 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB        
-13 5 1PT PT 'Coordination number'     4                                                                         metalCoord 
-14 5 1PT PT 'Coordination geometry'   square-planar                                                             metalCoord 
+13 5 1PT PT 'Coordination number'     4                                                                         MetalCoord 
+14 5 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
 15 5 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        
-16 6 1PT PT 'Coordination number'     4                                                                         metalCoord 
-17 6 1PT PT 'Coordination geometry'   square-planar                                                             metalCoord 
+16 6 1PT PT 'Coordination number'     4                                                                         MetalCoord 
+17 6 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
 18 6 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB        
-19 7 1PT PT 'Coordination number'     4                                                                         metalCoord 
-20 7 1PT PT 'Coordination geometry'   square-planar                                                             metalCoord 
+19 7 1PT PT 'Coordination number'     4                                                                         MetalCoord 
+20 7 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
 21 7 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB        
-22 8 1PT PT 'Coordination number'     4                                                                         metalCoord 
-23 8 1PT PT 'Coordination geometry'   square-planar                                                             metalCoord 
+22 8 1PT PT 'Coordination number'     4                                                                         MetalCoord 
+23 8 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
 24 8 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB        
 #
 ```
@@ -278,8 +278,8 @@ _pdbx_nonpoly_atom_feature.assessment
 1 1PT PT C 'Coordination number'     4                                                                         FindGeo    ?        
 2 1PT PT C 'Coordination geometry'   'square plane (regular)'                                                  FindGeo    Expected 
 3 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-4 1PT PT C 'Coordination number'     4                                                                         metalCoord ?        
-5 1PT PT C 'Coordination geometry'   square-planar                                                             metalCoord Expected 
+4 1PT PT C 'Coordination number'     4                                                                         MetalCoord ?        
+5 1PT PT C 'Coordination geometry'   square-planar                                                             MetalCoord Expected 
 6 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
 #
 ```
@@ -380,7 +380,7 @@ _pdbx_nonpoly_feature_evidence.details
 ## References
 [FindGeo](https://metalweb.cerm.unifi.it/tools/findgeo_help/): Andreini C, Cavallaro G, Lorenzini S. FindGeo: a tool for determining metal coordination geometry. Bioinformatics 2012, 28(12), 1658-1660.
 
-[metalCoord](https://github.com/Lekaveh/MetalCoordAnalysis): Babai, KH, Long, F, Malý M, Yamashita K, Murshudov GN. Improving macromolecular structure refinement with metal-coordination restraints. Acta Crystallogr D Biol Crystallogr 2024, D80, 821-833.
+[MetalCoord](https://github.com/Lekaveh/MetalCoordAnalysis): Babai, KH, Long, F, Malý M, Yamashita K, Murshudov GN. Improving macromolecular structure refinement with metal-coordination restraints. Acta Crystallogr D Biol Crystallogr 2024, D80, 821-833.
 
 ## Acknowledgements
 The metalloprotein remediation project is a wwPDB collaborative project that is carried out principally by [RCSB PDB](https://rcsb.org/) at Rutgers, The State University of New Jersey and is funded by the U.S. National Science Foundation (DBI-2321666), the US Department of Energy (DE-SC0019749), and the National Cancer Institute, National Institute of Allergy and Infectious Diseases, and National Institute of General Medical Sciences of the National Institutes of Health under grant R01GM157729.
