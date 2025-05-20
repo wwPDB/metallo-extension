@@ -876,26 +876,26 @@ _pdbx_nonpoly_atom_feature.assessment
 1  SF4 FE1 B 'Coordination number'     4                                                                                         FindGeo    ?        
 2  SF4 FE1 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
 3  SF4 FE1 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-4  SF4 FE1 B 'Coordination number'     4                                                                                         metalCoord ?        
-5  SF4 FE1 B 'Coordination geometry'   tetrahedral                                                                               metalCoord Expected 
+4  SF4 FE1 B 'Coordination number'     4                                                                                         MetalCoord ?        
+5  SF4 FE1 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
 6  SF4 FE1 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
 7  SF4 FE2 B 'Coordination number'     4                                                                                         FindGeo    ?        
 8  SF4 FE2 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
 9  SF4 FE2 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-10 SF4 FE2 B 'Coordination number'     4                                                                                         metalCoord ?        
-11 SF4 FE2 B 'Coordination geometry'   tetrahedral                                                                               metalCoord Expected 
+10 SF4 FE2 B 'Coordination number'     4                                                                                         MetalCoord ?        
+11 SF4 FE2 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
 12 SF4 FE2 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
 13 SF4 FE3 B 'Coordination number'     4                                                                                         FindGeo    ?        
 14 SF4 FE3 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
 15 SF4 FE3 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-16 SF4 FE3 B 'Coordination number'     4                                                                                         metalCoord ?        
-17 SF4 FE3 B 'Coordination geometry'   tetrahedral                                                                               metalCoord Expected 
+16 SF4 FE3 B 'Coordination number'     4                                                                                         MetalCoord ?        
+17 SF4 FE3 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
 18 SF4 FE3 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
 19 SF4 FE4 B 'Coordination number'     4                                                                                         FindGeo    ?        
 20 SF4 FE4 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
 21 SF4 FE4 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-22 SF4 FE4 B 'Coordination number'     4                                                                                         metalCoord ?        
-23 SF4 FE4 B 'Coordination geometry'   tetrahedral                                                                               metalCoord Expected 
+22 SF4 FE4 B 'Coordination number'     4                                                                                         MetalCoord ?        
+23 SF4 FE4 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
 24 SF4 FE4 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
 # 
 _pdbx_nonpoly_feature.ordinal         1 

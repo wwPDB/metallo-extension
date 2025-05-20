@@ -1310,8 +1310,8 @@ _pdbx_nonpoly_atom_feature.assessment
 1 AF3 AL D 'Coordination number'     3                                            FindGeo    ?          
 2 AF3 AL D 'Coordination geometry'   'trigonal plane (regular)'                   FindGeo    Unexpected 
 3 AF3 AL D 'Coordination descriptor' 'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' PDB        ?          
-4 AF3 AL D 'Coordination number'     3                                            metalCoord ?          
-5 AF3 AL D 'Coordination geometry'   trigonal-planar                              metalCoord Unexpected 
+4 AF3 AL D 'Coordination number'     3                                            MetalCoord ?          
+5 AF3 AL D 'Coordination geometry'   trigonal-planar                              MetalCoord Unexpected 
 6 AF3 AL D 'Coordination descriptor' 'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' PDB        ?          
 # 
 _pdbx_struct_assembly.id                   1 

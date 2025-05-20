@@ -214,8 +214,8 @@ _pdbx_nonpoly_atom_feature.assessment
 1 1PT PT C 'Coordination number'     4                                                                         FindGeo    ?        
 2 1PT PT C 'Coordination geometry'   'square plane (regular)'                                                  FindGeo    Expected 
 3 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-4 1PT PT C 'Coordination number'     4                                                                         metalCoord ?        
-5 1PT PT C 'Coordination geometry'   square-planar                                                             metalCoord Expected 
+4 1PT PT C 'Coordination number'     4                                                                         MetalCoord ?        
+5 1PT PT C 'Coordination geometry'   square-planar                                                             MetalCoord Expected 
 6 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
 7 1PT PT C 'Oxidation state'         2                                                                         Author     ?        
 # 

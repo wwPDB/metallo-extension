@@ -394,50 +394,50 @@ _pdbx_nonpoly_atom_feature.assessment
 1  ZWL RU1 C 'Coordination number'     4                                                                                                                FindGeo    ?        
 2  ZWL RU1 C 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 3  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
-4  ZWL RU1 C 'Coordination number'     4                                                                                                                metalCoord ?        
-5  ZWL RU1 C 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
+4  ZWL RU1 C 'Coordination number'     4                                                                                                                MetalCoord ?        
+5  ZWL RU1 C 'Coordination geometry'   square-planar                                                                                                    MetalCoord Expected 
 6  ZWL RU1 C 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 7  ZWL RU2 C 'Coordination number'     5                                                                                                                FindGeo    ?        
 8  ZWL RU2 C 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 9  ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
-10 ZWL RU2 C 'Coordination number'     5                                                                                                                metalCoord ?        
-11 ZWL RU2 C 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+10 ZWL RU2 C 'Coordination number'     5                                                                                                                MetalCoord ?        
+11 ZWL RU2 C 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 12 ZWL RU2 C 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 13 YWV RU1 D 'Coordination number'     4                                                                                                                FindGeo    ?        
 14 YWV RU1 D 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 15 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>}'                                        PDB        ?        
-16 YWV RU1 D 'Coordination number'     5                                                                                                                metalCoord ?        
-17 YWV RU1 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+16 YWV RU1 D 'Coordination number'     5                                                                                                                MetalCoord ?        
+17 YWV RU1 D 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 18 YWV RU1 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 19 YWV RU2 D 'Coordination number'     5                                                                                                                FindGeo    ?        
 20 YWV RU2 D 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 21 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
-22 YWV RU2 D 'Coordination number'     5                                                                                                                metalCoord ?        
-23 YWV RU2 D 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+22 YWV RU2 D 'Coordination number'     5                                                                                                                MetalCoord ?        
+23 YWV RU2 D 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 24 YWV RU2 D 'Coordination descriptor' 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 25 ZWO RU1 E 'Coordination number'     4                                                                                                                FindGeo    ?        
 26 ZWO RU1 E 'Coordination geometry'   'square plane (regular)'                                                                                         FindGeo    Expected 
 27 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
-28 ZWO RU1 E 'Coordination number'     4                                                                                                                metalCoord ?        
-29 ZWO RU1 E 'Coordination geometry'   square-planar                                                                                                    metalCoord Expected 
+28 ZWO RU1 E 'Coordination number'     4                                                                                                                MetalCoord ?        
+29 ZWO RU1 E 'Coordination geometry'   square-planar                                                                                                    MetalCoord Expected 
 30 ZWO RU1 E 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 31 ZWO RU2 E 'Coordination number'     5                                                                                                                FindGeo    ?        
 32 ZWO RU2 E 'Coordination geometry'   'square pyramid (regular)'                                                                                       FindGeo    Expected 
 33 ZWO RU2 E 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
-34 ZWO RU2 E 'Coordination number'     5                                                                                                                metalCoord ?        
-35 ZWO RU2 E 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+34 ZWO RU2 E 'Coordination number'     5                                                                                                                MetalCoord ?        
+35 ZWO RU2 E 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 36 ZWO RU2 E 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 37 ZXE RU1 F 'Coordination number'     4                                                                                                                FindGeo    ?        
 38 ZXE RU1 F 'Coordination geometry'   'square plane'                                                                                                   FindGeo    Expected 
 39 ZXE RU1 F 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
-40 ZXE RU1 F 'Coordination number'     5                                                                                                                metalCoord ?        
-41 ZXE RU1 F 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+40 ZXE RU1 F 'Coordination number'     5                                                                                                                MetalCoord ?        
+41 ZXE RU1 F 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 42 ZXE RU1 F 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        ?        
 43 ZXE RU2 F 'Coordination number'     5                                                                                                                FindGeo    ?        
 44 ZXE RU2 F 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    Expected 
 45 ZXE RU2 F 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
-46 ZXE RU2 F 'Coordination number'     5                                                                                                                metalCoord ?        
-47 ZXE RU2 F 'Coordination geometry'   square-pyramid                                                                                                   metalCoord Expected 
+46 ZXE RU2 F 'Coordination number'     5                                                                                                                MetalCoord ?        
+47 ZXE RU2 F 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord Expected 
 48 ZXE RU2 F 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        ?        
 # 
 loop_

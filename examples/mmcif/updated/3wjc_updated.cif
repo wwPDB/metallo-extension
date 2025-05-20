@@ -494,7 +494,7 @@ _pdbx_nonpoly_atom_feature.value
 _pdbx_nonpoly_atom_feature.provenance 
 _pdbx_nonpoly_atom_feature.assessment 
 1 RMD RH C 'Oxidation state' 1 Author ? 
-1 RMD RH F 'Oxidation state' 1 Author ? 
+2 RMD RH F 'Oxidation state' 1 Author ? 
 # 
 loop_
 _software.name 

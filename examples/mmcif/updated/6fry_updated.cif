@@ -424,8 +424,8 @@ _pdbx_nonpoly_atom_feature.assessment
 1 9CO CO1 B 'Coordination number'     6                                                                                                                                                                                                  FindGeo    ?              
 2 9CO CO1 B 'Coordination geometry'   'trigonal prism (distorted)'                                                                                                                                                                       FindGeo    'No reference' 
 3 9CO CO1 B 'Coordination descriptor' 'Co(N)(N)(N)(N)(N)(O){NCoN<81.8>,NCoN<81.8>,NCoN<81.8>,NCoN<135.6>,NCoO<135.6>,NCoN<81.8>,NCoN<135.6>,NCoN<81.8>,NCoO<135.6>,NCoN<135.6>,NCoN<135.6>,NCo0<81.8>,NCoN<81.8>,NCoO<81.8>,NCoO<81.8>}' PDB        ?              
-4 9CO CO1 B 'Coordination number'     6                                                                                                                                                                                                  metalCoord ?              
-5 9CO CO1 B 'Coordination geometry'   trigonal-prism                                                                                                                                                                                     metalCoord 'No reference' 
+4 9CO CO1 B 'Coordination number'     6                                                                                                                                                                                                  MetalCoord ?              
+5 9CO CO1 B 'Coordination geometry'   trigonal-prism                                                                                                                                                                                     MetalCoord 'No reference' 
 6 9CO CO1 B 'Coordination descriptor' 'Co(N)(N)(N)(N)(N)(O){NCoN<81.8>,NCoN<81.8>,NCoN<81.8>,NCoN<135.6>,NCoO<135.6>,NCoN<81.8>,NCoN<135.6>,NCoN<81.8>,NCoO<135.6>,NCoN<135.6>,NCoN<135.6>,NCo0<81.8>,NCoN<81.8>,NCoO<81.8>,NCoO<81.8>}' PDB        ?              
 # 
 loop_

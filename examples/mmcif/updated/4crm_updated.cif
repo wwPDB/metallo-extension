@@ -1231,50 +1231,50 @@ _pdbx_nonpoly_atom_feature.assessment
 1  SF4 FE1 D 'Coordination number'     3                                                                                         FindGeo    ?          
 2  SF4 FE1 D 'Coordination geometry'   'tetrahedron with a vacancy (regular)'                                                    FindGeo    Unexpected 
 3  SF4 FE1 D 'Coordination descriptor' 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB        ?          
-4  SF4 FE1 D 'Coordination number'     4                                                                                         metalCoord ?          
-5  SF4 FE1 D 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+4  SF4 FE1 D 'Coordination number'     4                                                                                         MetalCoord ?          
+5  SF4 FE1 D 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 6  SF4 FE1 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 7  SF4 FE2 D 'Coordination number'     4                                                                                         FindGeo    ?          
 8  SF4 FE2 D 'Coordination geometry'   'trigonal bipyramid with a vacancy (axial) (distorted)'                                   FindGeo    Unexpected 
 9  SF4 FE2 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
-10 SF4 FE2 D 'Coordination number'     4                                                                                         metalCoord ?          
-11 SF4 FE2 D 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+10 SF4 FE2 D 'Coordination number'     4                                                                                         MetalCoord ?          
+11 SF4 FE2 D 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 12 SF4 FE2 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 13 SF4 FE3 D 'Coordination number'     4                                                                                         FindGeo    ?          
 14 SF4 FE3 D 'Coordination geometry'   'square pyramid with a vacancy (equatorial) (distorted)'                                  FindGeo    Unexpected 
 15 SF4 FE3 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<90>,SFeS<180>,SFeS<90>,SFeS<90>,SFeS<90>,SFeS<90>}'                  PDB        ?          
-16 SF4 FE3 D 'Coordination number'     4                                                                                         metalCoord ?          
-17 SF4 FE3 D 'Coordination geometry'   tetrahedral                                                                               metalCoord Expected   
+16 SF4 FE3 D 'Coordination number'     4                                                                                         MetalCoord ?          
+17 SF4 FE3 D 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected   
 18 SF4 FE3 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?          
 19 SF4 FE4 D 'Coordination number'     3                                                                                         FindGeo    ?          
 20 SF4 FE4 D 'Coordination geometry'   'tetrahedron with a vacancy (regular)'                                                    FindGeo    Unexpected 
 21 SF4 FE4 D 'Coordination descriptor' 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB        ?          
-22 SF4 FE4 D 'Coordination number'     4                                                                                         metalCoord ?          
-23 SF4 FE4 D 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+22 SF4 FE4 D 'Coordination number'     4                                                                                         MetalCoord ?          
+23 SF4 FE4 D 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 24 SF4 FE4 D 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 25 SF4 FE1 E 'Coordination number'     3                                                                                         FindGeo    ?          
 26 SF4 FE1 E 'Coordination geometry'   'tetrahedron with a vacancy (regular)'                                                    FindGeo    Unexpected 
 27 SF4 FE1 E 'Coordination descriptor' 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB        ?          
-28 SF4 FE1 E 'Coordination number'     4                                                                                         metalCoord ?          
-29 SF4 FE1 E 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+28 SF4 FE1 E 'Coordination number'     4                                                                                         MetalCoord ?          
+29 SF4 FE1 E 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 30 SF4 FE1 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 31 SF4 FE2 E 'Coordination number'     4                                                                                         FindGeo    ?          
 32 SF4 FE2 E 'Coordination geometry'   'trigonal bipyramid with a vacancy (axial) (distorted)'                                   FindGeo    Unexpected 
 33 SF4 FE2 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
-34 SF4 FE2 E 'Coordination number'     4                                                                                         metalCoord ?          
-35 SF4 FE2 E 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+34 SF4 FE2 E 'Coordination number'     4                                                                                         MetalCoord ?          
+35 SF4 FE2 E 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 36 SF4 FE2 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 37 SF4 FE3 E 'Coordination number'     3                                                                                         FindGeo    ?          
 38 SF4 FE3 E 'Coordination geometry'   'tetrahedron with a vacancy (regular)'                                                    FindGeo    Unexpected 
 39 SF4 FE3 E 'Coordination descriptor' 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB        ?          
-40 SF4 FE3 E 'Coordination number'     4                                                                                         metalCoord ?          
-41 SF4 FE3 E 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+40 SF4 FE3 E 'Coordination number'     4                                                                                         MetalCoord ?          
+41 SF4 FE3 E 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 42 SF4 FE3 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 43 SF4 FE4 E 'Coordination number'     4                                                                                         FindGeo    ?          
 44 SF4 FE4 E 'Coordination geometry'   'square pyramid with a vacancy (equatorial) (distorted)'                                  FindGeo    Unexpected 
 45 SF4 FE4 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<90>,SFeS<180>,SFeS<90>,SFeS<90>,SFeS<90>,SFeS<90>}'                  PDB        ?          
-46 SF4 FE4 E 'Coordination number'     4                                                                                         metalCoord ?          
-47 SF4 FE4 E 'Coordination geometry'   trigonal-pyramid                                                                          metalCoord Expected   
+46 SF4 FE4 E 'Coordination number'     4                                                                                         MetalCoord ?          
+47 SF4 FE4 E 'Coordination geometry'   trigonal-pyramid                                                                          MetalCoord Expected   
 48 SF4 FE4 E 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB        ?          
 # 
 _cell.entry_id           4CRM 
