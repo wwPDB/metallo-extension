@@ -562,8 +562,6 @@ category.
 
     *Enumeration:*
 
-      * Coordination number
-      * Coordination geometry
       * Oxidation state
       * Metal identity
 
