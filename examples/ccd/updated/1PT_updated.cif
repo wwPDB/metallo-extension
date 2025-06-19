@@ -174,45 +174,6 @@ _pdbx_chem_comp_pcm.uniprot_generic_ptm_accession
 2 1PT HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' PT ND1 ? ? 
 3 1PT MET None 'Metal coordination' 'Amino-acid side chain' 'Any position' PT SD  ? ? 
 # 
-_pdbx_chem_comp_precursor_set.id        1 
-_pdbx_chem_comp_precursor_set.class     substitution 
-_pdbx_chem_comp_precursor_set.details   'Oxalate group is displaced by nucleic acid or protein donors' 
-# 
-_pdbx_chem_comp_precursor.id                  1 
-_pdbx_chem_comp_precursor.comp_id             1PT 
-_pdbx_chem_comp_precursor.set_id              1 
-_pdbx_chem_comp_precursor.precursor_comp_id   ? 
-_pdbx_chem_comp_precursor.formula             'C8 H14 N2 O4 Pt' 
-_pdbx_chem_comp_precursor.details             ? 
-# 
-loop_
-_pdbx_chem_comp_precursor_descriptor.ordinal 
-_pdbx_chem_comp_precursor_descriptor.comp_id 
-_pdbx_chem_comp_precursor_descriptor.precursor_id 
-_pdbx_chem_comp_precursor_descriptor.type 
-_pdbx_chem_comp_precursor_descriptor.descriptor 
-_pdbx_chem_comp_precursor_descriptor.source 
-_pdbx_chem_comp_precursor_descriptor.source_version 
-_pdbx_chem_comp_precursor_descriptor.program 
-_pdbx_chem_comp_precursor_descriptor.program_version 
-1 1PT 1 InChI            'InChI=1S/C6H14N2.C2H2O4.Pt/c7-5-3-1-2-4-6(5)8;3-1(4)2(5)6;/h5-6H,1-4,7-8H2;(H,3,4)(H,5,6);/q;;+2/p-2/t5-,6-;;/m1../s1' CAS ? ? ? 
-2 1PT 1 InChIKey         ZROHGHOFXNOHSO-BNTLRKBRSA-L                                                                                             CAS ? ? ? 
-3 1PT 1 SMILES           'O=C1[O-][Pt+2]2([NH2][C@]3([C@]([NH2]2)(CCCC3)[H])[H])[O-]C1=O'                                                        CAS ? ? ? 
-4 1PT 1 SMILES_CANONICAL 'O=C1[O-][Pt+2]2([O-]C1=O)[NH2]C3CCCCC3[NH2]2'                                                                          CAS ? ? ? 
-# 
-loop_
-_pdbx_chem_comp_precursor_identifier.ordinal 
-_pdbx_chem_comp_precursor_identifier.comp_id 
-_pdbx_chem_comp_precursor_identifier.precursor_id 
-_pdbx_chem_comp_precursor_identifier.type 
-_pdbx_chem_comp_precursor_identifier.identifier 
-_pdbx_chem_comp_precursor_identifier.source 
-_pdbx_chem_comp_precursor_identifier.source_version 
-_pdbx_chem_comp_precursor_identifier.program 
-_pdbx_chem_comp_precursor_identifier.program_version 
-1 1PT 1 'SYSTEMATIC NAME' '(1R,2R)-cyclohexane-1,2-diamine;oxalate;platinum(2+)' PubChem 2024-11-20 ? ? 
-2 1PT 1 'COMMON NAME'     oxaliplatin                                            CAS     ?          ? ? 
-# 
 loop_
 _pdbx_chem_comp_audit.comp_id 
 _pdbx_chem_comp_audit.action_type 
