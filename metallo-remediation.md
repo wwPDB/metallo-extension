@@ -37,7 +37,6 @@ Enhanced annotations in the CCD files include:
 - For metal ions and polyatomic metal chemical components:
   - Indicating the component type (metal cation or metal-containing ligand).
 - For polyatomic metal chemical components only:
-  - Precursor annotation (for compounds with two or more leaving atoms, or a bond order change).
   - Adopting metalloprotein community software for metal coordination annotation (coordination number, coordination geometry, and coordination descriptor).
   - Annotation of metal-protein interaction.
   - Flagging metal coordination and metal-pi bonds.
@@ -57,68 +56,6 @@ _chem_comp.id                      HEM
 …
 _chem_comp.pdbx_comp_type          "metal-containing ligand"
 #
-```
-
-### Example of precursor
-The precursor annotation will involve new categories as shown in the example below for chemical component ZXE. The two precursors are ZWO and FMT (see Figure 2).
-
-<img src="imgs/precursor_example.png" alt="linked_mod" width="700px">
-
-Figure 2: Diruthenium paddlewheel complex ZWO and formate are precursors of another diruthenium paddlewheel complex, ZXE.
-
-```
-# 
-_pdbx_chem_comp_precursor_set.id        1 
-_pdbx_chem_comp_precursor_set.class     substitution 
-_pdbx_chem_comp_precursor_set.details   'Formate from the crystal condition displaces one CO3 of ZWO' 
-# 
-loop_
-_pdbx_chem_comp_precursor.id 
-_pdbx_chem_comp_precursor.comp_id 
-_pdbx_chem_comp_precursor.set_id 
-_pdbx_chem_comp_precursor.precursor_comp_id 
-_pdbx_chem_comp_precursor.formula 
-_pdbx_chem_comp_precursor.details 
-1 ZXE 1 ZWO 'C16 H12 N2 O9 Ru2' 'One CO3 is displaced by formate'         
-2 ZXE 1 FMT 'C H2 O2'           'Formate binds both Ru and displaces CO3' 
-# 
-loop_
-_pdbx_chem_comp_precursor_descriptor.ordinal 
-_pdbx_chem_comp_precursor_descriptor.comp_id 
-_pdbx_chem_comp_precursor_descriptor.precursor_id 
-_pdbx_chem_comp_precursor_descriptor.type 
-_pdbx_chem_comp_precursor_descriptor.descriptor 
-_pdbx_chem_comp_precursor_descriptor.source 
-_pdbx_chem_comp_precursor_descriptor.source_version 
-_pdbx_chem_comp_precursor_descriptor.program 
-_pdbx_chem_comp_precursor_descriptor.program_version 
-1  ZXE 1 InChI            'InChI=1S/C13H12N2.3CH2O3.2Ru/c1-3-7-12(8-4-1)14-11-15-13-9-5-2-6-10-13;3*2-1(3)4;;/h1-10H,11H2;3*(H2,2,3,4);;/q-2;;;;2*+4/p-6' ? ? InChI                1.06  
-2  ZXE 1 InChIKey         TZCHHEUOTVFLIC-UHFFFAOYSA-H                                                                                                     ? ? InChI                1.06  
-3  ZXE 1 SMILES_CANONICAL 'O=C1O[Ru]23OC(=O)O[Ru](O1)(OC(=O)O2)N(CN3c4ccccc4)c5ccccc5'                                                                    ? ? CACTVS               3.385 
-4  ZXE 1 SMILES           'O=C1O[Ru]23OC(=O)O[Ru](O1)(OC(=O)O2)N(CN3c4ccccc4)c5ccccc5'                                                                    ? ? CACTVS               3.385 
-5  ZXE 1 SMILES_CANONICAL 'c1ccc(cc1)N2CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6'                                                              ? ? 'OpenEye OEToolkits' 2.0.7 
-6  ZXE 1 SMILES           'c1ccc(cc1)N2CN([Ru]345[Ru]2(OC(=O)O3)(OC(=O)O4)OC(=O)O5)c6ccccc6'                                                              ? ? 'OpenEye OEToolkits' 2.0.7 
-7  ZXE 2 SMILES           O=CO                                                                                                                            ? ? ACDLabs              11.02 
-8  ZXE 2 SMILES_CANONICAL OC=O                                                                                                                            ? ? CACTVS               3.352 
-9  ZXE 2 SMILES           OC=O                                                                                                                            ? ? CACTVS               3.352 
-10 ZXE 2 SMILES_CANONICAL 'C(=O)O'                                                                                                                        ? ? 'OpenEye OEToolkits' 1.7.0 
-11 ZXE 2 SMILES           'C(=O)O'                                                                                                                        ? ? 'OpenEye OEToolkits' 1.7.0 
-12 ZXE 2 InChI            'InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)'                                                                                             ? ? InChI                1.03  
-13 ZXE 2 InChIKey         BDAGIHXWWSANSR-UHFFFAOYSA-N                                                                                                     ? ? InChI                1.03  
-# 
-loop_
-_pdbx_chem_comp_precursor_identifier.ordinal 
-_pdbx_chem_comp_precursor_identifier.comp_id 
-_pdbx_chem_comp_precursor_identifier.precursor_id 
-_pdbx_chem_comp_precursor_identifier.type 
-_pdbx_chem_comp_precursor_identifier.identifier 
-_pdbx_chem_comp_precursor_identifier.source 
-_pdbx_chem_comp_precursor_identifier.source_version 
-_pdbx_chem_comp_precursor_identifier.program 
-_pdbx_chem_comp_precursor_identifier.program_version 
-1 ZXE 2 'SYSTEMATIC NAME' 'formic acid'    ? ? ACDLabs              11.02 
-2 ZXE 2 'SYSTEMATIC NAME' 'methanoic acid' ? ? 'OpenEye OEToolkits' 1.6.1 
-# 
 ```
 ### Example of metal coordination annotation
 Metal coordination is assessed using community software on a per-atom basis at the instance level, to give a complete picture of all coordination partners (protein, nucleic acid, small molecule, water, etc) and the coordination geometry. The coordination descriptor delineates coordination partners and angles that make up the coordination geometry. In the coordination descriptor, the metal is listed first, followed by each coordinating atom in parentheses. Within curly brackets, all angles that allow reconstruction of the primary metal coordination sphere are listed. When there are multiple possible coordination numbers, coordination geometries, or coordination descriptors (due to different possible coordination partners), the different options will be annotated. Annotation will be populated in the pdbx_chem_comp_atom_feature category as shown in the example below for chemical component 1PT. 
