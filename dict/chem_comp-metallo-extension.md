@@ -45,8 +45,8 @@ referred to as a dative or coordinate covalent bond. This flag is used for all b
 
     *Enumeration:*
 
-      * N
       * Y
+      * N
 
 
 * **_chem_comp_bond.pdbx_metal_pi_flag**
@@ -54,8 +54,8 @@ referred to as a dative or coordinate covalent bond. This flag is used for all b
 
     *Enumeration:*
 
-      * N
       * Y
+      * N
 
 
 ## pdbx_chem_comp_atom_feature
@@ -90,9 +90,9 @@ category.
 
     *Enumeration:*
 
-      * Coordination number
       * Coordination descriptor
       * Coordination geometry
+      * Coordination number
 
 
 * **_pdbx_chem_comp_atom_feature.value**
@@ -104,9 +104,9 @@ category.
 
     *Enumeration:*
 
-      * PDB
       * Author
       * FindGeo
+      * PDB
       * MetalCoord
 
 
@@ -123,253 +123,6 @@ by the chemical component.
 
       * Metal coordination
       * ...
-
-
-## pdbx_chem_comp_precursor_set
-Data items in the PDBX_CHEM_COMP_PRECURSOR_SET category describes
-a set of precursors in the PDBX_CHEM_COMP_PRECURSOR category
-
-
-* **_pdbx_chem_comp_precursor_set.id**
-: An ordinal index for this category
-
-
-* **_pdbx_chem_comp_precursor_set.class**
-: The class of reaction that precursor set undergoes to produce final compound
-
-    *Enumeration:*
-
-      * Cyclization
-      * Addition
-      * Ring opening
-      * Redox
-      * Substitution
-      * Multi-step
-      * Elimination
-
-
-* **_pdbx_chem_comp_precursor_set.details**
-: Details about the precursor set
-
-
-## pdbx_chem_comp_precursor
-Data items in the PDBX_CHEM_COMP_PRECURSOR category describes
-precursors for compounds that undergo a substantial chemical
-	       change (>= 2 non-hydrogen leaving atoms, bond order change, metal
-	       coordination change) in the macromolecular environmentprovide
-
-
-* **_pdbx_chem_comp_precursor.id**
-: An ordinal index for this category
-
-
-* **_pdbx_chem_comp_precursor.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_chem_comp_precursor.set_id**
-: This data item is a pointer to id in the PDBX_CHEM_COMP_SET
-category.
-
-
-* **_pdbx_chem_comp_precursor.precursor_comp_id**
-: This data item specifies the id in the CHEM_COMP category of the precursor.
-
-
-* **_pdbx_chem_comp_precursor.formula**
-: The formula for the chemical component. Formulae are written
-according to the following rules:
-
-(1) Only recognized element symbols may be used.
-
-(2) Each element symbol is followed by a 'count' number. A count
-of '1' may be omitted.
-
-(3) A space or parenthesis must separate each cluster of
-(element symbol + count), but in general parentheses are
-not used.
-
-(4) The order of elements depends on whether carbon is
-present or not. If carbon is present, the order should be:
-C, then H, then the other elements in alphabetical order
-of their symbol. If carbon is not present, the elements
-are listed purely in alphabetic order of their symbol. This
-is the 'Hill' system used by Chemical Abstracts.
-
-
-* **_pdbx_chem_comp_precursor.details**
-: Details on the chemical component precursor.
-
-
-## pdbx_chem_comp_precursor_descriptor
-Data items in the PDBX_CHEM_COMP_PRECURSOR_DESCRIPTOR category
-provide programatic descriptors for precursors
-
-
-* **_pdbx_chem_comp_precursor_descriptor.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_chem_comp_precursor_descriptor.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_chem_comp_precursor_descriptor.precursor_id**
-: This data item is a pointer to id in the PDBX_CHEM_COMP_PRECURSOR
-category.
-
-
-* **_pdbx_chem_comp_precursor_descriptor.type**
-: This data item contains the precursor descriptor type.
-
-    *Enumeration:*
-
-      * InChI_STEREO
-      * InChIKey
-      * InChI_FIXEDH
-      * InChI_CHARGE
-      * InChI_MAIN_HATOM
-      * SMILES
-      * InChI_RECONNECT
-      * InChI
-      * InChI_MAIN
-      * InChI_ISOTOPE
-      * InChI_MAIN_FORMULA
-      * SMILES_CANNONICAL
-      * InChI_MAIN_CONNECT
-      * SMILES_CANONICAL
-
-
-* **_pdbx_chem_comp_precursor_descriptor.descriptor**
-: This data item contains the descriptor value for this
-precursor component.
-
-
-* **_pdbx_chem_comp_precursor_descriptor.source**
-: This data item contains the source of the descriptor value for this
-component. This data item is used when the descriptor is obtained from the author,
-	       by search in a database, or from another source (not directly computed).
-
-    *Enumeration:*
-
-      * CAS
-      * PDB
-      * Author
-      * ChEMBL
-      * ChEBI
-      * PubChem
-
-
-* **_pdbx_chem_comp_precursor_descriptor.source_version**
-: This data item contains the version number of the source
-of the decriptor value for this component.
-
-
-* **_pdbx_chem_comp_precursor_descriptor.program**
-: This data item contains the name of the program
-or library used to compute the descriptor. This data item is
-	       used when the descriptor is directly computed.
-
-    *Enumeration:*
-
-      * DAYLIGHT
-      * OpenEye OEToolkits
-      * InChI
-      * CACTVS
-      * ACDLabs
-      * OTHER
-
-
-* **_pdbx_chem_comp_precursor_descriptor.program_version**
-: This data item contains the version of the program
-or library used to compute the precursor_descriptor.
-
-
-## pdbx_chem_comp_precursor_identifier
-Data items in the CHEM_COMP_PRECURSOR_IDENTIFIER category provide
-identifiers for precursor chemical components.
-
-
-* **_pdbx_chem_comp_precursor_identifier.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_chem_comp_precursor_identifier.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_chem_comp_precursor_identifier.precursor_id**
-: This data item is a pointer to id in the PDBX_CHEM_COMP_PRECURSOR
-category.
-
-
-* **_pdbx_chem_comp_precursor_identifier.type**
-: This data item contains the precursor descriptor type.
-
-    *Enumeration:*
-
-      * MDL Identifier
-      * SNFG CARBOHYDRATE SYMBOL
-      * IUPAC CARB SYMBOL
-      * IUPAC CARBOHYDRATE SYMBOL
-      * COMMON NAME
-      * CAS REGISTRY NUMBER
-      * CONDENSED IUPAC CARBOHYDRATE SYMBOL
-      * CONDENSED IUPAC CARB SYMBOL
-      * SNFG CARB SYMBOL
-      * SYNONYM
-      * SYSTEMATIC NAME
-      * PUBCHEM Identifier
-
-
-* **_pdbx_chem_comp_precursor_identifier.identifier**
-: This data item contains the identifier value for this
-precursor component.
-
-
-* **_pdbx_chem_comp_precursor_identifier.source**
-: This data item contains the source of the identifier value for this
-component. This data item is used when the identifier is obtained
-	       from the author, by search in a database, or from another source (not directly computed).
-
-    *Enumeration:*
-
-      * CAS
-      * PDB
-      * Author
-      * ChEMBL
-      * ChEBI
-      * PubChem
-
-
-* **_pdbx_chem_comp_precursor_identifier.source_version**
-: This data item contains the version number of the source
-of the decriptor value for this component.
-
-
-* **_pdbx_chem_comp_precursor_identifier.program**
-: This data item contains the name of the program
-or library used to compute the identifier. This data item is used
-	       when the identifier is directly computed.
-
-    *Enumeration:*
-
-      * ChemDraw
-      * DAYLIGHT
-      * OpenEye OEToolkits
-      * Lexichem
-      * BIOVIA
-      * Chemaxon
-      * ACDLabs
-
-
-* **_pdbx_chem_comp_precursor_identifier.program_version**
-: This data item contains the version of the program
-or library used to compute the precursor_identifier.
-
 
 
 # Metallic ligand annotation update in PDB model coordinates files
@@ -424,8 +177,8 @@ category.
 
     *Enumeration:*
 
-      * PDB
       * Author
+      * PDB
 
 
 ## pdbx_nonpoly_feature_evidence
@@ -459,10 +212,10 @@ category.
 
     *Enumeration:*
 
+      * Other
       * Electron paramagnetic resonance spectroscopy
       * UV-Vis spectroscopy
       * Mossbauer spectroscopy
-      * Other
 
 
 * **_pdbx_nonpoly_feature_evidence.details**
@@ -496,9 +249,9 @@ category.
 
     *Enumeration:*
 
-      * Coordination number
       * Coordination descriptor
       * Coordination geometry
+      * Coordination number
       * Oxidation state
 
 
@@ -511,9 +264,9 @@ category.
 
     *Enumeration:*
 
-      * PDB
       * Author
       * FindGeo
+      * PDB
       * MetalCoord
 
 
@@ -530,8 +283,8 @@ assessment will be annotated as unexpected.
 
     *Enumeration:*
 
-      * No reference
       * Unexpected
+      * No reference
       * Expected
 
 
@@ -562,8 +315,8 @@ category.
 
     *Enumeration:*
 
-      * Oxidation state
       * Metal identity
+      * Oxidation state
 
 
 * **_pdbx_nonpoly_atom_feature_evidence.experimental_support**
@@ -572,14 +325,14 @@ category.
     *Enumeration:*
 
       * Electron paramagnetic resonance spectroscopy
-      * Mossbauer spectroscopy
+      * X-ray absorption spectroscopy
       * X-ray fluorescence
+      * Inductively coupled plasma mass spectrometry
+      * Anomalous scattering
+      * Infrared spectroscopy
+      * Mossbauer spectroscopy
       * Raman spectroscopy
       * UV-Vis spectroscopy
-      * Infrared spectroscopy
-      * Anomalous scattering
-      * X-ray absorption spectroscopy
-      * Inductively coupled plasma mass spectrometry
       * Other
 
 
