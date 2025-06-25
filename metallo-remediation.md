@@ -45,7 +45,7 @@ Enhanced annotations in the coordinate files include:
 - Adopting metalloprotein community software for metal coordination annotation (coordination number, coordination geometry, and coordination descriptor).
 - Annotation of metal-protein interaction.
 - Author-provided oxidation state or group charge.
-- Author-provided supporting evidence for metalloprotein features (metal identity, coordination, oxidation state, group charge).
+- Author-provided supporting evidence for metalloprotein features (metal identity, oxidation state, group charge).
 
 ## Example Enhanced Annotation in CCD Files
 ### Example of component type
