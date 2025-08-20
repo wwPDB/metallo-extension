@@ -7,9 +7,9 @@ _chem_comp.pdbx_type                             HETAIN
 _chem_comp.formula                               'Fe4 S4' 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    -8 
+_chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2025-05-16 
+_chem_comp.pdbx_modified_date                    2025-08-20 
 _chem_comp.pdbx_ambiguous_flag                   Y 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -92,139 +92,44 @@ SF4 SMILES_CANONICAL 'OpenEye OEToolkits' 2.0.7 '[S]12[Fe]3[S]4[Fe]1[S]5[Fe]2[S]
 SF4 SMILES           'OpenEye OEToolkits' 2.0.7 '[S]12[Fe]3[S]4[Fe]1[S]5[Fe]2[S]3[Fe]45' 
 # 
 loop_
-_pdbx_chem_comp_atom_feature.ordinal 
-_pdbx_chem_comp_atom_feature.id 
-_pdbx_chem_comp_atom_feature.comp_id 
-_pdbx_chem_comp_atom_feature.atom_id 
-_pdbx_chem_comp_atom_feature.type 
-_pdbx_chem_comp_atom_feature.value 
-_pdbx_chem_comp_atom_feature.provenance 
-1   1  SF4 FE1 'Coordination number'     4                                                                                             FindGeo     
-2   1  SF4 FE1 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-3   1  SF4 FE1 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-4   2  SF4 FE1 'Coordination number'     4                                                                                             FindGeo     
-5   2  SF4 FE1 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-6   2  SF4 FE1 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-7   3  SF4 FE1 'Coordination number'     4                                                                                             FindGeo     
-8   3  SF4 FE1 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-9   3  SF4 FE1 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-10  4  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-11  4  SF4 FE1 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-12  4  SF4 FE1 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-13  5  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-14  5  SF4 FE1 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-15  5  SF4 FE1 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-16  6  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-17  6  SF4 FE1 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-18  6  SF4 FE1 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-19  7  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-20  7  SF4 FE1 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-21  7  SF4 FE1 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-22  8  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-23  8  SF4 FE1 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-24  8  SF4 FE1 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<120>,NFeS<120>,NFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-25  9  SF4 FE1 'Coordination number'     4                                                                                             MetalCoord  
-26  9  SF4 FE1 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-27  9  SF4 FE1 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<120>,OFeS<120>,OFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-28  10 SF4 FE2 'Coordination number'     4                                                                                             FindGeo     
-29  10 SF4 FE2 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-30  10 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-31  11 SF4 FE2 'Coordination number'     4                                                                                             FindGeo     
-32  11 SF4 FE2 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-33  11 SF4 FE2 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-34  12 SF4 FE2 'Coordination number'     4                                                                                             FindGeo     
-35  12 SF4 FE2 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-36  12 SF4 FE2 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-37  13 SF4 FE2 'Coordination number'     4                                                                                             FindGeo     
-38  13 SF4 FE2 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-39  13 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB         
-40  14 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-41  14 SF4 FE2 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-42  14 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-43  15 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-44  15 SF4 FE2 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-45  15 SF4 FE2 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-46  16 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-47  16 SF4 FE2 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-48  16 SF4 FE2 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-49  17 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-50  17 SF4 FE2 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-51  17 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB         
-52  18 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-53  18 SF4 FE2 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-54  18 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-55  19 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-56  19 SF4 FE2 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-57  19 SF4 FE2 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<120>,NFeS<120>,NFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-58  20 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-59  20 SF4 FE2 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-60  20 SF4 FE2 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<120>,OFeS<120>,OFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-61  21 SF4 FE2 'Coordination number'     4                                                                                             MetalCoord  
-62  21 SF4 FE2 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-63  21 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){OFeS<120>,OFeS<120>,OFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                   PDB         
-64  22 SF4 FE3 'Coordination number'     4                                                                                             FindGeo     
-65  22 SF4 FE3 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-66  22 SF4 FE3 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-67  23 SF4 FE3 'Coordination number'     4                                                                                             FindGeo     
-68  23 SF4 FE3 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-69  23 SF4 FE3 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-70  24 SF4 FE3 'Coordination number'     4                                                                                             FindGeo     
-71  24 SF4 FE3 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-72  24 SF4 FE3 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-73  25 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-74  25 SF4 FE3 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-75  25 SF4 FE3 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-76  26 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-77  26 SF4 FE3 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-78  26 SF4 FE3 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-79  27 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-80  27 SF4 FE3 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-81  27 SF4 FE3 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-82  28 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-83  28 SF4 FE3 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-84  28 SF4 FE3 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB         
-85  29 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-86  29 SF4 FE3 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-87  29 SF4 FE3 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-88  30 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-89  30 SF4 FE3 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-90  30 SF4 FE3 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<120>,NFeS<120>,NFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-91  31 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-92  31 SF4 FE3 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-93  31 SF4 FE3 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<120>,OFeS<120>,OFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-94  32 SF4 FE4 'Coordination number'     4                                                                                             FindGeo     
-95  32 SF4 FE4 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-96  32 SF4 FE4 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-97  33 SF4 FE4 'Coordination number'     4                                                                                             FindGeo     
-98  33 SF4 FE4 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-99  33 SF4 FE4 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-100 34 SF4 FE4 'Coordination number'     4                                                                                             FindGeo     
-101 34 SF4 FE4 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-102 34 SF4 FE4 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-103 35 SF4 FE2 'Coordination number'     4                                                                                             FindGeo     
-104 35 SF4 FE2 'Coordination geometry'   tetrahedron                                                                                   FindGeo     
-105 35 SF4 FE2 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB         
-106 36 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-107 36 SF4 FE4 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-108 36 SF4 FE4 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-109 37 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-110 37 SF4 FE4 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-111 37 SF4 FE4 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-112 38 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-113 38 SF4 FE4 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-114 38 SF4 FE4 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB         
-115 39 SF4 FE3 'Coordination number'     4                                                                                             MetalCoord  
-116 39 SF4 FE3 'Coordination geometry'   tetrahedral                                                                                   MetalCoord  
-117 39 SF4 FE3 'Coordination descriptor' 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB         
-118 40 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-119 40 SF4 FE4 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-120 40 SF4 FE4 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-121 41 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-122 41 SF4 FE4 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-123 41 SF4 FE4 'Coordination descriptor' 'Fe(N)(S)(S)(S){NFeS<120>,NFeS<120>,NFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
-124 42 SF4 FE4 'Coordination number'     4                                                                                             MetalCoord  
-125 42 SF4 FE4 'Coordination geometry'   trigonal-pyramid                                                                              MetalCoord  
-126 42 SF4 FE4 'Coordination descriptor' 'Fe(O)(S)(S)(S){OFeS<120>,OFeS<120>,OFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                    PDB         
+_pdbx_chem_comp_atom_coordination.geometry_id 
+_pdbx_chem_comp_atom_coordination.comp_id 
+_pdbx_chem_comp_atom_coordination.atom_id 
+_pdbx_chem_comp_atom_coordination.number 
+_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.provenance 
+1 SF4 FE1 4 tetrahedron tetrahedral FindGeo    
+1 SF4 FE1 4 tetrahedral tetrahedral MetalCoord 
+2 SF4 FE2 4 tetrahedron tetrahedral FindGeo    
+2 SF4 FE2 4 tetrahedral tetrahedral MetalCoord 
+3 SF4 FE3 4 tetrahedron tetrahedral FindGeo    
+3 SF4 FE3 4 tetrahedral tetrahedral MetalCoord 
+4 SF4 FE4 4 tetrahedron tetrahedral FindGeo    
+4 SF4 FE4 4 tetrahedral tetrahedral MetalCoord 
+# 
+loop_
+_pdbx_chem_comp_atom_coordination_sphere.id 
+_pdbx_chem_comp_atom_coordination_sphere.geometry_id 
+_pdbx_chem_comp_atom_coordination_sphere.comp_id 
+_pdbx_chem_comp_atom_coordination_sphere.atom_id 
+_pdbx_chem_comp_atom_coordination_sphere.descriptor 
+_pdbx_chem_comp_atom_coordination_sphere.provenance 
+1  1 SF4 FE1 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+2  1 SF4 FE1 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+3  1 SF4 FE1 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+4  2 SF4 FE2 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+5  2 SF4 FE2 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+6  2 SF4 FE2 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+7  2 SF4 FE2 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
+8  3 SF4 FE3 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+9  3 SF4 FE3 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+10 3 SF4 FE3 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+11 3 SF4 FE3 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
+12 4 SF4 FE4 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+13 4 SF4 FE4 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+14 4 SF4 FE4 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
+15 4 SF4 FE4 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -264,8 +169,8 @@ _pdbx_chem_comp_pcm.uniprot_generic_ptm_accession
 25 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 ND1 ? ? 
 26 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 NE2 ? ? 
 27 SF4 SER None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 OG  ? ? 
-28 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 OG  ? ? 
-29 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OG  ? ? 
+28 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 OH  ? ? 
+29 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OH  ? ? 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
@@ -274,5 +179,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 SF4 'Create component'         1999-07-08 EBI  
 SF4 'Modify descriptor'        2023-09-23 RCSB 
-SF4 'Modify metal description' 2025-05-16 RCSB 
+SF4 'Modify metal description' 2025-08-20 RCSB 
 # 

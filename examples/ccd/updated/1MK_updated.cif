@@ -7,9 +7,9 @@ _chem_comp.pdbx_type                             HETAIN
 _chem_comp.formula                               'C22 H23 Cl F N2 Os S' 
 _chem_comp.mon_nstd_parent_comp_id               ? 
 _chem_comp.pdbx_synonyms                         ? 
-_chem_comp.pdbx_formal_charge                    0 
+_chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     2013-04-01 
-_chem_comp.pdbx_modified_date                    2025-05-16
+_chem_comp.pdbx_modified_date                    2025-08-20 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -55,7 +55,7 @@ _chem_comp_atom.pdbx_ordinal
 1MK N1   N1   N  0 1 Y N N -25.710 -50.988 37.966 -25.792 -51.226 38.505 N1   1MK 7  
 1MK C7   C7   C  0 1 Y N N -26.469 -46.603 39.946 -26.465 -46.498 39.319 C7   1MK 8  
 1MK S1   S1   S  0 1 N N N -24.160 -48.880 39.301 -24.860 -48.792 37.283 S1   1MK 9  
-1MK OS1  OS1  OS 0 0 N N N -23.708 -50.434 37.514 -23.943 -51.057 37.367 OS1  1MK 10 
+1MK OS1  OS1  OS ? 0 N N N -23.708 -50.434 37.514 -23.943 -51.057 37.367 OS1  1MK 10 
 1MK C8   C8   C  0 1 Y N N -26.530 -45.617 38.970 -27.469 -45.586 39.633 C8   1MK 11 
 1MK C9   C9   C  0 1 Y N N -26.262 -44.293 39.297 -27.157 -44.329 40.125 C9   1MK 12 
 1MK C10  C10  C  0 1 Y N N -25.951 -43.960 40.610 -25.845 -44.017 40.332 C10  1MK 13 
@@ -189,19 +189,25 @@ _pdbx_chem_comp_identifier.program_version   12.01
 _pdbx_chem_comp_identifier.identifier        'chloro[N-(4-fluorophenyl)pyridine-2-carbothioamide-kappaN~1~][1-methyl-4-(propan-2-yl)benzene-kappa~2~C~1~,C~4~]osmium' 
 # 
 loop_
-_pdbx_chem_comp_atom_feature.ordinal 
-_pdbx_chem_comp_atom_feature.id 
-_pdbx_chem_comp_atom_feature.comp_id 
-_pdbx_chem_comp_atom_feature.atom_id 
-_pdbx_chem_comp_atom_feature.type 
-_pdbx_chem_comp_atom_feature.value 
-_pdbx_chem_comp_atom_feature.provenance 
-1 1 1MK OS1 'Coordination number'     8                                                                                                                                                                                                                                                                                                                                                                                                                                                  MetalCoord 
-2 1 1MK OS1 'Coordination geometry'   sandwich_6_2                                                                                                                                                                                                                                                                                                                                                                                                                                       MetalCoord 
-3 1 1MK OS1 'Coordination descriptor' 'Os(C)(C)(C)(C)(C)(C)(N)(S){COsC<37.6>,COsC<67.6>,COsC<79.6>,COsC<66.7>,COsC<37.1>,COsN<127.3>,COsS<118.7>,COsC<36.9>,COsC<66.6>,COsC<78.4>,COsC<66.7>,COsN<161.2>,COsS<100.3>,COsC<37.1>,COsC<66.8>,COsC<79>,COsN<161.7>,COsS<105.7>,COsC<37.3>,COsC<66.9>,COsN<128.5>,COsS<132.3>,COsC<36.7>,COsN<107.1>,COsS<169.1>,COsN<106.6>,COsS<152.4>,NOsS<77.6>}'                                                                                        PDB        
-4 2 1MK OS1 'Coordination number'     9                                                                                                                                                                                                                                                                                                                                                                                                                                                  MetalCoord 
-5 2 1MK OS1 'Coordination geometry'   sandwich_6_3                                                                                                                                                                                                                                                                                                                                                                                                                                       MetalCoord 
-6 2 1MK OS1 'Coordination descriptor' 'Os(C)(C)(C)(C)(C)(C)(N)(N)(S){COsC<37.2>,COsC<66.7>,COsC<78.6>,COsC<66.7>,COsC<36.7>,COsN<87.4>,COsN<124.7>,COsS<145.4>,COsC<36.7>,COsC<66.5>,COsC<78.6>,COsC<66.5>,COsN<94.5>,COsN<160.9>,COsS<109>,COsC<37.2>,COsC<66.6>,COsC<78.7>,COsN<124.8>,COsN<145.4>,COsS<87.4>,COsC<36.7>,COsC<66.5>,COsN<160.9>,COsN<109>,COsS<94.5>,COsC<37.2>,COsN<145.5>,COsN<87.4>,COsS<124.7>,COsN<109>,COsN<94.5>,COsS<160.9>,NOsN<89.6>,NOsS<89.6>,NOsS<89.7>}' PDB        
+_pdbx_chem_comp_atom_coordination.geometry_id 
+_pdbx_chem_comp_atom_coordination.comp_id 
+_pdbx_chem_comp_atom_coordination.atom_id 
+_pdbx_chem_comp_atom_coordination.number 
+_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.provenance 
+1 1MK OS1 8 sandwich_6_2 'sandwich 6 2' MetalCoord 
+2 1MK OS1 9 sandwich_6_3 'sandwich 6 3' MetalCoord 
+# 
+loop_
+_pdbx_chem_comp_atom_coordination_sphere.id 
+_pdbx_chem_comp_atom_coordination_sphere.geometry_id 
+_pdbx_chem_comp_atom_coordination_sphere.comp_id 
+_pdbx_chem_comp_atom_coordination_sphere.atom_id 
+_pdbx_chem_comp_atom_coordination_sphere.descriptor 
+_pdbx_chem_comp_atom_coordination_sphere.provenance 
+1 1 1MK OS1 'Os(C)(C)(C)(C)(C)(C)(N)(S){COsC<37.6>,COsC<67.6>,COsC<79.6>,COsC<66.7>,COsC<37.1>,COsN<127.3>,COsS<118.7>,COsC<36.9>,COsC<66.6>,COsC<78.4>,COsC<66.7>,COsN<161.2>,COsS<100.3>,COsC<37.1>,COsC<66.8>,COsC<79>,COsN<161.7>,COsS<105.7>,COsC<37.3>,COsC<66.9>,COsN<128.5>,COsS<132.3>,COsC<36.7>,COsN<107.1>,COsS<169.1>,COsN<106.6>,COsS<152.4>,NOsS<77.6>}'                                                                                        PDB 
+2 2 1MK OS1 'Os(C)(C)(C)(C)(C)(C)(N)(N)(S){COsC<37.2>,COsC<66.7>,COsC<78.6>,COsC<66.7>,COsC<36.7>,COsN<87.4>,COsN<124.7>,COsS<145.4>,COsC<36.7>,COsC<66.5>,COsC<78.6>,COsC<66.5>,COsN<94.5>,COsN<160.9>,COsS<109>,COsC<37.2>,COsC<66.6>,COsC<78.7>,COsN<124.8>,COsN<145.4>,COsS<87.4>,COsC<36.7>,COsC<66.5>,COsN<160.9>,COsN<109>,COsS<94.5>,COsC<37.2>,COsN<145.5>,COsN<87.4>,COsS<124.7>,COsN<109>,COsN<94.5>,COsS<160.9>,NOsN<89.6>,NOsS<89.6>,NOsS<89.7>}' PDB 
 # 
 _pdbx_chem_comp_pcm.pcm_id                             1 
 _pdbx_chem_comp_pcm.comp_id                            1MK 
@@ -222,5 +228,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 1MK 'Create component'         2013-04-01 RCSB 
 1MK 'Initial release'          2013-04-17 RCSB 
-1MK 'Modify metal description' 2025-05-16 RCSB 
+1MK 'Modify metal description' 2025-08-20 RCSB 
 # 

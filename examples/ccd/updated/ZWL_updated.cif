@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     2023-07-06 
-_chem_comp.pdbx_modified_date                    2025-05-16 
+_chem_comp.pdbx_modified_date                    2025-08-20 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -161,25 +161,27 @@ ZWL 'SYSTEMATIC NAME' ACDLabs              14.52   "(mu-carbonato-kappaO:kappaO'
 ZWL 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 3.1.0.0 '9,11-diphenyl-2,4,6$l^{3},8-tetraoxa-9,11$l^{4}-diaza-1$l^{4},5$l^{4}-diruthenatricyclo[3.3.3.0^{1,5}]undeca-6,10-dien-3-one'         
 # 
 loop_
-_pdbx_chem_comp_atom_feature.ordinal 
-_pdbx_chem_comp_atom_feature.id 
-_pdbx_chem_comp_atom_feature.comp_id 
-_pdbx_chem_comp_atom_feature.atom_id 
-_pdbx_chem_comp_atom_feature.type 
-_pdbx_chem_comp_atom_feature.value 
-_pdbx_chem_comp_atom_feature.provenance 
-1  1 ZWL RU1 'Coordination number'     4                                                                                                                FindGeo    
-2  1 ZWL RU1 'Coordination geometry'   'square plane'                                                                                                   FindGeo    
-3  1 ZWL RU1 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        
-4  2 ZWL RU1 'Coordination number'     4                                                                                                                MetalCoord 
-5  2 ZWL RU1 'Coordination geometry'   square-planar                                                                                                    MetalCoord 
-6  2 ZWL RU1 'Coordination descriptor' 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB        
-7  3 ZWL RU2 'Coordination number'     5                                                                                                                FindGeo    
-8  3 ZWL RU2 'Coordination geometry'   'square pyramid'                                                                                                 FindGeo    
-9  3 ZWL RU2 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
-10 4 ZWL RU2 'Coordination number'     5                                                                                                                MetalCoord 
-11 4 ZWL RU2 'Coordination geometry'   square-pyramid                                                                                                   MetalCoord 
-12 4 ZWL RU2 'Coordination descriptor' 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB        
+_pdbx_chem_comp_atom_coordination.geometry_id 
+_pdbx_chem_comp_atom_coordination.comp_id 
+_pdbx_chem_comp_atom_coordination.atom_id 
+_pdbx_chem_comp_atom_coordination.number 
+_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.provenance 
+1 ZWL RU1 4 'square plane'   'square planar'    FindGeo    
+1 ZWL RU1 4 square-planar    'square planar'    MetalCoord 
+2 ZWL RU2 5 'square pyramid' 'square pyramidal' FindGeo    
+2 ZWL RU2 5 square-pyramid   'square pyramidal' MetalCoord 
+# 
+loop_
+_pdbx_chem_comp_atom_coordination_sphere.id 
+_pdbx_chem_comp_atom_coordination_sphere.geometry_id 
+_pdbx_chem_comp_atom_coordination_sphere.comp_id 
+_pdbx_chem_comp_atom_coordination_sphere.atom_id 
+_pdbx_chem_comp_atom_coordination_sphere.descriptor 
+_pdbx_chem_comp_atom_coordination_sphere.provenance 
+1 1 ZWL RU1 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB 
+2 2 ZWL RU2 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -204,5 +206,5 @@ _pdbx_chem_comp_audit.processing_site
 ZWL 'Create component'         2023-07-06 PDBE 
 ZWL 'Modify name'              2023-07-07 PDBE 
 ZWL 'Initial release'          2023-09-13 RCSB 
-ZWL 'Modify metal description' 2025-05-16 RCSB 
+ZWL 'Modify metal description' 2025-08-20 RCSB 
 # 
