@@ -12,8 +12,11 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Toward the goal of sustaining Core Archives of biostructure data and metadata to promote basic and applied research and education, the wwPDB strives to make biostructure data Findable, Accessible, Interoperable and Reusable (FAIR). Owing to unique properties of metals, the standard software and procedures developed for organic compounds do not always provide accurate data on metal-containing compounds, which poses major obstacles for data reusability. Further, the metalloprotein research community has expressed a need for enhanced metal annotation, which would support findability and reusability of metalloprotein data. Based on identification of issues that could lead to widespread error propagation and on feedback from the community, metalloproteins were identified as a target for improvement ("remediation").
-To improve accuracy and enhance annotation, a new data model for metalloproteins has been developed in consultation with the metalloprotein research community. In addition to providing valuable feedback, the metalloprotein research community serves a crucial role in this remediation by providing tools that enable error correction as well as enhanced annotation of metalloproteins.
+Toward the goal of sustaining Core Archives of biostructure data and metadata to promote basic and applied research and education, the wwPDB strives to make biostructure data Findable, Accessible, Interoperable and Reusable (FAIR). Owing to unique properties of metals, standard software and procedures developed for organic compounds do not always provide accurate data on metal-containing compounds, which poses major obstacles for data Reusability. Further, the metalloprotein research community has expressed a need for enhanced metal annotation, which would support Findability and Reusability of metalloprotein data. Based on identification of issues that could lead to widespread error propagation and on feedback from the community, metalloproteins were identified as a target for improvement ("remediation").
+
+To improve accuracy and enhance annotation, a new data model for metalloproteins has been developed in consultation with the metalloprotein research community. In addition to providing valuable feedback, the metalloprotein research community served a crucial role in this remediation by providing tools that enable error correction and support enhanced annotation of metalloproteins.
+
+The PDBx/mmCIF dictionary extensions, examples of PDBx/mmCIF files of remediated data representing various cases, and the corresponding proposed Chemical Component Dictionary definitions are provided here at github https://github.com/wwPDB/metallo-extension for testing and adoption by key stakeholders during the development stage, including the metalloprotein community, refinement software developers, cheminformaticians, and 3D visualization software.
 
 ## Scope
 For this project, the ~900 metal-containing CCDs (80 metal ions and ~820 polyatomic metal chemical components) will be remediated. The focus of the remediation is on polyatomic metal chemical components, which tend to have more challenges in their definition and representation compared to metal ions. Among entries, the ~13,000 entries containing polyatomic metal chemical components will be remediated. Entries containing metal ions are out of scope.
@@ -26,6 +29,7 @@ As a key step of the remediation, Chemical Component Dictionary (CCD) files will
   - for splitting, the metal is not part of a standalone coordination compound.
   - for merging, the metal coordination is more complete upon merging two components.
 - Corrections of inaccuracies in the definition (such as incorrect bond order or missing hydrogens).
+  
 Providing such corrections is crucial for mitigating error propagation. For instance, if the PDB provides incorrect ideal coordinates in our CCD, these are then reused in future structures, leading to incorrect geometries in new depositions (see CCD F3S example in Figure 1 below).
 
 <img src="imgs/ideal_example.png" alt="linked_mod" width="600px">
@@ -44,8 +48,6 @@ Enhanced annotations in the CCD files include:
 Enhanced annotations in the coordinate files include:
 - Adopting metalloprotein community software for metal coordination annotation (coordination number, coordination geometry, and coordination descriptor).
 - Annotation of metal-protein interaction.
-- Author-provided oxidation state or group charge.
-- Author-provided supporting evidence for metalloprotein features (metal identity, oxidation state, group charge).
 
 ## Example Enhanced Annotation in CCD Files
 ### Example of component type
@@ -60,40 +62,30 @@ _chem_comp.pdbx_comp_type          "metal-containing ligand"
 ### Example of metal coordination annotation
 Metal coordination is assessed using community software on a per-atom basis at the instance level, to give a complete picture of all coordination partners (protein, nucleic acid, small molecule, water, etc) and the coordination geometry. The coordination descriptor delineates coordination partners and angles that make up the coordination geometry. In the coordination descriptor, the metal is listed first, followed by each coordinating atom in parentheses. Within curly brackets, all angles that allow reconstruction of the primary metal coordination sphere are listed. When there are multiple possible coordination numbers, coordination geometries, or coordination descriptors (due to different possible coordination partners), the different options will be annotated. Annotation will be populated in the pdbx_chem_comp_atom_feature category as shown in the example below for chemical component 1PT. 
 ```
-#
+# 
 loop_
-_pdbx_chem_comp_atom_feature.ordinal
-_pdbx_chem_comp_atom_feature.id
-_pdbx_chem_comp_atom_feature.comp_id
-_pdbx_chem_comp_atom_feature.atom_id
-_pdbx_chem_comp_atom_feature.type
-_pdbx_chem_comp_atom_feature.value
-_pdbx_chem_comp_atom_feature.provenance
-1  1 1PT PT 'Coordination number'     4                                                                         FindGeo    
-2  1 1PT PT 'Coordination geometry'   'square plane'                                                            FindGeo    
-3  1 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        
-4  2 1PT PT 'Coordination number'     4                                                                         FindGeo    
-5  2 1PT PT 'Coordination geometry'   'square plane'                                                            FindGeo    
-6  2 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB        
-7  3 1PT PT 'Coordination number'     4                                                                         FindGeo    
-8  3 1PT PT 'Coordination geometry'   'square plane'                                                            FindGeo    
-9  3 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB        
-10 4 1PT PT 'Coordination number'     4                                                                         FindGeo    
-11 4 1PT PT 'Coordination geometry'   'square plane'                                                            FindGeo    
-12 4 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB        
-13 5 1PT PT 'Coordination number'     4                                                                         MetalCoord 
-14 5 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
-15 5 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        
-16 6 1PT PT 'Coordination number'     4                                                                         MetalCoord 
-17 6 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
-18 6 1PT PT 'Coordination descriptor' 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB        
-19 7 1PT PT 'Coordination number'     4                                                                         MetalCoord 
-20 7 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
-21 7 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB        
-22 8 1PT PT 'Coordination number'     4                                                                         MetalCoord 
-23 8 1PT PT 'Coordination geometry'   square-planar                                                             MetalCoord 
-24 8 1PT PT 'Coordination descriptor' 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB        
-#
+_pdbx_chem_comp_atom_coordination.geometry_id 
+_pdbx_chem_comp_atom_coordination.comp_id 
+_pdbx_chem_comp_atom_coordination.atom_id 
+_pdbx_chem_comp_atom_coordination.number 
+_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.provenance 
+1 1PT PT 4 'square plane' 'square planar' FindGeo    
+1 1PT PT 4 square-planar  'square planar' MetalCoord 
+# 
+loop_
+_pdbx_chem_comp_atom_coordination_sphere.id 
+_pdbx_chem_comp_atom_coordination_sphere.geometry_id 
+_pdbx_chem_comp_atom_coordination_sphere.comp_id 
+_pdbx_chem_comp_atom_coordination_sphere.atom_id 
+_pdbx_chem_comp_atom_coordination_sphere.descriptor 
+_pdbx_chem_comp_atom_coordination_sphere.provenance 
+1 1 1PT PT 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB 
+2 1 1PT PT 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB 
+3 1 1PT PT 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB 
+4 1 1PT PT 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB 
+# 
 ```
 ### Example of protein-metal interaction
 Metal-protein interactions will be annotated in the pdbx_chem_comp_pcm category as shown in the example below for chemical component SF4.
@@ -137,8 +129,8 @@ _pdbx_chem_comp_pcm.uniprot_generic_ptm_accession
 25 SF4 HIS None "Metal coordination" "Amino-acid side chain" "Any position" "FE4" "ND1" ? ?
 26 SF4 HIS None "Metal coordination" "Amino-acid side chain" "Any position" "FE4" "NE2" ? ?
 27 SF4 SER None "Metal coordination" "Amino-acid side chain" "Any position" "FE4" "OG"  ? ?
-28 SF4 TYR None "Metal coordination" "Amino-acid side chain" "Any position" "FE1" "OG"  ? ?
-29 SF4 HIS None "Metal coordination" "Amino-acid side chain" "Any position" "FE3" "OG"  ? ?
+28 SF4 TYR None "Metal coordination" "Amino-acid side chain" "Any position" "FE1" "OH"  ? ?
+29 SF4 TYR None "Metal coordination" "Amino-acid side chain" "Any position" "FE3" "OH"  ? ?
 #
 ```
 ### Examples of metal coordination and metal-pi bond flags
@@ -202,23 +194,29 @@ RUC RU11 C28 SING N N Y Y 18
 ### Example of metal coordination annotation
 For the coordinate files, metal coordination will be assessed using community software and compared with the coordination annotation in the CCD (if available) to determine if the coordination geometry is 'expected' (matching with the CCD) or 'unexpected' (not matching with the CCD). See example below for 1pg9, an entry containing chemical component 1PT.
 ```
-#
+# 
 loop_
-_pdbx_nonpoly_atom_feature.ordinal
-_pdbx_nonpoly_atom_feature.comp_id
-_pdbx_nonpoly_atom_feature.atom_id
-_pdbx_nonpoly_atom_feature.label_asym_id
-_pdbx_nonpoly_atom_feature.type
-_pdbx_nonpoly_atom_feature.value
-_pdbx_nonpoly_atom_feature.provenance
-_pdbx_nonpoly_atom_feature.assessment
-1 1PT PT C 'Coordination number'     4                                                                         FindGeo    ?        
-2 1PT PT C 'Coordination geometry'   'square plane (regular)'                                                  FindGeo    Expected 
-3 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-4 1PT PT C 'Coordination number'     4                                                                         MetalCoord ?        
-5 1PT PT C 'Coordination geometry'   square-planar                                                             MetalCoord Expected 
-6 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-#
+_pdbx_nonpoly_atom_coordination.geometry_id 
+_pdbx_nonpoly_atom_coordination.label_asym_id 
+_pdbx_nonpoly_atom_coordination.comp_id 
+_pdbx_nonpoly_atom_coordination.atom_id
+_pdbx_nonpoly_atom_coordination.alt_id
+_pdbx_nonpoly_atom_coordination.number 
+_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.provenance 
+_pdbx_nonpoly_atom_coordination.assessment 
+1 C 1PT PT ? 4 'square plane (regular)' 'square planar' FindGeo    Expected 
+1 C 1PT PT ? 4 square-planar            'square planar' MetalCoord Expected 
+# 
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
+_pdbx_nonpoly_atom_coordination_sphere.label_asym_id   C 
+_pdbx_nonpoly_atom_coordination_sphere.comp_id         1PT 
+_pdbx_nonpoly_atom_coordination_sphere.atom_id         PT 
+_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
+# 
 ```
 ### Example of protein-metal interaction
 In coordinate files, metal-protein interactions will be annotated in the pdbx_modification_feature category as shown in the example below for chemical component 5wqq, an entry containing chemical component SF4.
@@ -255,63 +253,6 @@ _pdbx_modification_feature.category
 2 SF4 B . ? CYS A 46 ? SF4 A 101 ? 1_555 CYS A 46 ? 1_555 FE2 SG CYS 8  SF4 None 'Metal coordination'
 3 SF4 B . ? CYS A 61 ? SF4 A 101 ? 1_555 CYS A 61 ? 1_555 FE3 SG CYS 9  SF4 None 'Metal coordination'
 4 SF4 B . ? CYS A 75 ? SF4 A 101 ? 1_555 CYS A 75 ? 1_555 FE4 SG CYS 10 SF4 None 'Metal coordination'
-#
-```
-### Author-provided oxidation state or group charge
-Oxidation state (for mononuclear metal chemical components) and group charge (for polynuclear chemical components) will be collected from depositors. As oxidation state is an atom-level feature, it will be populated in the pdbx_nonpoly_atom_feature category. See oxidation state example below for 1pg9, an entry containing chemical component 1PT.
-```
-#
-loop_
-_pdbx_nonpoly_atom_feature.ordinal
-_pdbx_nonpoly_atom_feature.comp_id
-_pdbx_nonpoly_atom_feature.atom_id
-_pdbx_nonpoly_atom_feature.label_asym_id
-_pdbx_nonpoly_atom_feature.type
-_pdbx_nonpoly_atom_feature.value
-_pdbx_nonpoly_atom_feature.provenance
-_pdbx_nonpoly_atom_feature.assessment
-1 1PT PT C 'Oxidation state' 2 Author ?
-#
-```
-Since group charge is a chemical component-level feature, it will be populated in the pdbx_nonpoly _feature category. See group charge example below for 5wqq, an entry containing chemical component SF4.
-```
-#
-loop_
-_pdbx_nonpoly_feature.ordinal
-_pdbx_nonpoly_feature.comp_id
-_pdbx_nonpoly_feature.label_asym_id
-_pdbx_nonpoly_feature.type
-_pdbx_nonpoly_feature.value
-_pdbx_nonpoly_feature.provenance
-1 SF4 B 'Group charge' 3 Author
-#
-```
-### Author-provided supporting evidence for metal features
-Supporting evidence will be collected at the atom-level for metal identity, coordination number, coordination geometry, and oxidation state in a category called pdbx_nonpoly_atom_feature_evidence. Example evidence for oxidation state is shown below for the 1pg9 entry.
-```
-#
-loop_
-_pdbx_nonpoly_atom_feature_evidence.ordinal
-_pdbx_nonpoly_atom_feature_evidence.comp_id
-_pdbx_nonpoly_atom_feature_evidence.atom_id
-_pdbx_nonpoly_atom_feature_evidence.label_asym_id
-_pdbx_nonpoly_atom_feature_evidence.type
-_pdbx_nonpoly_atom_feature_evidence.experimental_support
-_pdbx_nonpoly_atom_feature_evidence.details
-1 1PT PT C 'Oxidation state' 'X-ray absorption spectroscopy' ?
-#
-```
-For group charge, supporting evidence will be collected at the chemical component-level in a category called pdbx_nonpoly_ feature_evidence. Example evidence for group charge is shown below for the 5wqq entry.
-```
-#
-loop_
-_pdbx_nonpoly_feature_evidence.ordinal
-_pdbx_nonpoly_feature_evidence.comp_id
-_pdbx_nonpoly_feature_evidence.label_asym_id
-_pdbx_nonpoly_feature_evidence.type
-_pdbx_nonpoly_feature_evidence.experimental_support
-_pdbx_nonpoly_feature_evidence.details
-1 SF4 B 'Group charge' 'UV-Vis spectroscopy' ?
 #
 ```
 ## References
