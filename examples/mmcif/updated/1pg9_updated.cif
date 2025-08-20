@@ -203,29 +203,26 @@ DG  'DNA linking' y "2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE"         ?           'C1
 DT  'DNA linking' y "THYMIDINE-5'-MONOPHOSPHATE"                 ?           'C10 H15 N2 O8 P' 322.208 
 # 
 loop_
-_pdbx_nonpoly_atom_feature.ordinal 
-_pdbx_nonpoly_atom_feature.comp_id 
-_pdbx_nonpoly_atom_feature.atom_id 
-_pdbx_nonpoly_atom_feature.label_asym_id 
-_pdbx_nonpoly_atom_feature.type 
-_pdbx_nonpoly_atom_feature.value 
-_pdbx_nonpoly_atom_feature.provenance 
-_pdbx_nonpoly_atom_feature.assessment 
-1 1PT PT C 'Coordination number'     4                                                                         FindGeo    ?        
-2 1PT PT C 'Coordination geometry'   'square plane (regular)'                                                  FindGeo    Expected 
-3 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-4 1PT PT C 'Coordination number'     4                                                                         MetalCoord ?        
-5 1PT PT C 'Coordination geometry'   square-planar                                                             MetalCoord Expected 
-6 1PT PT C 'Coordination descriptor' 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB        ?        
-7 1PT PT C 'Oxidation state'         2                                                                         Author     ?        
+_pdbx_nonpoly_atom_coordination.geometry_id 
+_pdbx_nonpoly_atom_coordination.label_asym_id 
+_pdbx_nonpoly_atom_coordination.comp_id 
+_pdbx_nonpoly_atom_coordination.atom_id 
+_pdbx_nonpoly_atom_coordination.alt_id
+_pdbx_nonpoly_atom_coordination.number 
+_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.provenance 
+_pdbx_nonpoly_atom_coordination.assessment 
+1 C 1PT PT ? 4 'square plane (regular)' 'square planar' FindGeo    Expected 
+1 C 1PT PT ? 4 square-planar            'square planar' MetalCoord Expected 
 # 
-_pdbx_nonpoly_atom_feature_evidence.ordinal                1 
-_pdbx_nonpoly_atom_feature_evidence.comp_id                1PT 
-_pdbx_nonpoly_atom_feature_evidence.atom_id                PT 
-_pdbx_nonpoly_atom_feature_evidence.label_asym_id          C 
-_pdbx_nonpoly_atom_feature_evidence.type                   'Oxidation state' 
-_pdbx_nonpoly_atom_feature_evidence.experimental_support   'X-ray absorption spectroscopy' 
-_pdbx_nonpoly_atom_feature_evidence.details                ? 
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
+_pdbx_nonpoly_atom_coordination_sphere.label_asym_id   C 
+_pdbx_nonpoly_atom_coordination_sphere.comp_id         1PT 
+_pdbx_nonpoly_atom_coordination_sphere.atom_id         PT 
+_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
 # 
 _exptl.entry_id          1PG9 
 _exptl.method            'SOLUTION NMR' 

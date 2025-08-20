@@ -865,52 +865,37 @@ O
 S  
 # 
 loop_
-_pdbx_nonpoly_atom_feature.ordinal 
-_pdbx_nonpoly_atom_feature.comp_id 
-_pdbx_nonpoly_atom_feature.atom_id 
-_pdbx_nonpoly_atom_feature.label_asym_id 
-_pdbx_nonpoly_atom_feature.type 
-_pdbx_nonpoly_atom_feature.value 
-_pdbx_nonpoly_atom_feature.provenance 
-_pdbx_nonpoly_atom_feature.assessment 
-1  SF4 FE1 B 'Coordination number'     4                                                                                         FindGeo    ?        
-2  SF4 FE1 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
-3  SF4 FE1 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-4  SF4 FE1 B 'Coordination number'     4                                                                                         MetalCoord ?        
-5  SF4 FE1 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
-6  SF4 FE1 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-7  SF4 FE2 B 'Coordination number'     4                                                                                         FindGeo    ?        
-8  SF4 FE2 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
-9  SF4 FE2 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-10 SF4 FE2 B 'Coordination number'     4                                                                                         MetalCoord ?        
-11 SF4 FE2 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
-12 SF4 FE2 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-13 SF4 FE3 B 'Coordination number'     4                                                                                         FindGeo    ?        
-14 SF4 FE3 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
-15 SF4 FE3 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-16 SF4 FE3 B 'Coordination number'     4                                                                                         MetalCoord ?        
-17 SF4 FE3 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
-18 SF4 FE3 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-19 SF4 FE4 B 'Coordination number'     4                                                                                         FindGeo    ?        
-20 SF4 FE4 B 'Coordination geometry'   'tetrahedron (regular)'                                                                   FindGeo    Expected 
-21 SF4 FE4 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
-22 SF4 FE4 B 'Coordination number'     4                                                                                         MetalCoord ?        
-23 SF4 FE4 B 'Coordination geometry'   tetrahedral                                                                               MetalCoord Expected 
-24 SF4 FE4 B 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB        ?        
+_pdbx_nonpoly_atom_coordination.geometry_id 
+_pdbx_nonpoly_atom_coordination.label_asym_id 
+_pdbx_nonpoly_atom_coordination.comp_id 
+_pdbx_nonpoly_atom_coordination.atom_id 
+_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.number 
+_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.provenance 
+_pdbx_nonpoly_atom_coordination.assessment 
+1 B SF4 FE1 ? 4 'tetrahedron (regular)' tetrahedral FindGeo    Expected 
+1 B SF4 FE1 ? 4 tetrahedral             tetrahedral MetalCoord Expected 
+2 B SF4 FE2 ? 4 'tetrahedron (regular)' tetrahedral FindGeo    Expected 
+2 B SF4 FE2 ? 4 tetrahedral             tetrahedral MetalCoord Expected 
+3 B SF4 FE3 ? 4 'tetrahedron (regular)' tetrahedral FindGeo    Expected 
+3 B SF4 FE3 ? 4 tetrahedral             tetrahedral MetalCoord Expected 
+4 B SF4 FE4 ? 4 'tetrahedron (regular)' tetrahedral FindGeo    Expected 
+4 B SF4 FE4 ? 4 tetrahedral             tetrahedral MetalCoord Expected 
 # 
-_pdbx_nonpoly_feature.ordinal         1 
-_pdbx_nonpoly_feature.comp_id         SF4 
-_pdbx_nonpoly_feature.label_asym_id   B 
-_pdbx_nonpoly_feature.type            'Group charge' 
-_pdbx_nonpoly_feature.value           3 
-_pdbx_nonpoly_feature.provenance      Author 
-# 
-_pdbx_nonpoly_feature_evidence.ordinal                1 
-_pdbx_nonpoly_feature_evidence.comp_id                SF4 
-_pdbx_nonpoly_feature_evidence.label_asym_id          B 
-_pdbx_nonpoly_feature_evidence.type                   'Group charge' 
-_pdbx_nonpoly_feature_evidence.experimental_support   'UV-Vis spectroscopy' 
-_pdbx_nonpoly_feature_evidence.details                ? 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere.comp_id 
+_pdbx_nonpoly_atom_coordination_sphere.atom_id 
+_pdbx_nonpoly_atom_coordination_sphere.alt_id
+_pdbx_nonpoly_atom_coordination_sphere.descriptor 
+_pdbx_nonpoly_atom_coordination_sphere.provenance 
+1 B SF4 FE1 ? 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB 
+2 B SF4 FE2 ? 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB 
+3 B SF4 FE3 ? 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB 
+4 B SF4 FE4 ? 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB 
 # 
 _pdbx_struct_assembly.id                   1 
 _pdbx_struct_assembly.details              author_and_software_defined_assembly 

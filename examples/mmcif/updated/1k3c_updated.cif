@@ -1299,20 +1299,26 @@ P
 S  
 # 
 loop_
-_pdbx_nonpoly_atom_feature.ordinal 
-_pdbx_nonpoly_atom_feature.comp_id 
-_pdbx_nonpoly_atom_feature.atom_id 
-_pdbx_nonpoly_atom_feature.label_asym_id 
-_pdbx_nonpoly_atom_feature.type 
-_pdbx_nonpoly_atom_feature.value 
-_pdbx_nonpoly_atom_feature.provenance 
-_pdbx_nonpoly_atom_feature.assessment 
-1 AF3 AL D 'Coordination number'     3                                            FindGeo    ?          
-2 AF3 AL D 'Coordination geometry'   'trigonal plane (regular)'                   FindGeo    Unexpected 
-3 AF3 AL D 'Coordination descriptor' 'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' PDB        ?          
-4 AF3 AL D 'Coordination number'     3                                            MetalCoord ?          
-5 AF3 AL D 'Coordination geometry'   trigonal-planar                              MetalCoord Unexpected 
-6 AF3 AL D 'Coordination descriptor' 'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' PDB        ?          
+_pdbx_nonpoly_atom_coordination.geometry_id 
+_pdbx_nonpoly_atom_coordination.label_asym_id 
+_pdbx_nonpoly_atom_coordination.comp_id 
+_pdbx_nonpoly_atom_coordination.atom_id 
+_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.number 
+_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.provenance 
+_pdbx_nonpoly_atom_coordination.assessment 
+1 D AF3 AL ? 3 'trigonal plane (regular)' 'trigonal planar' FindGeo    Unexpected 
+1 D AF3 AL ? 3 trigonal-planar            'trigonal planar' MetalCoord Unexpected 
+# 
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
+_pdbx_nonpoly_atom_coordination_sphere.label_asym_id   D 
+_pdbx_nonpoly_atom_coordination_sphere.comp_id         AF3 
+_pdbx_nonpoly_atom_coordination_sphere.atom_id         AL 
+_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
 # 
 _pdbx_struct_assembly.id                   1 
 _pdbx_struct_assembly.details              author_defined_assembly 

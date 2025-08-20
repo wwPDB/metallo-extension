@@ -1070,34 +1070,37 @@ _pdbx_entity_instance_feature.details
 2 SF4 ? ? SF4 ? ? 'SUBJECT OF INVESTIGATION' ? 
 # 
 loop_
-_pdbx_nonpoly_atom_feature.ordinal 
-_pdbx_nonpoly_atom_feature.comp_id 
-_pdbx_nonpoly_atom_feature.atom_id 
-_pdbx_nonpoly_atom_feature.label_asym_id 
-_pdbx_nonpoly_atom_feature.type 
-_pdbx_nonpoly_atom_feature.value 
-_pdbx_nonpoly_atom_feature.provenance 
-_pdbx_nonpoly_atom_feature.assessment 
-1  SF4 FE1 K 'Coordination number'     5                                                                                                                                                                       FindGeo    ?          
-2  SF4 FE1 K 'Coordination geometry'   irregular                                                                                                                                                               FindGeo    Unexpected 
-4  SF4 FE1 K 'Coordination number'     5                                                                                                                                                                       MetalCoord ?          
-5  SF4 FE1 K 'Coordination geometry'   bicapped-trigonal-planar                                                                                                                                                MetalCoord Unexpected 
-6  SF4 FE1 K 'Coordination descriptor' 'Fe(S)(S)(S)(S)(S){SFeS<94.4>,SFeS<133.2>,SFeS<132.6>,SFeS<93.8>,SFeS<39.3>,SFeS<132.9>,SFeS<171.8>,SFeS<93.6>,SFeS<132.5>,SFeS<39>}'                                   PDB        ?          
-7  SF4 FE2 K 'Coordination number'     6                                                                                                                                                                       FindGeo    ?          
-8  SF4 FE2 K 'Coordination geometry'   irregular                                                                                                                                                               FindGeo    Unexpected 
-9  SF4 FE2 K 'Coordination number'     6                                                                                                                                                                       MetalCoord ?          
-10 SF4 FE2 K 'Coordination geometry'   hexagonal-planar                                                                                                                                                        MetalCoord Unexpected 
-11 SF4 FE2 K 'Coordination descriptor' 'Fe(S)(S)(S)(S)(S)(S){SFeS<60>,SFeS<120>,SFeS<180>,SFeS<120>,SFeS<60>,SFeS<60>,SFeS<120>,SFeS<180>,SFeS<120>,SFeS<60>,SFeS<120>,SFeS<180>,SFeS<60>,SFeS<120>,SFeS<60>}' PDB        ?          
-12 SF4 FE3 K 'Coordination number'     4                                                                                                                                                                       FindGeo    ?          
-13 SF4 FE3 K 'Coordination geometry'   irregular                                                                                                                                                               FindGeo    Unexpected 
-14 SF4 FE3 K 'Coordination number'     4                                                                                                                                                                       MetalCoord ?          
-15 SF4 FE3 K 'Coordination geometry'   square-non-planar                                                                                                                                                       MetalCoord Unexpected 
-16 SF4 FE3 K 'Coordination descriptor' 'Fe(S)(S)(S)(S){SFeS<77.6>,SFeS<124.2>,SFeS<76.9>,SFeS<77.7>,SFeS<124.9>,SFeS<77.8>}'                                                                                   PDB        ?          
-17 SF4 FE4 K 'Coordination number'     5                                                                                                                                                                       FindGeo    ?          
-18 SF4 FE4 K 'Coordination geometry'   irregular                                                                                                                                                               FindGeo    Unexpected 
-19 SF4 FE4 K 'Coordination number'     5                                                                                                                                                                       MetalCoord ?          
-20 SF4 FE4 K 'Coordination geometry'   bicapped-trigonal-planar                                                                                                                                                MetalCoord Unexpected 
-21 SF4 FE4 K 'Coordination descriptor' 'Fe(S)(S)(S)(S)(S){SFeS<94.4>,SFeS<133.2>,SFeS<132.6>,SFeS<93.8>,SFeS<39.3>,SFeS<132.9>,SFeS<171.8>,SFeS<93.6>,SFeS<132.5>,SFeS<39>}'                                   PDB        ?          
+_pdbx_nonpoly_atom_coordination.geometry_id 
+_pdbx_nonpoly_atom_coordination.label_asym_id 
+_pdbx_nonpoly_atom_coordination.comp_id 
+_pdbx_nonpoly_atom_coordination.atom_id 
+_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.number 
+_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_generic
+_pdbx_nonpoly_atom_coordination.provenance 
+_pdbx_nonpoly_atom_coordination.assessment 
+1 K SF4 FE1 ? 5 irregular                irregular                  FindGeo    Unexpected 
+2 K SF4 FE1 ? 5 bicapped-trigonal-planar 'trigonal planar bicapped' MetalCoord Unexpected 
+3 K SF4 FE2 ? 6 irregular                irregular                  FindGeo    Unexpected 
+4 K SF4 FE2 ? 6 hexagonal-planar         'hexagonal planar'         MetalCoord Unexpected 
+5 K SF4 FE3 ? 4 irregular                irregular                  FindGeo    Unexpected 
+6 K SF4 FE3 ? 4 square-non-planar        'square non-planar'        MetalCoord Unexpected 
+7 K SF4 FE4 ? 5 irregular                irregular                  FindGeo    Unexpected 
+8 K SF4 FE4 ? 5 bicapped-trigonal-planar 'trigonal planar bicapped' MetalCoord Unexpected 
+# 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere.comp_id 
+_pdbx_nonpoly_atom_coordination_sphere.atom_id 
+_pdbx_nonpoly_atom_coordination_sphere.alt_id 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor 
+_pdbx_nonpoly_atom_coordination_sphere.provenance 
+2 K SF4 FE1 ? 'Fe(S)(S)(S)(S)(S){SFeS<94.4>,SFeS<133.2>,SFeS<132.6>,SFeS<93.8>,SFeS<39.3>,SFeS<132.9>,SFeS<171.8>,SFeS<93.6>,SFeS<132.5>,SFeS<39>}'                                   PDB 
+4 K SF4 FE2 ? 'Fe(S)(S)(S)(S)(S)(S){SFeS<60>,SFeS<120>,SFeS<180>,SFeS<120>,SFeS<60>,SFeS<60>,SFeS<120>,SFeS<180>,SFeS<120>,SFeS<60>,SFeS<120>,SFeS<180>,SFeS<60>,SFeS<120>,SFeS<60>}' PDB 
+6 K SF4 FE3 ? 'Fe(S)(S)(S)(S){SFeS<77.6>,SFeS<124.2>,SFeS<76.9>,SFeS<77.7>,SFeS<124.9>,SFeS<77.8>}'                                                                                   PDB 
+8 K SF4 FE4 ? 'Fe(S)(S)(S)(S)(S){SFeS<94.4>,SFeS<133.2>,SFeS<132.6>,SFeS<93.8>,SFeS<39.3>,SFeS<132.9>,SFeS<171.8>,SFeS<93.6>,SFeS<132.5>,SFeS<39>}'                                   PDB 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 
