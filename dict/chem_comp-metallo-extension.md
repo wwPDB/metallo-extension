@@ -27,8 +27,8 @@ chemical components.
 
     *Enumeration:*
 
-      * metal-containing ligand
       * metal cation
+      * metal-containing ligand
 
 
 ## chem_comp_bond
@@ -95,112 +95,112 @@ a unified naming scheme. As software programs sometimes have different names for
 
     *Enumeration:*
 
-      * cubic with vacancy
-      * sandwich 5 4 i
-      * hexagonal planar
-      * sandwich 5 4
-      * trigonal pyramidal
-      * sandwich 8 8
-      * sandwich 6 5
-      * trigonal prism tricapped
-      * trigonal planar tricapped
-      * paired octahedral
-      * sandwich 4h 2
-      * sandwich 5 5 v i
-      * sandwich 6 6
-      * square non-planar
-      * square planar bicapped
-      * sandwich 5 2
-      * sandwich 5h 3
-      * pentagonal bipyramidal
-      * square antiprismatic
-      * sandwich 6 3
-      * penta trigonal planar
-      * sandwich 5 square pyramidal monocapped
       * ball
-      * sandwich 5 3
-      * sandwich 5 pentagonal pyramidal
-      * t shape
-      * sandwich 8 8 i
-      * sandwich 6 2
-      * trigonal planar monocapped
-      * penta trigonal planar i
-      * sandwich 5 tricapped i
-      * sandwich 5 capped 1
-      * sandwich 6 4
-      * sandwich 4 2
-      * square pyramidal
-      * square planar
-      * trigonal prismatic all face capped
-      * linear
-      * sandwich 8 8 v
-      * sandwich 6 5 v
-      * square planar monocapped
-      * trigonal planar bicapped
-      * sandwich 4h 4
-      * sandwich 5 hexagonal pyramidal
       * bent
-      * trigonal prismatic monocapped with vacancy
-      * trigonal bipyramidal with vacancy
-      * sandwich 4h 3
-      * sandwich 8 5 i
-      * tetrahedral
-      * square antiprismatic monocapped
-      * octahedral monocapped with vacancy
-      * square antiprismatic bicapped
-      * sandwich 4 3
-      * hexagonal bipyramidal with vacancy
-      * trigonal planar
       * cubic
-      * sandwich 5 square pyramidal
-      * sandwich 8 3
-      * sandwich 4h 4h
-      * linear monocapped
-      * sandwich 5 4h
+      * cubic with vacancy
       * cuboctahedral
-      * trigonal prismatic
-      * pyramidal
-      * sandwich 5 tricapped v
-      * square pyramidal with vacancy
-      * hexagonal bipyramidal
-      * sandwich 5 1
-      * sandwich 5 4h v
-      * pentagonal bipyramidal with vacancy
-      * trigonal bipyramidal
-      * linear bicapped
-      * square antiprismatic with vacancy
-      * sandwich 6 trigonal pyramidal
-      * penta trigonal planar i i
-      * sandwich 5 5 v v 3d
-      * sandwich 5 5 4
-      * sandwich c5 5 i
-      * trigonal prismatic monocapped
-      * sandwich 6 6 v
-      * sandwich 6 6 triangle
-      * sandwich 5 5o
       * dodecahedral
-      * seamine
-      * pentagonal antiprismatic
-      * octahedral
-      * penta trigonal planar v
-      * trigonal prismatic bicapped
-      * sandwich 7 5
-      * sandwich 7 1
-      * sandwich 6 1
-      * octahedral bicapped
-      * sandwich 8 4
-      * pentagonal prismatic
-      * trigonal prismatic with vacancy
-      * sandwich 5 5
-      * sandwich 7 3
+      * hexagonal bipyramidal
+      * hexagonal bipyramidal with vacancy
+      * hexagonal planar
       * irregular
-      * sandwich 7 2
-      * sandwich 5 5 v v
+      * linear
+      * linear bicapped
+      * linear monocapped
+      * octahedral
+      * octahedral bicapped
+      * octahedral monocapped
+      * octahedral monocapped with vacancy
+      * paired octahedral
+      * penta trigonal planar
+      * penta trigonal planar i
+      * penta trigonal planar i i
+      * penta trigonal planar v
+      * pentagonal antiprismatic
+      * pentagonal bipyramidal
+      * pentagonal bipyramidal with vacancy
+      * pentagonal prismatic
+      * pyramidal
+      * sandwich 4 2
+      * sandwich 4 3
+      * sandwich 4h 2
+      * sandwich 4h 3
+      * sandwich 4h 4
+      * sandwich 4h 4h
+      * sandwich 5 1
+      * sandwich 5 2
+      * sandwich 5 3
+      * sandwich 5 4
+      * sandwich 5 4 i
+      * sandwich 5 4h
+      * sandwich 5 4h v
+      * sandwich 5 5
+      * sandwich 5 5 4
+      * sandwich 5 5 i
       * sandwich 5 5 star
       * sandwich 5 5 v
+      * sandwich 5 5 v i
+      * sandwich 5 5 v v
+      * sandwich 5 5 v v 3d
+      * sandwich 5 5o
+      * sandwich 5 capped 1
+      * sandwich 5 hexagonal pyramidal
+      * sandwich 5 pentagonal pyramidal
+      * sandwich 5 square pyramidal
+      * sandwich 5 square pyramidal monocapped
+      * sandwich 5 tricapped i
+      * sandwich 5 tricapped v
+      * sandwich 5h 3
+      * sandwich 6 1
+      * sandwich 6 2
+      * sandwich 6 3
+      * sandwich 6 4
+      * sandwich 6 5
+      * sandwich 6 5 v
+      * sandwich 6 6
+      * sandwich 6 6 triangle
+      * sandwich 6 6 v
+      * sandwich 6 trigonal pyramidal
+      * sandwich 7 1
+      * sandwich 7 2
+      * sandwich 7 3
+      * sandwich 7 5
+      * sandwich 8 3
+      * sandwich 8 4
       * sandwich 8 5
-      * octahedral monocapped
-      * sandwich 5 5 i
+      * sandwich 8 5 i
+      * sandwich 8 8
+      * sandwich 8 8 i
+      * sandwich 8 8 v
+      * sandwich c5 5 i
+      * seamine
+      * square antiprismatic
+      * square antiprismatic bicapped
+      * square antiprismatic monocapped
+      * square antiprismatic with vacancy
+      * square non-planar
+      * square planar
+      * square planar bicapped
+      * square planar monocapped
+      * square pyramidal
+      * square pyramidal with vacancy
+      * t shape
+      * tetrahedral
+      * trigonal bipyramidal
+      * trigonal bipyramidal with vacancy
+      * trigonal planar
+      * trigonal planar bicapped
+      * trigonal planar monocapped
+      * trigonal planar tricapped
+      * trigonal prism tricapped
+      * trigonal prismatic
+      * trigonal prismatic all face capped
+      * trigonal prismatic bicapped
+      * trigonal prismatic monocapped
+      * trigonal prismatic monocapped with vacancy
+      * trigonal prismatic with vacancy
+      * trigonal pyramidal
 
 
 * **_pdbx_chem_comp_atom_coordination.provenance**
@@ -208,10 +208,10 @@ a unified naming scheme. As software programs sometimes have different names for
 
     *Enumeration:*
 
-      * MetalCoord
       * Author
-      * PDB
       * FindGeo
+      * MetalCoord
+      * PDB
 
 
 * **_pdbx_chem_comp_atom_coordination.representative_entry_id**
@@ -250,9 +250,9 @@ category.
 
     *Enumeration:*
 
+      * FindGeo
       * MetalCoord
       * PDB
-      * FindGeo
 
 
 * **_pdbx_chem_comp_atom_coordination_sphere.representative_entry_id**
@@ -330,112 +330,112 @@ a unified naming scheme. As software programs sometimes have different names for
 
     *Enumeration:*
 
-      * cubic with vacancy
-      * sandwich 5 4 i
-      * hexagonal planar
-      * sandwich 5 4
-      * trigonal pyramidal
-      * sandwich 8 8
-      * sandwich 6 5
-      * trigonal prism tricapped
-      * trigonal planar tricapped
-      * paired octahedral
-      * sandwich 4h 2
-      * sandwich 5 5 v i
-      * sandwich 6 6
-      * square non-planar
-      * square planar bicapped
-      * sandwich 5 2
-      * sandwich 5h 3
-      * pentagonal bipyramidal
-      * square antiprismatic
-      * sandwich 6 3
-      * penta trigonal planar
-      * sandwich 5 square pyramidal monocapped
       * ball
-      * sandwich 5 3
-      * sandwich 5 pentagonal pyramidal
-      * t shape
-      * sandwich 8 8 i
-      * sandwich 6 2
-      * trigonal planar monocapped
-      * penta trigonal planar i
-      * sandwich 5 tricapped i
-      * sandwich 5 capped 1
-      * sandwich 6 4
-      * sandwich 4 2
-      * square pyramidal
-      * square planar
-      * trigonal prismatic all face capped
-      * linear
-      * sandwich 8 8 v
-      * sandwich 6 5 v
-      * square planar monocapped
-      * trigonal planar bicapped
-      * sandwich 4h 4
-      * sandwich 5 hexagonal pyramidal
       * bent
-      * trigonal prismatic monocapped with vacancy
-      * trigonal bipyramidal with vacancy
-      * sandwich 4h 3
-      * sandwich 8 5 i
-      * tetrahedral
-      * square antiprismatic monocapped
-      * octahedral monocapped with vacancy
-      * square antiprismatic bicapped
-      * sandwich 4 3
-      * hexagonal bipyramidal with vacancy
-      * trigonal planar
       * cubic
-      * sandwich 5 square pyramidal
-      * sandwich 8 3
-      * sandwich 4h 4h
-      * linear monocapped
-      * sandwich 5 4h
+      * cubic with vacancy
       * cuboctahedral
-      * trigonal prismatic
-      * pyramidal
-      * sandwich 5 tricapped v
-      * square pyramidal with vacancy
-      * hexagonal bipyramidal
-      * sandwich 5 1
-      * sandwich 5 4h v
-      * pentagonal bipyramidal with vacancy
-      * trigonal bipyramidal
-      * linear bicapped
-      * square antiprismatic with vacancy
-      * sandwich 6 trigonal pyramidal
-      * penta trigonal planar i i
-      * sandwich 5 5 v v 3d
-      * sandwich 5 5 4
-      * sandwich c5 5 i
-      * trigonal prismatic monocapped
-      * sandwich 6 6 v
-      * sandwich 6 6 triangle
-      * sandwich 5 5o
       * dodecahedral
-      * seamine
-      * pentagonal antiprismatic
-      * octahedral
-      * penta trigonal planar v
-      * trigonal prismatic bicapped
-      * sandwich 7 5
-      * sandwich 7 1
-      * sandwich 6 1
-      * octahedral bicapped
-      * sandwich 8 4
-      * pentagonal prismatic
-      * trigonal prismatic with vacancy
-      * sandwich 5 5
-      * sandwich 7 3
+      * hexagonal bipyramidal
+      * hexagonal bipyramidal with vacancy
+      * hexagonal planar
       * irregular
-      * sandwich 7 2
-      * sandwich 5 5 v v
+      * linear
+      * linear bicapped
+      * linear monocapped
+      * octahedral
+      * octahedral bicapped
+      * octahedral monocapped
+      * octahedral monocapped with vacancy
+      * paired octahedral
+      * penta trigonal planar
+      * penta trigonal planar i
+      * penta trigonal planar i i
+      * penta trigonal planar v
+      * pentagonal antiprismatic
+      * pentagonal bipyramidal
+      * pentagonal bipyramidal with vacancy
+      * pentagonal prismatic
+      * pyramidal
+      * sandwich 4 2
+      * sandwich 4 3
+      * sandwich 4h 2
+      * sandwich 4h 3
+      * sandwich 4h 4
+      * sandwich 4h 4h
+      * sandwich 5 1
+      * sandwich 5 2
+      * sandwich 5 3
+      * sandwich 5 4
+      * sandwich 5 4 i
+      * sandwich 5 4h
+      * sandwich 5 4h v
+      * sandwich 5 5
+      * sandwich 5 5 4
+      * sandwich 5 5 i
       * sandwich 5 5 star
       * sandwich 5 5 v
+      * sandwich 5 5 v i
+      * sandwich 5 5 v v
+      * sandwich 5 5 v v 3d
+      * sandwich 5 5o
+      * sandwich 5 capped 1
+      * sandwich 5 hexagonal pyramidal
+      * sandwich 5 pentagonal pyramidal
+      * sandwich 5 square pyramidal
+      * sandwich 5 square pyramidal monocapped
+      * sandwich 5 tricapped i
+      * sandwich 5 tricapped v
+      * sandwich 5h 3
+      * sandwich 6 1
+      * sandwich 6 2
+      * sandwich 6 3
+      * sandwich 6 4
+      * sandwich 6 5
+      * sandwich 6 5 v
+      * sandwich 6 6
+      * sandwich 6 6 triangle
+      * sandwich 6 6 v
+      * sandwich 6 trigonal pyramidal
+      * sandwich 7 1
+      * sandwich 7 2
+      * sandwich 7 3
+      * sandwich 7 5
+      * sandwich 8 3
+      * sandwich 8 4
       * sandwich 8 5
-      * octahedral monocapped
-      * sandwich 5 5 i
+      * sandwich 8 5 i
+      * sandwich 8 8
+      * sandwich 8 8 i
+      * sandwich 8 8 v
+      * sandwich c5 5 i
+      * seamine
+      * square antiprismatic
+      * square antiprismatic bicapped
+      * square antiprismatic monocapped
+      * square antiprismatic with vacancy
+      * square non-planar
+      * square planar
+      * square planar bicapped
+      * square planar monocapped
+      * square pyramidal
+      * square pyramidal with vacancy
+      * t shape
+      * tetrahedral
+      * trigonal bipyramidal
+      * trigonal bipyramidal with vacancy
+      * trigonal planar
+      * trigonal planar bicapped
+      * trigonal planar monocapped
+      * trigonal planar tricapped
+      * trigonal prism tricapped
+      * trigonal prismatic
+      * trigonal prismatic all face capped
+      * trigonal prismatic bicapped
+      * trigonal prismatic monocapped
+      * trigonal prismatic monocapped with vacancy
+      * trigonal prismatic with vacancy
+      * trigonal pyramidal
 
 
 * **_pdbx_nonpoly_atom_coordination.provenance**
@@ -443,10 +443,10 @@ a unified naming scheme. As software programs sometimes have different names for
 
     *Enumeration:*
 
-      * MetalCoord
       * Author
-      * PDB
       * FindGeo
+      * MetalCoord
+      * PDB
 
 
 * **_pdbx_nonpoly_atom_coordination.assessment**
@@ -462,8 +462,8 @@ The assessment is based on comparison with the CCD. If coordination
     *Enumeration:*
 
       * Expected
-      * Unexpected
       * No reference
+      * Unexpected
 
 
 ## pdbx_nonpoly_atom_coordination_sphere
@@ -503,9 +503,9 @@ category.
 
     *Enumeration:*
 
+      * FindGeo
       * MetalCoord
       * PDB
-      * FindGeo
 
 
 ## pdbx_modification_feature
@@ -521,181 +521,6 @@ modeled in the entry.
 
       * Metal coordination
       * ...
-
-
-## pdbx_nonpoly_feature
-Data items in the PDBX_NONPOLY_FEATURE category provide
-a selected list of atom level features for the chemical component.
-
-
-* **_pdbx_nonpoly_feature.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_nonpoly_feature.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_nonpoly_feature.label_asym_id**
-: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
-
-
-* **_pdbx_nonpoly_feature.type**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Group charge
-
-
-* **_pdbx_nonpoly_feature.value**
-: The feature assigned to this atom.
-
-
-* **_pdbx_nonpoly_feature.provenance**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Author
-      * PDB
-
-
-## pdbx_nonpoly_feature_evidence
-Data items in the PDBX_NONPOLY_FEATURE_EVIDENCE category provide
-a selected list of asym level features for the chemical component.
-
-
-* **_pdbx_nonpoly_feature_evidence.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_nonpoly_feature_evidence.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_nonpoly_feature_evidence.label_asym_id**
-: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
-
-
-* **_pdbx_nonpoly_feature_evidence.type**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Group charge
-
-
-* **_pdbx_nonpoly_feature_evidence.experimental_support**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * UV-Vis spectroscopy
-      * Electron paramagnetic resonance spectroscopy
-      * Mossbauer spectroscopy
-      * Other
-
-
-* **_pdbx_nonpoly_feature_evidence.details**
-: Additional details on this atom assignment
-
-
-## pdbx_nonpoly_atom_feature
-Data items in the PDBX_NONPOLY_ATOM_FEATURE category provide
-a selected list of atom level features for the chemical component.
-
-
-* **_pdbx_nonpoly_atom_feature.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_nonpoly_atom_feature.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_nonpoly_atom_feature.atom_id**
-: The identifier for the target atom to which the feature is assigned.
-
-
-* **_pdbx_nonpoly_atom_feature.label_asym_id**
-: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
-
-
-* **_pdbx_nonpoly_atom_feature.type**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Oxidation state
-
-
-* **_pdbx_nonpoly_atom_feature.value**
-: The feature assigned to this atom.
-
-
-* **_pdbx_nonpoly_atom_feature.provenance**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Author
-      * PDB
-
-
-## pdbx_nonpoly_atom_feature_evidence
-Data items in the PDBX_NONPOLY_ATOM_FEATURE_EVIDENCE category provide
-a selected list of atom level features for the chemical component.
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.ordinal**
-: An ordinal index for this category
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.comp_id**
-: This data item is a pointer to id in the CHEM_COMP
-category.
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.atom_id**
-: The identifier for the target atom to which the feature is assigned.
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.label_asym_id**
-: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.type**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * Oxidation state
-      * Metal identity
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.experimental_support**
-: The feature assigned to this atom.
-
-    *Enumeration:*
-
-      * UV-Vis spectroscopy
-      * Anomalous scattering
-      * Inductively coupled plasma mass spectrometry
-      * Raman spectroscopy
-      * X-ray absorption spectroscopy
-      * Electron paramagnetic resonance spectroscopy
-      * X-ray fluorescence
-      * Infrared spectroscopy
-      * Mossbauer spectroscopy
-      * Other
-
-
-* **_pdbx_nonpoly_atom_feature_evidence.details**
-: Additional details on this atom assignment
 
 
 
