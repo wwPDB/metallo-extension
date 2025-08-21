@@ -3,7 +3,7 @@
 ---
 Title: Introduction to metallic ligand annotation dictionary extension  
 Author: A. Biester, E. Peisach  
-Date: 21-Apr-2025  
+Date: 21-Aug-2025  
 email: ezra.peisach@rcsb.org  
 ---
 # Metallic ligand annotation update on Chemical Component Dictionary
@@ -27,8 +27,8 @@ chemical components.
 
     *Enumeration:*
 
-      * metal cation
       * metal-containing ligand
+      * metal cation
 
 
 ## chem_comp_bond
@@ -45,8 +45,8 @@ referred to as a dative or coordinate covalent bond. This flag is used for all b
 
     *Enumeration:*
 
-      * Y
       * N
+      * Y
 
 
 * **_chem_comp_bond.pdbx_metal_pi_flag**
@@ -54,60 +54,209 @@ referred to as a dative or coordinate covalent bond. This flag is used for all b
 
     *Enumeration:*
 
-      * Y
       * N
+      * Y
 
 
-## pdbx_chem_comp_atom_feature
-Data items in the PDBX_CHEM_COMP_ATOM_FEATURE category provide
-a selected list of atom level features for the chemical component.
+## pdbx_chem_comp_atom_coordination
+Data items in the PDBX_CHEM_COMP_ATOM_COORDINATION category provide
+coordination information on selected atoms
 
 
-* **_pdbx_chem_comp_atom_feature.ordinal**
-: An ordinal index for this category
+* **_pdbx_chem_comp_atom_coordination.geometry_id**
+: This data item is used to group together equivalent geometries coming from different
+software programs. For instance, if one program has an output of 'tetrahedral' and
+another has an output of 'tetrahedron' for the same atom, these two records will
+have the same geometry_id because these two outputs represent the same coordination geometry.
 
 
-* **_pdbx_chem_comp_atom_feature.id**
-: This data item is used to group together a corresponding
-coordination number, coordination geometry, and
-coordination descriptor for a given atom. A different id
-is used to describe each unique group of coordination
-number, coordination geometry, and coordination
-descriptor.
-
-
-* **_pdbx_chem_comp_atom_feature.comp_id**
+* **_pdbx_chem_comp_atom_coordination.comp_id**
 : This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
 category.
 
 
-* **_pdbx_chem_comp_atom_feature.atom_id**
+* **_pdbx_chem_comp_atom_coordination.atom_id**
 : The identifier for the target atom to which the feature is assigned.
 
 
-* **_pdbx_chem_comp_atom_feature.type**
-: The feature assigned to this atom.
+* **_pdbx_chem_comp_atom_coordination.number**
+: The coordination number of the target atom.
+
+
+* **_pdbx_chem_comp_atom_coordination.geometry**
+: This data item contains the geometry output from a software program (for example, FindGeo or MetalCoord).
+
+
+* **_pdbx_chem_comp_atom_coordination.geometry_generic**
+: This data item translates the geometry output from a software program (for example, FindGeo or MetalCoord) into
+a unified naming scheme. As software programs sometimes have different names for the same geometry (for instance,
+	       'tetrahedral' and 'tetrahedron' correspond to the same geometry), this data item provides a name for
+	       the geometry that is consistent regardless of the provenance to enhance findability.
 
     *Enumeration:*
 
-      * Coordination descriptor
-      * Coordination geometry
-      * Coordination number
+      * cubic with vacancy
+      * sandwich 5 4 i
+      * hexagonal planar
+      * sandwich 5 4
+      * trigonal pyramidal
+      * sandwich 8 8
+      * sandwich 6 5
+      * trigonal prism tricapped
+      * trigonal planar tricapped
+      * paired octahedral
+      * sandwich 4h 2
+      * sandwich 5 5 v i
+      * sandwich 6 6
+      * square non-planar
+      * square planar bicapped
+      * sandwich 5 2
+      * sandwich 5h 3
+      * pentagonal bipyramidal
+      * square antiprismatic
+      * sandwich 6 3
+      * penta trigonal planar
+      * sandwich 5 square pyramidal monocapped
+      * ball
+      * sandwich 5 3
+      * sandwich 5 pentagonal pyramidal
+      * t shape
+      * sandwich 8 8 i
+      * sandwich 6 2
+      * trigonal planar monocapped
+      * penta trigonal planar i
+      * sandwich 5 tricapped i
+      * sandwich 5 capped 1
+      * sandwich 6 4
+      * sandwich 4 2
+      * square pyramidal
+      * square planar
+      * trigonal prismatic all face capped
+      * linear
+      * sandwich 8 8 v
+      * sandwich 6 5 v
+      * square planar monocapped
+      * trigonal planar bicapped
+      * sandwich 4h 4
+      * sandwich 5 hexagonal pyramidal
+      * bent
+      * trigonal prismatic monocapped with vacancy
+      * trigonal bipyramidal with vacancy
+      * sandwich 4h 3
+      * sandwich 8 5 i
+      * tetrahedral
+      * square antiprismatic monocapped
+      * octahedral monocapped with vacancy
+      * square antiprismatic bicapped
+      * sandwich 4 3
+      * hexagonal bipyramidal with vacancy
+      * trigonal planar
+      * cubic
+      * sandwich 5 square pyramidal
+      * sandwich 8 3
+      * sandwich 4h 4h
+      * linear monocapped
+      * sandwich 5 4h
+      * cuboctahedral
+      * trigonal prismatic
+      * pyramidal
+      * sandwich 5 tricapped v
+      * square pyramidal with vacancy
+      * hexagonal bipyramidal
+      * sandwich 5 1
+      * sandwich 5 4h v
+      * pentagonal bipyramidal with vacancy
+      * trigonal bipyramidal
+      * linear bicapped
+      * square antiprismatic with vacancy
+      * sandwich 6 trigonal pyramidal
+      * penta trigonal planar i i
+      * sandwich 5 5 v v 3d
+      * sandwich 5 5 4
+      * sandwich c5 5 i
+      * trigonal prismatic monocapped
+      * sandwich 6 6 v
+      * sandwich 6 6 triangle
+      * sandwich 5 5o
+      * dodecahedral
+      * seamine
+      * pentagonal antiprismatic
+      * octahedral
+      * penta trigonal planar v
+      * trigonal prismatic bicapped
+      * sandwich 7 5
+      * sandwich 7 1
+      * sandwich 6 1
+      * octahedral bicapped
+      * sandwich 8 4
+      * pentagonal prismatic
+      * trigonal prismatic with vacancy
+      * sandwich 5 5
+      * sandwich 7 3
+      * irregular
+      * sandwich 7 2
+      * sandwich 5 5 v v
+      * sandwich 5 5 star
+      * sandwich 5 5 v
+      * sandwich 8 5
+      * octahedral monocapped
+      * sandwich 5 5 i
 
 
-* **_pdbx_chem_comp_atom_feature.value**
-: The feature assigned to this atom.
-
-
-* **_pdbx_chem_comp_atom_feature.provenance**
-: The provenace of the feature assigned to this atom.
+* **_pdbx_chem_comp_atom_coordination.provenance**
+: The provenance of the feature assigned to this atom.
 
     *Enumeration:*
 
-      * Author
-      * FindGeo
-      * PDB
       * MetalCoord
+      * Author
+      * PDB
+      * FindGeo
+
+
+* **_pdbx_chem_comp_atom_coordination.representative_entry_id**
+: The representative entry for this set
+
+
+## pdbx_chem_comp_atom_coordination_sphere
+Data items in the PDBX_CHEM_COMP_ATOM_COORDINATION_SPHERE category provide
+geometric coordination information on selected atoms
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.id**
+: An ordinal index for this category
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.geometry_id**
+: This data item is a foreign key to _pdbx_chem_comp_atom_coordination.geometry_id. This item maps the
+coordination descriptor to a specific geometry described in the pdbx_chem_comp_atom_coordination category.
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.comp_id**
+: This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
+category.
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.atom_id**
+: The identifier for the target atom to which the feature is assigned.
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.descriptor**
+: A descriptor describing the geometry of this atom.
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.provenance**
+: The provenance of the feature assigned to this atom.
+
+    *Enumeration:*
+
+      * MetalCoord
+      * PDB
+      * FindGeo
+
+
+* **_pdbx_chem_comp_atom_coordination_sphere.representative_entry_id**
+: The representative entry for this set
 
 
 ## pdbx_chem_comp_pcm
@@ -125,7 +274,239 @@ by the chemical component.
       * ...
 
 
+
 # Metallic ligand annotation update in PDB model coordinates files
+
+## pdbx_nonpoly_atom_coordination
+Data items in the PDBX_NONPOLY_ATOM_COORDINATION category provide
+coordination information on selected atoms
+
+
+* **_pdbx_nonpoly_atom_coordination.geometry_id**
+: This data item is used to group together equivalent
+geometries coming from different software programs.
+	       For instance, if one program has an output of 'tetrahedral'
+and another has an output of 'tetrahedron' for the same atom,
+	       these two records will have the same geometry_id
+	       because these two outputs represent the same coordination geometry.
+
+
+* **_pdbx_nonpoly_atom_coordination.label_asym_id**
+: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
+
+
+* **_pdbx_nonpoly_atom_coordination.comp_id**
+: This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
+category.
+
+
+* **_pdbx_nonpoly_atom_coordination.atom_id**
+: The identifier for the target atom to which the feature is assigned.
+
+
+* **_pdbx_nonpoly_atom_coordination.alt_id**
+: A place holder to indicate alternate conformation.
+
+
+* **_pdbx_nonpoly_atom_coordination.number**
+: The coordination number of the target atom.
+
+
+* **_pdbx_nonpoly_atom_coordination.geometry**
+: This data item translates the geometry output from a software
+program (for example, FindGeo or MetalCoord) into a unified naming
+	       scheme. As software programs sometimes have different names for
+	       the same geometry (for instance, 'tetrahedral' and 'tetrahedron'
+	       correspond to the same geometry), this data item provides a name
+	       for the geometry that is consistent regardless of the provenance
+	       to enhance findability.
+
+
+* **_pdbx_nonpoly_atom_coordination.geometry_generic**
+: This data item translates the geometry output from a software program (for example, FindGeo or MetalCoord) into
+a unified naming scheme. As software programs sometimes have different names for the same geometry (for instance,
+	       'tetrahedral' and 'tetrahedron' correspond to the same geometry), this data item provides a name for
+	       the geometry that is consistent regardless of the provenance to enhance findability.
+
+    *Enumeration:*
+
+      * cubic with vacancy
+      * sandwich 5 4 i
+      * hexagonal planar
+      * sandwich 5 4
+      * trigonal pyramidal
+      * sandwich 8 8
+      * sandwich 6 5
+      * trigonal prism tricapped
+      * trigonal planar tricapped
+      * paired octahedral
+      * sandwich 4h 2
+      * sandwich 5 5 v i
+      * sandwich 6 6
+      * square non-planar
+      * square planar bicapped
+      * sandwich 5 2
+      * sandwich 5h 3
+      * pentagonal bipyramidal
+      * square antiprismatic
+      * sandwich 6 3
+      * penta trigonal planar
+      * sandwich 5 square pyramidal monocapped
+      * ball
+      * sandwich 5 3
+      * sandwich 5 pentagonal pyramidal
+      * t shape
+      * sandwich 8 8 i
+      * sandwich 6 2
+      * trigonal planar monocapped
+      * penta trigonal planar i
+      * sandwich 5 tricapped i
+      * sandwich 5 capped 1
+      * sandwich 6 4
+      * sandwich 4 2
+      * square pyramidal
+      * square planar
+      * trigonal prismatic all face capped
+      * linear
+      * sandwich 8 8 v
+      * sandwich 6 5 v
+      * square planar monocapped
+      * trigonal planar bicapped
+      * sandwich 4h 4
+      * sandwich 5 hexagonal pyramidal
+      * bent
+      * trigonal prismatic monocapped with vacancy
+      * trigonal bipyramidal with vacancy
+      * sandwich 4h 3
+      * sandwich 8 5 i
+      * tetrahedral
+      * square antiprismatic monocapped
+      * octahedral monocapped with vacancy
+      * square antiprismatic bicapped
+      * sandwich 4 3
+      * hexagonal bipyramidal with vacancy
+      * trigonal planar
+      * cubic
+      * sandwich 5 square pyramidal
+      * sandwich 8 3
+      * sandwich 4h 4h
+      * linear monocapped
+      * sandwich 5 4h
+      * cuboctahedral
+      * trigonal prismatic
+      * pyramidal
+      * sandwich 5 tricapped v
+      * square pyramidal with vacancy
+      * hexagonal bipyramidal
+      * sandwich 5 1
+      * sandwich 5 4h v
+      * pentagonal bipyramidal with vacancy
+      * trigonal bipyramidal
+      * linear bicapped
+      * square antiprismatic with vacancy
+      * sandwich 6 trigonal pyramidal
+      * penta trigonal planar i i
+      * sandwich 5 5 v v 3d
+      * sandwich 5 5 4
+      * sandwich c5 5 i
+      * trigonal prismatic monocapped
+      * sandwich 6 6 v
+      * sandwich 6 6 triangle
+      * sandwich 5 5o
+      * dodecahedral
+      * seamine
+      * pentagonal antiprismatic
+      * octahedral
+      * penta trigonal planar v
+      * trigonal prismatic bicapped
+      * sandwich 7 5
+      * sandwich 7 1
+      * sandwich 6 1
+      * octahedral bicapped
+      * sandwich 8 4
+      * pentagonal prismatic
+      * trigonal prismatic with vacancy
+      * sandwich 5 5
+      * sandwich 7 3
+      * irregular
+      * sandwich 7 2
+      * sandwich 5 5 v v
+      * sandwich 5 5 star
+      * sandwich 5 5 v
+      * sandwich 8 5
+      * octahedral monocapped
+      * sandwich 5 5 i
+
+
+* **_pdbx_nonpoly_atom_coordination.provenance**
+: The provenance of the feature assigned to this atom.
+
+    *Enumeration:*
+
+      * MetalCoord
+      * Author
+      * PDB
+      * FindGeo
+
+
+* **_pdbx_nonpoly_atom_coordination.assessment**
+: This data item provides an assessment of the coordination.
+The assessment is based on comparison with the CCD. If coordination
+	       is annotated in the CCD, then the coordination in the structure will
+	       be compared with the reference(s) in the CCD. If there is a match
+	       with the reference CCD, assessment will be annotated as Expected,
+	       whereas if there is not a match, assessment will be annotated as Unexpected.
+	       If there is no reference in the CCD, assessment will be annotated
+	       as 'No reference'.
+
+    *Enumeration:*
+
+      * Expected
+      * Unexpected
+      * No reference
+
+
+## pdbx_nonpoly_atom_coordination_sphere
+Data items in the PDBX_NONPOLY_ATOM_COORDINATION_SPHERE category provide
+geometric coordination information on selected atoms
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.geometry_id**
+: This data item is a foreign key to _pdbx_nonpoly_atom_coordination.geometry_id. This
+item maps the coordination descriptor to a specific geometry described in the
+pdbx_nonpoly_atom_coordination category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.label_asym_id**
+: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.comp_id**
+: This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
+category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.alt_id**
+: A place holder to indicate alternate conformation.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.atom_id**
+: The identifier for the target atom to which the feature is assigned.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.descriptor**
+: A descriptor describing the geometry of this atom.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.provenance**
+: The provenance of the feature assigned to this atom.
+
+    *Enumeration:*
+
+      * MetalCoord
+      * PDB
+      * FindGeo
+
 
 ## pdbx_modification_feature
 Data items in the PDBX_MODIFICATION_FEATURE category provides
@@ -212,10 +593,10 @@ category.
 
     *Enumeration:*
 
-      * Other
-      * Electron paramagnetic resonance spectroscopy
       * UV-Vis spectroscopy
+      * Electron paramagnetic resonance spectroscopy
       * Mossbauer spectroscopy
+      * Other
 
 
 * **_pdbx_nonpoly_feature_evidence.details**
@@ -249,9 +630,6 @@ category.
 
     *Enumeration:*
 
-      * Coordination descriptor
-      * Coordination geometry
-      * Coordination number
       * Oxidation state
 
 
@@ -265,27 +643,7 @@ category.
     *Enumeration:*
 
       * Author
-      * FindGeo
       * PDB
-      * MetalCoord
-
-
-* **_pdbx_nonpoly_atom_feature.assessment**
-: This data item provides an assessment of the value for the given
-feature type (ex. coordination geometry). For
-coordination geometry, the assessment is based on
-comparison with the CCD. If features are annotated in
-the CCD, then these features in the structure will be
-compared with the references in the CCD. If there is a
-match with the reference CCD, assessment will be
-annotated as expected, whereas if there is not a match,
-assessment will be annotated as unexpected.
-
-    *Enumeration:*
-
-      * Unexpected
-      * No reference
-      * Expected
 
 
 ## pdbx_nonpoly_atom_feature_evidence
@@ -315,8 +673,8 @@ category.
 
     *Enumeration:*
 
-      * Metal identity
       * Oxidation state
+      * Metal identity
 
 
 * **_pdbx_nonpoly_atom_feature_evidence.experimental_support**
@@ -324,20 +682,21 @@ category.
 
     *Enumeration:*
 
-      * Electron paramagnetic resonance spectroscopy
-      * X-ray absorption spectroscopy
-      * X-ray fluorescence
-      * Inductively coupled plasma mass spectrometry
+      * UV-Vis spectroscopy
       * Anomalous scattering
+      * Inductively coupled plasma mass spectrometry
+      * Raman spectroscopy
+      * X-ray absorption spectroscopy
+      * Electron paramagnetic resonance spectroscopy
+      * X-ray fluorescence
       * Infrared spectroscopy
       * Mossbauer spectroscopy
-      * Raman spectroscopy
-      * UV-Vis spectroscopy
       * Other
 
 
 * **_pdbx_nonpoly_atom_feature_evidence.details**
 : Additional details on this atom assignment
+
 
 
 
