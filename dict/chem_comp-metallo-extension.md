@@ -214,9 +214,6 @@ a unified naming scheme. As software programs sometimes have different names for
       * PDB
 
 
-* **_pdbx_chem_comp_atom_coordination.representative_entry_id**
-: The representative entry for this set
-
 
 ## pdbx_chem_comp_atom_coordination_sphere
 Data items in the PDBX_CHEM_COMP_ATOM_COORDINATION_SPHERE category provide
@@ -254,9 +251,6 @@ category.
       * MetalCoord
       * PDB
 
-
-* **_pdbx_chem_comp_atom_coordination_sphere.representative_entry_id**
-: The representative entry for this set
 
 
 ## pdbx_chem_comp_pcm
@@ -313,13 +307,7 @@ category.
 
 
 * **_pdbx_nonpoly_atom_coordination.geometry**
-: This data item translates the geometry output from a software
-program (for example, FindGeo or MetalCoord) into a unified naming
-	       scheme. As software programs sometimes have different names for
-	       the same geometry (for instance, 'tetrahedral' and 'tetrahedron'
-	       correspond to the same geometry), this data item provides a name
-	       for the geometry that is consistent regardless of the provenance
-	       to enhance findability.
+: This data item contains the geometry output from a software program (for example, FindGeo or MetalCoord).
 
 
 * **_pdbx_nonpoly_atom_coordination.geometry_generic**
