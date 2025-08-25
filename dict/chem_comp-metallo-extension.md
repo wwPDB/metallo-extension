@@ -215,6 +215,7 @@ a unified naming scheme. As software programs sometimes have different names for
 
 
 
+
 ## pdbx_chem_comp_atom_coordination_sphere
 Data items in the PDBX_CHEM_COMP_ATOM_COORDINATION_SPHERE category provide
 geometric coordination information on selected atoms
@@ -253,6 +254,7 @@ category.
 
 
 
+
 ## pdbx_chem_comp_pcm
 Data items in the PDBX_CHEM_COMP_PCM category provide
 information about the protein modifications that are described
@@ -266,7 +268,6 @@ by the chemical component.
 
       * Metal coordination
       * ...
-
 
 
 # Metallic ligand annotation update in PDB model coordinates files
@@ -307,7 +308,8 @@ category.
 
 
 * **_pdbx_nonpoly_atom_coordination.geometry**
-: This data item contains the geometry output from a software program (for example, FindGeo or MetalCoord).
+: This data item contains the geometry output from a software program
+(for example, FindGeo or MetalCoord).
 
 
 * **_pdbx_nonpoly_atom_coordination.geometry_generic**
@@ -509,7 +511,6 @@ modeled in the entry.
 
       * Metal coordination
       * ...
-
 
 
 
