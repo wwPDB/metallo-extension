@@ -156,21 +156,21 @@ _pdbx_chem_comp_pcm.uniprot_generic_ptm_accession
 11 SF4 GLN None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 NE2 ? ? 
 12 SF4 GLN None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 OE1 ? ? 
 13 SF4 GLN None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OE1 ? ? 
-15 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 OE1 ? ? 
-16 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OE1 ? ? 
-17 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OE2 ? ? 
-18 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 OE2 ? ? 
-19 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 ND1 ? ? 
-20 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 NE2 ? ? 
-21 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 ND1 ? ? 
-22 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 NE2 ? ? 
-23 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 ND1 ? ? 
-24 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 NE2 ? ? 
-25 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 ND1 ? ? 
-26 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 NE2 ? ? 
-27 SF4 SER None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 OG  ? ? 
-28 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 OH  ? ? 
-29 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OH  ? ? 
+14 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 OE1 ? ? 
+15 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OE1 ? ? 
+16 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OE2 ? ? 
+17 SF4 GLU None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 OE2 ? ? 
+18 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 ND1 ? ? 
+19 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 NE2 ? ? 
+20 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 ND1 ? ? 
+21 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE2 NE2 ? ? 
+22 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 ND1 ? ? 
+23 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 NE2 ? ? 
+24 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 ND1 ? ? 
+25 SF4 HIS None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 NE2 ? ? 
+26 SF4 SER None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE4 OG  ? ? 
+27 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE1 OH  ? ? 
+28 SF4 TYR None 'Metal coordination' 'Amino-acid side chain' 'Any position' FE3 OH  ? ? 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
