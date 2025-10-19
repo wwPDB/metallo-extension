@@ -85,13 +85,15 @@ category.
 
 * **_pdbx_chem_comp_atom_coordination.geometry**
 : This data item contains the geometry output from a software program (for example, FindGeo or MetalCoord).
+The geometry derived from observed geometries in atomic coordinate files.
 
 
 * **_pdbx_chem_comp_atom_coordination.geometry_generic**
 : This data item translates the geometry output from a software program (for example, FindGeo or MetalCoord) into
 a unified naming scheme. As software programs sometimes have different names for the same geometry (for instance,
 	       'tetrahedral' and 'tetrahedron' correspond to the same geometry), this data item provides a name for
-	       the geometry that is consistent regardless of the provenance to enhance findability.
+	       the geometry that is consistent regardless of the provenance to enhance findability. The geometry derived
+	       from observed geometries in atomic coordinate files.
 
     *Enumeration:*
 
@@ -203,6 +205,12 @@ a unified naming scheme. As software programs sometimes have different names for
       * trigonal pyramidal
 
 
+* **_pdbx_chem_comp_atom_coordination.geometry_abbr**
+: This data item lists the abbreviated name of the geometry, as specified in the
+_pdbx_chem_comp_atom_coordination_sphere.descriptor. For instance, square planar
+	       is abbreviated to SPL. The geometry derived from observed geometries in atomic coordinate files.
+
+
 * **_pdbx_chem_comp_atom_coordination.provenance**
 : The provenance of the feature assigned to this atom.
 
@@ -212,8 +220,6 @@ a unified naming scheme. As software programs sometimes have different names for
       * FindGeo
       * MetalCoord
       * PDB
-
-
 
 
 ## pdbx_chem_comp_atom_coordination_sphere
@@ -240,7 +246,9 @@ category.
 
 
 * **_pdbx_chem_comp_atom_coordination_sphere.descriptor**
-: A descriptor describing the geometry of this atom.
+: This data item contains a descriptor of the coordination environment of
+an atom. The descriptor is derived from observed coordination environments
+	       in atomic coordinate files.
 
 
 * **_pdbx_chem_comp_atom_coordination_sphere.provenance**
@@ -251,8 +259,6 @@ category.
       * FindGeo
       * MetalCoord
       * PDB
-
-
 
 
 ## pdbx_chem_comp_pcm
@@ -268,6 +274,7 @@ by the chemical component.
 
       * Metal coordination
       * ...
+
 
 
 # Metallic ligand annotation update in PDB model coordinates files
@@ -290,17 +297,58 @@ and another has an output of 'tetrahedron' for the same atom,
 : The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
 
 
-* **_pdbx_nonpoly_atom_coordination.comp_id**
-: This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
+* **_pdbx_nonpoly_atom_coordination.label_seq_id**
+: This data item is a pointer to _atom_site.label_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination.label_comp_id**
+: This data item is a pointer to _atom_site.label_comp_id in the ATOM_SITE
 category.
 
 
-* **_pdbx_nonpoly_atom_coordination.atom_id**
+* **_pdbx_nonpoly_atom_coordination.label_atom_id**
 : The identifier for the target atom to which the feature is assigned.
 
 
-* **_pdbx_nonpoly_atom_coordination.alt_id**
+* **_pdbx_nonpoly_atom_coordination.label_alt_id**
 : A place holder to indicate alternate conformation.
+
+
+* **_pdbx_nonpoly_atom_coordination.auth_asym_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_asym_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination.auth_seq_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination.auth_comp_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_comp_id in
+the ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination.auth_atom_id**
+: A component of the identifier for partner 1 of the structure
+connection.
+
+This data item is a pointer to _atom_site.auth_atom_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination.PDB_ins_code**
+: PDB insertion code.
 
 
 * **_pdbx_nonpoly_atom_coordination.number**
@@ -309,14 +357,21 @@ category.
 
 * **_pdbx_nonpoly_atom_coordination.geometry**
 : This data item contains the geometry output from a software program
-(for example, FindGeo or MetalCoord).
+(for example, FindGeo or MetalCoord). The geometry is based on what
+	       is observed in the coordinate file.
 
 
 * **_pdbx_nonpoly_atom_coordination.geometry_generic**
-: This data item translates the geometry output from a software program (for example, FindGeo or MetalCoord) into
-a unified naming scheme. As software programs sometimes have different names for the same geometry (for instance,
-	       'tetrahedral' and 'tetrahedron' correspond to the same geometry), this data item provides a name for
-	       the geometry that is consistent regardless of the provenance to enhance findability.
+: This data item translates the geometry output from a
+software program (for example, FindGeo or MetalCoord)
+into a unified naming scheme. As software programs
+sometimes have different names for the same geometry
+(for instance, 'tetrahedral' and 'tetrahedron'
+correspond to the same geometry), this data item
+provides a name for the geometry that is consistent
+regardless of the provenance to enhance
+findability. The geometry is based on what is observed
+in the coordinate file.
 
     *Enumeration:*
 
@@ -426,6 +481,15 @@ a unified naming scheme. As software programs sometimes have different names for
       * trigonal prismatic monocapped with vacancy
       * trigonal prismatic with vacancy
       * trigonal pyramidal
+
+
+* **_pdbx_nonpoly_atom_coordination.geometry_abbr**
+: This data item lists the abbreviated name of the
+geometry, as specified in the
+_pdbx_nonpoly_atom_coordination_sphere.descriptor. For
+instance, square planar is abbreviated to SPL. The
+geometry derived from observed geometries in atomic
+coordinate files.
 
 
 * **_pdbx_nonpoly_atom_coordination.provenance**
@@ -471,21 +535,64 @@ pdbx_nonpoly_atom_coordination category.
 : The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
 
 
-* **_pdbx_nonpoly_atom_coordination_sphere.comp_id**
-: This data item is a pointer to _chem_comp_atom.comp_id in the CHEM_COMP
+* **_pdbx_nonpoly_atom_coordination_sphere.label_seq_id**
+: This data item is a pointer to _atom_site.label_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.label_comp_id**
+: This data item is a pointer to _atom_site.comp_id in the ATOM_SITE
 category.
 
 
-* **_pdbx_nonpoly_atom_coordination_sphere.alt_id**
-: A place holder to indicate alternate conformation.
-
-
-* **_pdbx_nonpoly_atom_coordination_sphere.atom_id**
+* **_pdbx_nonpoly_atom_coordination_sphere.label_atom_id**
 : The identifier for the target atom to which the feature is assigned.
 
 
+* **_pdbx_nonpoly_atom_coordination_sphere.label_alt_id**
+: A place holder to indicate alternate conformation.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.auth_asym_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_asym_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.auth_seq_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.auth_comp_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_comp_id in
+the ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.auth_atom_id**
+: A component of the identifier for partner 1 of the structure
+connection.
+
+This data item is a pointer to _atom_site.auth_atom_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code**
+: PDB insertion code.
+
+
 * **_pdbx_nonpoly_atom_coordination_sphere.descriptor**
-: A descriptor describing the geometry of this atom.
+: This data item contains a descriptor of the coordination environment
+of an atom. The descriptor is based on what is observed in the coordinate
+	       file.
 
 
 * **_pdbx_nonpoly_atom_coordination_sphere.provenance**
@@ -496,6 +603,86 @@ category.
       * FindGeo
       * MetalCoord
       * PDB
+
+
+## pdbx_nonpoly_atom_coordination_sphere_order
+This category describes the order of the atoms in the
+coordination sphere category:
+pdbx_nonpoly_atom_coordination_sphere. The order of the
+atoms is the encoding of the 3D arrangement of atoms
+for a particular coordination geometry.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id**
+: This data item is a foreign key to
+_pdbx_nonpoly_atom_coordination_sphere.geometry_id.
+This item maps the coordination sphere order to a
+specific coordination sphere described in the
+pdbx_nonpoly_atom_coordination_sphere category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id**
+: The identifier of the instance of the STRUCT_ASYM_ID to which this feature applies.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id**
+: This data item is a pointer to _atom_site.label_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id**
+: This data item is a pointer to _atom_site.comp_id in the ATOM_SITE
+category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.label_atom_id**
+: The identifier for the target atom to which the feature is assigned.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.label_alt_id**
+: A place holder to indicate alternate conformation.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.auth_asym_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_asym_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_seq_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id**
+: A component of the identifier for the residue at which the
+conformation segment begins.
+
+This data item is a pointer to _atom_site.auth_comp_id in
+the ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id**
+: A component of the identifier for partner 1 of the structure
+connection.
+
+This data item is a pointer to _atom_site.auth_atom_id in the
+ATOM_SITE category.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code**
+: PDB insertion code.
+
+
+* **_pdbx_nonpoly_atom_coordination_sphere_order.atom_place**
+: This data item enumerates the order of the atom in the
+coordination sphere, which is the encoding of the 3D
+arrangement of the atoms.
 
 
 ## pdbx_modification_feature
@@ -511,6 +698,7 @@ modeled in the entry.
 
       * Metal coordination
       * ...
+
 
 
 
