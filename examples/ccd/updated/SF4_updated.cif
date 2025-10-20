@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   Y 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -98,15 +98,16 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 SF4 FE1 4 tetrahedron tetrahedral FindGeo    
-1 SF4 FE1 4 tetrahedral tetrahedral MetalCoord 
-2 SF4 FE2 4 tetrahedron tetrahedral FindGeo    
-2 SF4 FE2 4 tetrahedral tetrahedral MetalCoord 
-3 SF4 FE3 4 tetrahedron tetrahedral FindGeo    
-3 SF4 FE3 4 tetrahedral tetrahedral MetalCoord 
-4 SF4 FE4 4 tetrahedron tetrahedral FindGeo    
-4 SF4 FE4 4 tetrahedral tetrahedral MetalCoord 
+1 SF4 FE1 4 tetrahedron tetrahedral TET FindGeo    
+1 SF4 FE1 4 tetrahedral tetrahedral TET MetalCoord 
+2 SF4 FE2 4 tetrahedron tetrahedral TET FindGeo    
+2 SF4 FE2 4 tetrahedral tetrahedral TET MetalCoord 
+3 SF4 FE3 4 tetrahedron tetrahedral TET FindGeo    
+3 SF4 FE3 4 tetrahedral tetrahedral TET MetalCoord 
+4 SF4 FE4 4 tetrahedron tetrahedral TET FindGeo    
+4 SF4 FE4 4 tetrahedral tetrahedral TET MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -115,21 +116,21 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1  1 SF4 FE1 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-2  1 SF4 FE1 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-3  1 SF4 FE1 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-4  2 SF4 FE2 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-5  2 SF4 FE2 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-6  2 SF4 FE2 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-7  2 SF4 FE2 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
-8  3 SF4 FE3 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-9  3 SF4 FE3 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-10 3 SF4 FE3 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-11 3 SF4 FE3 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
-12 4 SF4 FE4 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-13 4 SF4 FE4 'Fe(N)(S)(S)(S){NFeS<109.5>,NFeS<109.5>,NFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-14 4 SF4 FE4 'Fe(O)(S)(S)(S){OFeS<109.5>,OFeS<109.5>,OFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'     PDB 
-15 4 SF4 FE4 'Fe(S)(S)(S)(Cl){SFeS<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeS<109.5>,SFeCl<109.5>,SFeCl<109.5>}' PDB 
+1  1 SF4 FE1 '@TET{Fe,S,S,S,S}'  MetalCoord 
+2  1 SF4 FE1 '@TET{Fe,N,S,S,S}'  MetalCoord 
+3  1 SF4 FE1 '@TET{Fe,O,S,S,S}'  MetalCoord 
+4  2 SF4 FE2 '@TET{Fe,S,S,S,S}'  MetalCoord 
+5  2 SF4 FE2 '@TET{Fe,N,S,S,S}'  MetalCoord 
+6  2 SF4 FE2 '@TET{Fe,O,S,S,S}'  MetalCoord 
+7  2 SF4 FE2 '@TET{Fe,S,S,S,Cl}' MetalCoord 
+8  3 SF4 FE3 '@TET{Fe,S,S,S,S}'  MetalCoord 
+9  3 SF4 FE3 '@TET{Fe,N,S,S,S}'  MetalCoord 
+10 3 SF4 FE3 '@TET{Fe,O,S,S,S}'  MetalCoord 
+11 3 SF4 FE3 '@TET{Fe,S,S,S,Cl}' MetalCoord 
+12 4 SF4 FE4 '@TET{Fe,S,S,S,S}'  MetalCoord 
+13 4 SF4 FE4 '@TET{Fe,N,S,S,S}'  MetalCoord 
+14 4 SF4 FE4 '@TET{Fe,O,S,S,S}'  MetalCoord 
+15 4 SF4 FE4 '@TET{Fe,S,S,S,Cl}' MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -179,5 +180,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 SF4 'Create component'         1999-07-08 EBI  
 SF4 'Modify descriptor'        2023-09-23 RCSB 
-SF4 'Modify metal description' 2025-08-20 RCSB 
+SF4 'Modify metal description' 2025-10-16 RCSB 
 # 

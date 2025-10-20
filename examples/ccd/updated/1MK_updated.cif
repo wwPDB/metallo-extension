@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     2013-04-01 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -195,9 +195,10 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 1MK OS1 8 sandwich_6_2 'sandwich 6 2' MetalCoord 
-2 1MK OS1 9 sandwich_6_3 'sandwich 6 3' MetalCoord 
+1 1MK OS1 8 sandwich_6_2 'sandwich 6 2' SAM MetalCoord 
+2 1MK OS1 9 sandwich_6_3 'sandwich 6 3' SAS MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -206,8 +207,8 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 1MK OS1 'Os(C)(C)(C)(C)(C)(C)(N)(S){COsC<37.6>,COsC<67.6>,COsC<79.6>,COsC<66.7>,COsC<37.1>,COsN<127.3>,COsS<118.7>,COsC<36.9>,COsC<66.6>,COsC<78.4>,COsC<66.7>,COsN<161.2>,COsS<100.3>,COsC<37.1>,COsC<66.8>,COsC<79>,COsN<161.7>,COsS<105.7>,COsC<37.3>,COsC<66.9>,COsN<128.5>,COsS<132.3>,COsC<36.7>,COsN<107.1>,COsS<169.1>,COsN<106.6>,COsS<152.4>,NOsS<77.6>}'                                                                                        PDB 
-2 2 1MK OS1 'Os(C)(C)(C)(C)(C)(C)(N)(N)(S){COsC<37.2>,COsC<66.7>,COsC<78.6>,COsC<66.7>,COsC<36.7>,COsN<87.4>,COsN<124.7>,COsS<145.4>,COsC<36.7>,COsC<66.5>,COsC<78.6>,COsC<66.5>,COsN<94.5>,COsN<160.9>,COsS<109>,COsC<37.2>,COsC<66.6>,COsC<78.7>,COsN<124.8>,COsN<145.4>,COsS<87.4>,COsC<36.7>,COsC<66.5>,COsN<160.9>,COsN<109>,COsS<94.5>,COsC<37.2>,COsN<145.5>,COsN<87.4>,COsS<124.7>,COsN<109>,COsN<94.5>,COsS<160.9>,NOsN<89.6>,NOsS<89.6>,NOsS<89.7>}' PDB 
+1 1 1MK OS1 '@SAM{Os,C,C,C,C,C,C,N,S}'   MetalCoord 
+2 2 1MK OS1 '@SAS{Os,C,C,C,C,C,C,N,N,S}' MetalCoord 
 # 
 _pdbx_chem_comp_pcm.pcm_id                             1 
 _pdbx_chem_comp_pcm.comp_id                            1MK 
@@ -228,5 +229,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 1MK 'Create component'         2013-04-01 RCSB 
 1MK 'Initial release'          2013-04-17 RCSB 
-1MK 'Modify metal description' 2025-08-20 RCSB 
+1MK 'Modify metal description' 2025-10-16 RCSB 
 # 

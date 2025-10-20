@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     2023-06-22 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -158,11 +158,12 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 YWV RU1 4 'square plane'   'square planar'    FindGeo    
-2 YWV RU1 5 square-pyramid   'square pyramidal' MetalCoord 
-3 YWV RU2 5 'square pyramid' 'square pyramidal' FindGeo    
-3 YWV RU2 5 square-pyramid   'square pyramidal' MetalCoord 
+1 YWV RU1 4 'square plane'   'square planar'    SPL FindGeo    
+2 YWV RU1 5 square-pyramid   'square pyramidal' SQP MetalCoord 
+3 YWV RU2 5 'square pyramid' 'square pyramidal' SPY FindGeo    
+3 YWV RU2 5 square-pyramid   'square pyramidal' SQP MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -171,9 +172,8 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 YWV RU1 'Ru(N)(N)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<180>,ORuO<90>}'                                        PDB 
-2 2 YWV RU1 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB 
-3 3 YWV RU2 'Ru(N)(N)(O)(O)(O){NRuN<90>,NRuO<180>,NRuO<90>,NRuO<90>,NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB 
+2 2 YWV RU1 '@SQP{Ru,N,N,O,O,O}' MetalCoord 
+3 3 YWV RU2 '@SQP{Ru,N,N,O,O,O}' MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -201,5 +201,5 @@ YWV 'Create component'         2023-06-22 PDBE
 YWV 'Modify coordinates'       2023-07-05 PDBE 
 YWV 'Modify name'              2023-07-07 PDBE 
 YWV 'Initial release'          2023-09-13 RCSB 
-YWV 'Modify metal description' 2025-08-20 RCSB 
+YWV 'Modify metal description' 2025-10-16 RCSB 
 # 

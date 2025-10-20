@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    0 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -95,12 +95,13 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 AF3 AL 4 'trigonal bipyramid with a vacancy (axial)' 'trigonal pyramidal'   FindGeo    
-1 AF3 AL 4 trigonal-pyramid                            'trigonal pyramidal'   MetalCoord 
-2 AF3 AL 4 tetrahedral                                 tetrahedral            MetalCoord 
-3 AF3 AL 5 'trigonal bipyramid'                        'trigonal bipyramidal' FindGeo    
-3 AF3 AL 5 trigonal-bipyramid                          'trigonal bipyramidal' MetalCoord 
+1 AF3 AL 4 'trigonal bipyramid with a vacancy (axial)' 'trigonal pyramidal'   BVA FindGeo    
+1 AF3 AL 4 trigonal-pyramid                            'trigonal pyramidal'   TPY MetalCoord 
+2 AF3 AL 4 tetrahedral                                 tetrahedral            TET MetalCoord 
+3 AF3 AL 5 'trigonal bipyramid'                        'trigonal bipyramidal' TBP FindGeo    
+3 AF3 AL 5 trigonal-bipyramid                          'trigonal bipyramidal' TBP MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -109,10 +110,10 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 AF3 AL 'Al(O)(F)(F)(F){OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}'                                         PDB 
-2 2 AF3 AL 'Al(O)(F)(F)(F){OAlF<109.5>,OAlF<109.5>,OAlF<109.5>,FAlF<109.5>,FAlF<109.5>,FAlF<109.5>}'                          PDB 
-3 3 AF3 AL 'Al(N)(O)(F)(F)(F){NAlO<180>,NAlF<90>,NAlF<90>,NAlF<90>,OAlF<90>,OAlF<90>,OAlF<90>,FAlF<120>,FAlF<120>,FAlF<120>}' PDB 
-4 3 AF3 AL 'Al(O)(O)(F)(F)(F){OAlO<90>,OAlF<180>,OAlF<90>,OAlF<90>,OAlF<90>,OAlF<120>,OAlF<120>,FAlF<90>,FAlF<90>,FAlF<120>}' PDB 
+1 1 AF3 AL '@TPY{Al,O,F,F,F}'   MetalCoord 
+2 2 AF3 AL '@TET{Al,O,F,F,F}'   MetalCoord 
+3 3 AF3 AL '@TBP{Al,N,O,F,F,F}' MetalCoord 
+4 3 AF3 AL '@TBP{Al,O,O,F,F,F}' MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -138,5 +139,5 @@ _pdbx_chem_comp_audit.date
 _pdbx_chem_comp_audit.processing_site 
 AF3 'Create component'         1999-07-08 RCSB 
 AF3 'Modify descriptor'        2011-06-04 RCSB 
-AF3 'Modify metal description' 2025-08-20 RCSB 
+AF3 'Modify metal description' 2025-10-16 RCSB 
 # 

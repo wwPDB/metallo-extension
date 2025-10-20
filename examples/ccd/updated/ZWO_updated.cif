@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         ? 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     2023-07-07 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   N 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -172,11 +172,12 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 ZWO RU1 4 'square plane'   'square planar'    FindGeo    
-1 ZWO RU1 4 square-planar    'square planar'    MetalCoord 
-2 ZWO RU2 5 'square pyramid' 'square pyramidal' FindGeo    
-2 ZWO RU2 5 square-pyramid   'square pyramidal' MetalCoord 
+1 ZWO RU1 4 'square plane'   'square planar'    SPL FindGeo    
+1 ZWO RU1 4 square-planar    'square planar'    SPL MetalCoord 
+2 ZWO RU2 5 'square pyramid' 'square pyramidal' SPY FindGeo    
+2 ZWO RU2 5 square-pyramid   'square pyramidal' SQP MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -185,8 +186,8 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 ZWO RU1 'Ru(N)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}'                                         PDB 
-2 2 ZWO RU2 'Ru(N)(O)(O)(O)(O){NRuO<90>,NRuO<180>,NRuO<90>,NRuO<90>,ORuO<90>,ORuO<180>,ORuO<90>,ORuO<90>,ORuO<90>,ORuO<90>}' PDB 
+1 1 ZWO RU1 '@SPL{Ru,N,O,O,O}'   MetalCoord 
+2 2 ZWO RU2 '@SQP{Ru,N,O,O,O,O}' MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_audit.comp_id 
@@ -196,5 +197,5 @@ _pdbx_chem_comp_audit.processing_site
 ZWO 'Create component'         2023-07-07 PDBE 
 ZWO 'Modify name'              2023-07-07 PDBE 
 ZWO 'Initial release'          2023-09-13 RCSB 
-ZWO 'Modify metal description' 2025-08-20 RCSB 
+ZWO 'Modify metal description' 2025-10-16 RCSB 
 # 

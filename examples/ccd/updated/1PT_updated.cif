@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         OXALIPLATIN 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     2003-06-03 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   Y 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -132,9 +132,10 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 1PT PT 4 'square plane' 'square planar' FindGeo    
-1 1PT PT 4 square-planar  'square planar' MetalCoord 
+1 1PT PT 4 'square plane' 'square planar' SPL FindGeo    
+1 1PT PT 4 square-planar  'square planar' SPL MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -143,10 +144,10 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 1PT PT 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB 
-2 1 1PT PT 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB 
-3 1 1PT PT 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB 
-4 1 1PT PT 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB 
+1 1 1PT PT '@SPL{Pt,N,N,N,N}' MetalCoord 
+2 1 1PT PT '@SPL{Pt,N,N,N,O}' MetalCoord 
+3 1 1PT PT '@SPL{Pt,N,N,O,O}' MetalCoord 
+4 1 1PT PT '@SPL{Pt,N,N,O,S}' MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_pcm.pcm_id 
@@ -172,7 +173,7 @@ _pdbx_chem_comp_audit.processing_site
 1PT 'Create component'         2003-06-03 RCSB 
 1PT 'Other modification'       2018-04-23 RCSB 
 1PT 'Modify synonyms'          2020-06-05 PDBE 
-1PT 'Modify metal description' 2025-08-20 RCSB 
+1PT 'Modify metal description' 2025-10-16 RCSB 
 # 
 _pdbx_chem_comp_synonyms.ordinal      1 
 _pdbx_chem_comp_synonyms.comp_id      1PT 

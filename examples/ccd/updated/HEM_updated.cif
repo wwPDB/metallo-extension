@@ -9,7 +9,7 @@ _chem_comp.mon_nstd_parent_comp_id               ?
 _chem_comp.pdbx_synonyms                         HEME 
 _chem_comp.pdbx_formal_charge                    ? 
 _chem_comp.pdbx_initial_date                     1999-07-08 
-_chem_comp.pdbx_modified_date                    2025-08-20 
+_chem_comp.pdbx_modified_date                    2025-10-16 
 _chem_comp.pdbx_ambiguous_flag                   Y 
 _chem_comp.pdbx_release_status                   REL 
 _chem_comp.pdbx_replaced_by                      ? 
@@ -250,7 +250,7 @@ HEM 'Create component'         1999-07-08 RCSB
 HEM 'Other modification'       2016-01-20 RCSB 
 HEM 'Modify synonyms'          2020-06-05 PDBE 
 HEM 'Modify PCM'               2024-09-27 PDBE 
-HEM 'Modify metal description' 2025-08-20 RCSB 
+HEM 'Modify metal description' 2025-10-16 RCSB 
 # 
 _pdbx_chem_comp_synonyms.ordinal      1 
 _pdbx_chem_comp_synonyms.comp_id      HEM 
@@ -301,11 +301,12 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 HEM FE 5 'square pyramid' 'square pyramidal' FindGeo    
-1 HEM FE 5 square-pyramid   'square pyramidal' MetalCoord 
-2 HEM FE 6 octahedron       octahedral         FindGeo    
-2 HEM FE 6 octahedral       octahedral         MetalCoord 
+1 HEM FE 5 'square pyramid' 'square pyramidal' SPY FindGeo    
+1 HEM FE 5 square-pyramid   'square pyramidal' SQP MetalCoord 
+2 HEM FE 6 octahedron       octahedral         OCT FindGeo    
+2 HEM FE 6 octahedral       octahedral         OCT MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -314,24 +315,24 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1  1 HEM FE 'Fe(N)(N)(N)(N)(N){NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>}'                                                        PDB 
-2  1 HEM FE 'Fe(N)(N)(N)(N)(O){NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeN<90>,NFeO<90>,NFeO<90>}'                                                        PDB 
-3  1 HEM FE 'Fe(N)(N)(N)(N)(S){NFeN<90>,NFeN<180>,NFeN<90>,NFeS<90>,NFeN<90>,NFeN<180>,NFeS<90>,NFeN<90>,NFeS<90>,NFeS<90>}'                                                        PDB 
-4  1 HEM FE 'Fe(N)(N)(N)(N)(Cl){NFeN<90>,NFeN<180>,NFeN<90>,NFeCl<90>,NFeN<90>,NFeN<180>,NFeCl<90>,NFeN<90>,NFeCl<90>,NFeCl<90>}'                                                   PDB 
-5  1 HEM FE 'Fe(N)(N)(N)(N)(Se){NFeN<90>,NFeN<180>,NFeN<90>,NFeSe<90>,NFeN<90>,NFeN<180>,NFeSe<90>,NFeN<90>,NFeSe<90>,NFeSe<90>}'                                                   PDB 
-6  2 HEM FE 'Fe(C)(N)(N)(N)(N)(N){CFeN<90>,CFeN<90>,CFeN<90>,CFeN<90>,CFeN<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>}'       PDB 
-7  2 HEM FE 'Fe(C)(N)(N)(N)(N)(O){CFeN<90>,CFeN<90>,CFeN<90>,CFeN<90>,CFeO<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeN<90>,NFeO<90>,NFeO<90>}'       PDB 
-8  2 HEM FE 'Fe(C)(N)(N)(N)(N)(S){CFeN<90>,CFeN<90>,CFeN<90>,CFeN<90>,CFeS<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeS<90>,NFeN<90>,NFeN<180>,NFeS<90>,NFeN<90>,NFeS<90>,NFeS<90>}'       PDB 
-9  2 HEM FE 'Fe(N)(N)(N)(N)(N)(Cl){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeCl<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeCl<90>,NFeN<90>,NFeN<180>,NFeCl<90>,NFeN<90>,NFeCl<90>,NFeCl<90>}' PDB 
-10 2 HEM FE 'Fe(N)(N)(N)(N)(O)(Cl){NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeCl<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeCl<90>,NFeN<90>,NFeO<90>,NFeCl<90>,NFeO<90>,NFeCl<90>,OFeCl<180>}' PDB 
-11 2 HEM FE 'Fe(N)(N)(N)(N)(N)(F){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeF<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeF<90>,NFeN<90>,NFeN<180>,NFeF<90>,NFeN<90>,NFeF<90>,NFeF<90>}'       PDB 
-12 2 HEM FE 'Fe(N)(N)(N)(N)(N)(I){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeI<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeI<90>,NFeN<90>,NFeN<180>,NFeI<90>,NFeN<90>,NFeI<90>,NFeI<90>}'       PDB 
-13 2 HEM FE 'Fe(N)(N)(N)(N)(N)(N){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<180>,NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>}'       PDB 
-14 2 HEM FE 'Fe(N)(N)(N)(N)(N)(O){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeO<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeN<90>,NFeO<90>,NFeO<90>}'       PDB 
-15 2 HEM FE 'Fe(N)(N)(N)(N)(N)(S){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeS<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeS<90>,NFeN<90>,NFeN<180>,NFeS<90>,NFeN<90>,NFeS<90>,NFeS<90>}'       PDB 
-16 2 HEM FE 'Fe(N)(N)(N)(N)(N)(Se){NFeN<90>,NFeN<90>,NFeN<90>,NFeN<90>,NFeSe<180>,NFeN<90>,NFeN<180>,NFeN<90>,NFeSe<90>,NFeN<90>,NFeN<180>,NFeSe<90>,NFeN<90>,NFeSe<90>,NFeSe<90>}' PDB 
-17 2 HEM FE 'Fe(N)(N)(N)(N)(O)(O){NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeO<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeO<90>,NFeN<90>,NFeO<90>,NFeO<90>,NFeO<90>,NFeO<90>,OFeO<180>}'       PDB 
-18 2 HEM FE 'Fe(N)(N)(N)(N)(O)(S){NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeS<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeS<90>,NFeN<90>,NFeO<90>,NFeS<90>,NFeO<90>,NFeS<90>,OFeS<180>}'       PDB 
-19 2 HEM FE 'Fe(N)(N)(N)(N)(O)(Se){NFeN<90>,NFeN<180>,NFeN<90>,NFeO<90>,NFeSe<90>,NFeN<90>,NFeN<180>,NFeO<90>,NFeSe<90>,NFeN<90>,NFeO<90>,NFeSe<90>,NFeO<90>,NFeSe<90>,OFeSe<180>}' PDB 
-20 2 HEM FE 'Fe(N)(N)(N)(N)(S)(S){NFeN<90>,NFeN<180>,NFeN<90>,NFeS<90>,NFeS<90>,NFeN<90>,NFeN<180>,NFeS<90>,NFeS<90>,NFeN<90>,NFeS<90>,NFeS<90>,NFeS<90>,NFeS<90>,SFeS<180>}'       PDB 
+1  1 HEM FE '@SQP{Fe,N,N,N,N,N}'    MetalCoord 
+2  1 HEM FE '@SQP{Fe,N,N,N,N,O}'    MetalCoord 
+3  1 HEM FE '@SQP{Fe,N,N,N,N,S}'    MetalCoord 
+4  1 HEM FE '@SQP{Fe,N,N,N,N,Cl}'   MetalCoord 
+5  1 HEM FE '@SQP{Fe,N,N,N,N,Se}'   MetalCoord 
+6  2 HEM FE '@OCT{Fe,C,N,N,N,N,N}'  MetalCoord 
+7  2 HEM FE '@OCT{Fe,C,N,N,N,N,O}'  MetalCoord 
+8  2 HEM FE '@OCT{Fe,C,N,N,N,N,S}'  MetalCoord 
+9  2 HEM FE '@OCT{Fe,N,N,N,N,N,Cl}' MetalCoord 
+10 2 HEM FE '@OCT{Fe,N,N,N,N,O,Cl}' MetalCoord 
+11 2 HEM FE '@OCT{Fe,N,N,N,N,N,F}'  MetalCoord 
+12 2 HEM FE '@OCT{Fe,N,N,N,N,N,I}'  MetalCoord 
+13 2 HEM FE '@OCT{Fe,N,N,N,N,N,N}'  MetalCoord 
+14 2 HEM FE '@OCT{Fe,N,N,N,N,N,O}'  MetalCoord 
+15 2 HEM FE '@OCT{Fe,N,N,N,N,N,S}'  MetalCoord 
+16 2 HEM FE '@OCT{Fe,N,N,N,N,N,Se}' MetalCoord 
+17 2 HEM FE '@OCT{Fe,N,N,N,N,O,O}'  MetalCoord 
+18 2 HEM FE '@OCT{Fe,N,N,N,N,O,S}'  MetalCoord 
+19 2 HEM FE '@OCT{Fe,N,N,N,N,O,Se}' MetalCoord 
+20 2 HEM FE '@OCT{Fe,N,N,N,N,S,S}'  MetalCoord 
 # 
