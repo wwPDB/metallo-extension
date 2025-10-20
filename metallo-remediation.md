@@ -60,7 +60,7 @@ _chem_comp.pdbx_comp_type          "metal-containing ligand"
 #
 ```
 ### Example of metal coordination annotation
-Metal coordination is assessed using community software on a per-atom basis at the instance level, to give a complete picture of all coordination partners (protein, nucleic acid, small molecule, water, etc) and the coordination geometry. The coordination descriptor delineates coordination partners and angles that make up the coordination geometry. In the coordination descriptor, the metal is listed first, followed by each coordinating atom in parentheses. Within curly brackets, all angles that allow reconstruction of the primary metal coordination sphere are listed. When there are multiple possible coordination numbers, coordination geometries, or coordination descriptors (due to different possible coordination partners), the different options will be annotated. Annotation will be populated in the pdbx_chem_comp_atom_feature category as shown in the example below for chemical component 1PT. 
+Metal coordination is assessed using community software on a per-atom basis at the instance level, to give a complete picture of the coordination geometry (in pdbx_chem_comp_atom_coordination category). The coordination descriptor delineates coordination partners that make up the coordination geometry. In the coordination descriptor the geometry abbreviation is listed first, followed by the metal and then each coordinating atom (in the pdbx_chem_comp_atom_coordination_sphere category). When there are multiple possible coordination numbers, coordination geometries, or coordination descriptors (due to different possible coordination partners), the different options will be annotated. See the example below for chemical component 1PT. 
 ```
 # 
 loop_
@@ -70,9 +70,10 @@ _pdbx_chem_comp_atom_coordination.atom_id
 _pdbx_chem_comp_atom_coordination.number 
 _pdbx_chem_comp_atom_coordination.geometry 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
+_pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
-1 1PT PT 4 'square plane' 'square planar' FindGeo    
-1 1PT PT 4 square-planar  'square planar' MetalCoord 
+1 1PT PT 4 'square plane' 'square planar' SPL FindGeo    
+1 1PT PT 4 square-planar  'square planar' SPL MetalCoord 
 # 
 loop_
 _pdbx_chem_comp_atom_coordination_sphere.id 
@@ -81,10 +82,10 @@ _pdbx_chem_comp_atom_coordination_sphere.comp_id
 _pdbx_chem_comp_atom_coordination_sphere.atom_id 
 _pdbx_chem_comp_atom_coordination_sphere.descriptor 
 _pdbx_chem_comp_atom_coordination_sphere.provenance 
-1 1 1PT PT 'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' PDB 
-2 1 1PT PT 'Pt(N)(N)(N)(O){NPtN<90>,NPtN<180>,NPtO<90>,NPtN<90>,NPtO<180>,NPtO<90>}' PDB 
-3 1 1PT PT 'Pt(N)(N)(O)(O){NPtN<90>,NPtO<180>,NPtO<90>,NPtO<90>,NPtO<180>,OPtO<90>}' PDB 
-4 1 1PT PT 'Pt(N)(N)(O)(S){NPtN<90>,NPtO<180>,NPtS<90>,NPtO<90>,NPtS<180>,OPtS<90>}' PDB 
+1 1 1PT PT '@SPL{Pt,N,N,N,N}' MetalCoord 
+2 1 1PT PT '@SPL{Pt,N,N,N,O}' MetalCoord 
+3 1 1PT PT '@SPL{Pt,N,N,O,O}' MetalCoord 
+4 1 1PT PT '@SPL{Pt,N,N,O,S}' MetalCoord 
 # 
 ```
 ### Example of protein-metal interaction
@@ -192,31 +193,61 @@ RUC RU11 C28 SING N N Y Y 18
 ```
 ## Example Enhanced Annotation in Coordinate Files
 ### Example of metal coordination annotation
-For the coordinate files, metal coordination will be assessed using community software and compared with the coordination annotation in the CCD (if available) to determine if the coordination geometry is 'expected' (matching with the CCD) or 'unexpected' (not matching with the CCD). See example below for 1pg9, an entry containing chemical component 1PT.
+For the coordinate files, metal coordination will be assessed using community software and compared with the coordination annotation in the CCD (if available) to determine if the coordination geometry is 'expected' (matching with the CCD) or 'unexpected' (not matching with the CCD). Annotation will include coordination number and geometry (in pdbx_nonpoly_atom_coordination category), and coordination descriptor (in pdbx_nonpoly_atom_coordination_sphere category). The 3D arrangement of the coordinating atoms is encoded in the atom order (in the pdbx_nonpoly_atom_coordination_sphere_order category). See example below for 1pg9, an entry containing chemical component 1PT.
 ```
 # 
 loop_
 _pdbx_nonpoly_atom_coordination.geometry_id 
 _pdbx_nonpoly_atom_coordination.label_asym_id 
-_pdbx_nonpoly_atom_coordination.comp_id 
-_pdbx_nonpoly_atom_coordination.atom_id
-_pdbx_nonpoly_atom_coordination.alt_id
+_pdbx_nonpoly_atom_coordination.label_seq_id 
+_pdbx_nonpoly_atom_coordination.label_comp_id 
+_pdbx_nonpoly_atom_coordination.label_atom_id 
+_pdbx_nonpoly_atom_coordination.label_alt_id 
+_pdbx_nonpoly_atom_coordination.auth_asym_id 
+_pdbx_nonpoly_atom_coordination.auth_seq_id 
+_pdbx_nonpoly_atom_coordination.auth_comp_id 
+_pdbx_nonpoly_atom_coordination.auth_atom_id 
+_pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 C 1PT PT ? 4 'square plane (regular)' 'square planar' FindGeo    Expected 
-1 C 1PT PT ? 4 square-planar            'square planar' MetalCoord Expected 
-# 
+1 C . 1PT PT ? A 77 1PT PT ? 4 'square plane (regular)' 'square planar' SPL FindGeo    Expected 
+1 C . 1PT PT ? A 77 1PT PT ? 4 square-planar            'square planar' SPL MetalCoord Expected 
+#
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id   C 
-_pdbx_nonpoly_atom_coordination_sphere.comp_id         1PT 
-_pdbx_nonpoly_atom_coordination_sphere.atom_id         PT 
-_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
-_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Pt(N)(N)(N)(N){NPtN<90>,NPtN<180>,NPtN<90>,NPtN<90>,NPtN<180>,NPtN<90>}' 
-_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
+_pdbx_nonpoly_atom_coordination_sphere.label_seq_id    . 
+_pdbx_nonpoly_atom_coordination_sphere.label_comp_id   1PT 
+_pdbx_nonpoly_atom_coordination_sphere.label_atom_id   PT 
+_pdbx_nonpoly_atom_coordination_sphere.label_alt_id    ? 
+_pdbx_nonpoly_atom_coordination_sphere.auth_asym_id    A 
+_pdbx_nonpoly_atom_coordination_sphere.auth_seq_id     77 
+_pdbx_nonpoly_atom_coordination_sphere.auth_comp_id    1PT 
+_pdbx_nonpoly_atom_coordination_sphere.auth_atom_id    PT 
+_pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code    ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      '@SPL{Pt,N,N,N,N}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      MetalCoord 
 # 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_alt_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
+1 C . 1PT N1 ? A 77 1PT N1 ? 1 
+1 C . 1PT N2 ? A 77 1PT N2 ? 2 
+1 A 6 DG  N7 ? A 6  DG  N7 ? 3 
+1 A 7 DG  N7 ? A 7  DG  N7 ? 4 
 ```
 ### Example of protein-metal interaction
 In coordinate files, metal-protein interactions will be annotated in the pdbx_modification_feature category as shown in the example below for chemical component 5wqq, an entry containing chemical component SF4.
