@@ -1222,53 +1222,106 @@ VAL 'L-peptide linking' y VALINE                      ? 'C5 H11 N O2'       117.
 loop_
 _pdbx_nonpoly_atom_coordination.geometry_id 
 _pdbx_nonpoly_atom_coordination.label_asym_id 
-_pdbx_nonpoly_atom_coordination.comp_id 
-_pdbx_nonpoly_atom_coordination.atom_id 
-_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.label_seq_id 
+_pdbx_nonpoly_atom_coordination.label_comp_id 
+_pdbx_nonpoly_atom_coordination.label_atom_id 
+_pdbx_nonpoly_atom_coordination.label_alt_id 
+_pdbx_nonpoly_atom_coordination.auth_asym_id 
+_pdbx_nonpoly_atom_coordination.auth_seq_id 
+_pdbx_nonpoly_atom_coordination.auth_comp_id 
+_pdbx_nonpoly_atom_coordination.auth_atom_id 
+_pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
-_pdbx_nonpoly_atom_coordination.geometry
+_pdbx_nonpoly_atom_coordination.geometry 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1  D SF4 FE1 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       FindGeo    Unexpected 
-2  D SF4 FE1 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-3  D SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial) (distorted)'  'trigonal pyramidal'            FindGeo    Unexpected 
-3  D SF4 FE2 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-4  D SF4 FE3 ? 4 'square pyramid with a vacancy (equatorial) (distorted)' 'square pyramidal with vacancy' FindGeo    Unexpected 
-5  D SF4 FE3 ? 4 tetrahedral                                              tetrahedral                     MetalCoord Expected   
-6  D SF4 FE4 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       FindGeo    Unexpected 
-7  D SF4 FE4 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-8  E SF4 FE1 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       FindGeo    Unexpected 
-9  E SF4 FE1 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-10 E SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial) (distorted)'  'trigonal pyramidal'            FindGeo    Unexpected 
-10 E SF4 FE2 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-11 E SF4 FE3 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       FindGeo    Unexpected 
-12 E SF4 FE3 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
-13 E SF4 FE4 ? 4 'square pyramid with a vacancy (equatorial) (distorted)' 'square pyramidal with vacancy' FindGeo    Unexpected 
-14 E SF4 FE4 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            MetalCoord Unexpected 
+1  D . SF4 FE1 ? P 1610 SF4 FE1 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       TEV FindGeo    Unexpected 
+2  D . SF4 FE1 ? P 1610 SF4 FE1 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial) (distorted)'  'trigonal pyramidal'            BVA FindGeo    Unexpected 
+3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+4  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 'square pyramid with a vacancy (equatorial) (distorted)' 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
+5  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 tetrahedral                                              tetrahedral                     TET MetalCoord Expected   
+6  D . SF4 FE4 ? P 1610 SF4 FE4 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       TEV FindGeo    Unexpected 
+7  D . SF4 FE4 ? P 1610 SF4 FE4 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+8  E . SF4 FE1 ? P 1611 SF4 FE1 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       TEV FindGeo    Unexpected 
+9  E . SF4 FE1 ? P 1611 SF4 FE1 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial) (distorted)'  'trigonal pyramidal'            BVA FindGeo    Unexpected 
+10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+11 E . SF4 FE3 ? P 1611 SF4 FE3 ? 3 'tetrahedron with a vacancy (regular)'                   pyramidal                       TEV FindGeo    Unexpected 
+12 E . SF4 FE3 ? P 1611 SF4 FE3 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+13 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 'square pyramid with a vacancy (equatorial) (distorted)' 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
+14 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 trigonal-pyramid                                         'trigonal pyramidal'            TPY MetalCoord Unexpected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id 
-_pdbx_nonpoly_atom_coordination_sphere.comp_id 
-_pdbx_nonpoly_atom_coordination_sphere.atom_id 
-_pdbx_nonpoly_atom_coordination_sphere.alt_id
+_pdbx_nonpoly_atom_coordination_sphere.label_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere.label_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere.label_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere.label_alt_id 
+_pdbx_nonpoly_atom_coordination_sphere.auth_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere.auth_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere.auth_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere.auth_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination_sphere.descriptor 
 _pdbx_nonpoly_atom_coordination_sphere.provenance 
-1  D SF4 FE1 ? 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB 
-2  D SF4 FE1 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-3  D SF4 FE2 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-4  D SF4 FE3 ? 'Fe(S)(S)(S)(S){SFeS<90>,SFeS<180>,SFeS<90>,SFeS<90>,SFeS<90>,SFeS<90>}'                  PDB 
-5  D SF4 FE3 ? 'Fe(S)(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}' PDB 
-6  D SF4 FE4 ? 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB 
-7  D SF4 FE4 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-8  E SF4 FE1 ? 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB 
-9  E SF4 FE1 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-10 E SF4 FE2 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-11 E SF4 FE3 ? 'Fe(S)(S)(S){SFeS<109.5>,SFeS<109.5>,SFeS<109.5>}'                                        PDB 
-12 E SF4 FE3 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
-13 E SF4 FE4 ? 'Fe(S)(S)(S)(S){SFeS<90>,SFeS<180>,SFeS<90>,SFeS<90>,SFeS<90>,SFeS<90>}'                  PDB 
-14 E SF4 FE4 ? 'Fe(S)(S)(S)(S){SFeS<120>,SFeS<120>,SFeS<90>,SFeS<120>,SFeS<90>,SFeS<90>}'                PDB 
+2  D . SF4 FE1 ? P 1610 SF4 FE1 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+3  D . SF4 FE2 ? P 1610 SF4 FE2 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+5  D . SF4 FE3 ? P 1610 SF4 FE3 ? '@TET{Fe,S,S,S,S}' MetalCoord 
+7  D . SF4 FE4 ? P 1610 SF4 FE4 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+9  E . SF4 FE1 ? P 1611 SF4 FE1 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+10 E . SF4 FE2 ? P 1611 SF4 FE2 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+12 E . SF4 FE3 ? P 1611 SF4 FE3 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+14 E . SF4 FE4 ? P 1611 SF4 FE4 ? '@TPY{Fe,S,S,S,S}' MetalCoord 
+# 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_alt_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
+2  D .  SF4 S2 ? P 1610 SF4 S2 ? 1 
+2  D .  SF4 S3 ? P 1610 SF4 S3 ? 2 
+2  D .  SF4 S4 ? P 1610 SF4 S4 ? 3 
+2  A 29 CYS SG ? P 29   CYS SG ? 4 
+3  D .  SF4 S1 ? P 1610 SF4 S1 ? 1 
+3  D .  SF4 S3 ? P 1610 SF4 S3 ? 2 
+3  D .  SF4 S4 ? P 1610 SF4 S4 ? 3 
+3  A 55 CYS SG ? P 55   CYS SG ? 4 
+5  D .  SF4 S1 ? P 1610 SF4 S1 ? 1 
+5  D .  SF4 S2 ? P 1610 SF4 S2 ? 2 
+5  D .  SF4 S4 ? P 1610 SF4 S4 ? 3 
+5  A 61 CYS SG ? P 61   CYS SG ? 4 
+7  D .  SF4 S1 ? P 1610 SF4 S1 ? 1 
+7  D .  SF4 S2 ? P 1610 SF4 S2 ? 2 
+7  D .  SF4 S3 ? P 1610 SF4 S3 ? 3 
+7  A 58 CYS SG ? P 58   CYS SG ? 4 
+9  E .  SF4 S2 ? P 1611 SF4 S2 ? 1 
+9  E .  SF4 S3 ? P 1611 SF4 S3 ? 2 
+9  E .  SF4 S4 ? P 1611 SF4 S4 ? 3 
+9  A 25 CYS SG ? P 25   CYS SG ? 4 
+10 E .  SF4 S1 ? P 1611 SF4 S1 ? 1 
+10 E .  SF4 S3 ? P 1611 SF4 S3 ? 2 
+10 E .  SF4 S4 ? P 1611 SF4 S4 ? 3 
+10 A 21 CYS SG ? P 21   CYS SG ? 4 
+12 E .  SF4 S1 ? P 1611 SF4 S1 ? 1 
+12 E .  SF4 S2 ? P 1611 SF4 S2 ? 2 
+12 E .  SF4 S4 ? P 1611 SF4 S4 ? 3 
+12 A 65 CYS SG ? P 65   CYS SG ? 4 
+14 E .  SF4 S1 ? P 1611 SF4 S1 ? 1 
+14 E .  SF4 S2 ? P 1611 SF4 S2 ? 2 
+14 E .  SF4 S3 ? P 1611 SF4 S3 ? 3 
+14 A 16 CYS SG ? P 16   CYS SG ? 4 
 # 
 _cell.entry_id           4CRM 
 _cell.length_a           1.000 

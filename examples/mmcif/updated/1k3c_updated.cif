@@ -1301,24 +1301,54 @@ S
 loop_
 _pdbx_nonpoly_atom_coordination.geometry_id 
 _pdbx_nonpoly_atom_coordination.label_asym_id 
-_pdbx_nonpoly_atom_coordination.comp_id 
-_pdbx_nonpoly_atom_coordination.atom_id 
-_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.label_seq_id 
+_pdbx_nonpoly_atom_coordination.label_comp_id 
+_pdbx_nonpoly_atom_coordination.label_atom_id 
+_pdbx_nonpoly_atom_coordination.label_alt_id 
+_pdbx_nonpoly_atom_coordination.auth_asym_id 
+_pdbx_nonpoly_atom_coordination.auth_seq_id 
+_pdbx_nonpoly_atom_coordination.auth_comp_id 
+_pdbx_nonpoly_atom_coordination.auth_atom_id 
+_pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 D AF3 AL ? 3 'trigonal plane (regular)' 'trigonal planar' FindGeo    Unexpected 
-1 D AF3 AL ? 3 trigonal-planar            'trigonal planar' MetalCoord Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 'trigonal plane (regular)' 'trigonal planar' TRI FindGeo    Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 trigonal-planar            'trigonal planar' TPL MetalCoord Unexpected 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id   D 
-_pdbx_nonpoly_atom_coordination_sphere.comp_id         AF3 
-_pdbx_nonpoly_atom_coordination_sphere.atom_id         AL 
-_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
-_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Al(F)(F)(F){FAlF<120>,FAlF<120>,FAlF<120>}' 
-_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
+_pdbx_nonpoly_atom_coordination_sphere.label_seq_id    . 
+_pdbx_nonpoly_atom_coordination_sphere.label_comp_id   AF3 
+_pdbx_nonpoly_atom_coordination_sphere.label_atom_id   AL 
+_pdbx_nonpoly_atom_coordination_sphere.label_alt_id    ? 
+_pdbx_nonpoly_atom_coordination_sphere.auth_asym_id    A 
+_pdbx_nonpoly_atom_coordination_sphere.auth_seq_id     999 
+_pdbx_nonpoly_atom_coordination_sphere.auth_comp_id    AF3 
+_pdbx_nonpoly_atom_coordination_sphere.auth_atom_id    AL 
+_pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code    ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      '@TPL{Al,F,F,F}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      MetalCoord 
+# 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_alt_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
+1 D . AF3 F1 ? A 999 AF3 F1 ? 1 
+1 D . AF3 F2 ? A 999 AF3 F2 ? 2 
+1 D . AF3 F3 ? A 999 AF3 F3 ? 3 
 # 
 _pdbx_struct_assembly.id                   1 
 _pdbx_struct_assembly.details              author_defined_assembly 

@@ -415,24 +415,57 @@ VAL 'L-peptide linking' y VALINE                ? 'C5 H11 N O2'        117.146
 loop_
 _pdbx_nonpoly_atom_coordination.geometry_id 
 _pdbx_nonpoly_atom_coordination.label_asym_id 
-_pdbx_nonpoly_atom_coordination.comp_id 
-_pdbx_nonpoly_atom_coordination.atom_id 
-_pdbx_nonpoly_atom_coordination.alt_id 
+_pdbx_nonpoly_atom_coordination.label_seq_id 
+_pdbx_nonpoly_atom_coordination.label_comp_id 
+_pdbx_nonpoly_atom_coordination.label_atom_id 
+_pdbx_nonpoly_atom_coordination.label_alt_id 
+_pdbx_nonpoly_atom_coordination.auth_asym_id 
+_pdbx_nonpoly_atom_coordination.auth_seq_id 
+_pdbx_nonpoly_atom_coordination.auth_comp_id 
+_pdbx_nonpoly_atom_coordination.auth_atom_id 
+_pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
+_pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 B 9CO CO1 ? 6 'trigonal prism (distorted)' 'trigonal prismatic' FindGeo    'No reference' 
-1 B 9CO CO1 ? 6 trigonal-prism               'trigonal prismatic' MetalCoord 'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 'trigonal prism (distorted)' 'trigonal prismatic' TPR FindGeo    'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 trigonal-prism               'trigonal prismatic' TRP MetalCoord 'No reference' 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id   B 
-_pdbx_nonpoly_atom_coordination_sphere.comp_id         9CO 
-_pdbx_nonpoly_atom_coordination_sphere.atom_id         CO1 
-_pdbx_nonpoly_atom_coordination_sphere.alt_id          ? 
-_pdbx_nonpoly_atom_coordination_sphere.descriptor      'Co(N)(N)(N)(N)(N)(O){NCoN<81.8>,NCoN<81.8>,NCoN<81.8>,NCoN<135.6>,NCoO<135.6>,NCoN<81.8>,NCoN<135.6>,NCoN<81.8>,NCoO<135.6>,NCoN<135.6>,NCoN<135.6>,NCo0<81.8>,NCoN<81.8>,NCoO<81.8>,NCoO<81.8>}' 
-_pdbx_nonpoly_atom_coordination_sphere.provenance      PDB 
+_pdbx_nonpoly_atom_coordination_sphere.label_seq_id    . 
+_pdbx_nonpoly_atom_coordination_sphere.label_comp_id   9CO 
+_pdbx_nonpoly_atom_coordination_sphere.label_atom_id   CO1 
+_pdbx_nonpoly_atom_coordination_sphere.label_alt_id    ? 
+_pdbx_nonpoly_atom_coordination_sphere.auth_asym_id    A 
+_pdbx_nonpoly_atom_coordination_sphere.auth_seq_id     201 
+_pdbx_nonpoly_atom_coordination_sphere.auth_comp_id    9CO 
+_pdbx_nonpoly_atom_coordination_sphere.auth_atom_id    CO1 
+_pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code    ? 
+_pdbx_nonpoly_atom_coordination_sphere.descriptor      '@TRP{Co,N,N,N,N,N,O}' 
+_pdbx_nonpoly_atom_coordination_sphere.provenance      MetalCoord 
+# 
+loop_
+_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.label_alt_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_asym_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
+1 B . 9CO N4 ? A 201 9CO N4 ? 1 
+1 B . 9CO N5 ? A 201 9CO N5 ? 2 
+1 B . 9CO N6 ? A 201 9CO N6 ? 3 
+1 B . 9CO N7 ? A 201 9CO N7 ? 4 
+1 B . 9CO N8 ? A 201 9CO N8 ? 5 
+1 B . 9CO O4 ? A 201 9CO O4 ? 6 
 # 
 loop_
 _software.citation_id 
