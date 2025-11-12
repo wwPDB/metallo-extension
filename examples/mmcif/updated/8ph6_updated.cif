@@ -1376,12 +1376,12 @@ _pdbx_modification_feature.category
 2  CYS A 30 ? CYS A 115 ? CYS A 30  ? 1_555 CYS A 115 ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
 3  CYS A 64 ? CYS A 80  ? CYS A 64  ? 1_555 CYS A 80  ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
 4  CYS A 76 ? CYS A 94  ? CYS A 76  ? 1_555 CYS A 94  ? 1_555 SG  SG  .   . .   None 'Disulfide bridge'   
-5  ZWL C .  ? ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU1 OD1 ASP 1 ZWL None 'Metal coordination' 
-6  ZWL C .  ? ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU2 OD2 ASP 2 ZWL None 'Metal coordination' 
-7  YWV D .  ? ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU1 OD1 ASP 1 YWV None 'Metal coordination' 
-8  YWV D .  ? ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU2 OD2 ASP 2 YWV None 'Metal coordination' 
-9  YWV D .  ? ARG A 125 ? YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU1 NH2 ARG 3 YWV None 'Metal coordination' 
-10 YWV D .  ? ARG A 125 ? YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU2 NH1 ARG 4 YWV None 'Metal coordination' 
+5  ZWL C .  A ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU1 OD1 ASP 1 ZWL None 'Metal coordination' 
+6  ZWL C .  A ASP A 101 ? ZWL A 202 ? 1_555 ASP A 101 ? 1_555 RU2 OD2 ASP 2 ZWL None 'Metal coordination' 
+7  YWV D .  A ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU1 OD1 ASP 1 YWV None 'Metal coordination' 
+8  YWV D .  A ASP A 119 ? YWV A 203 ? 1_555 ASP A 119 ? 1_555 RU2 OD2 ASP 2 YWV None 'Metal coordination' 
+9  YWV D .  A ARG A 125 A YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU1 NH2 ARG 3 YWV None 'Metal coordination' 
+10 YWV D .  A ARG A 125 A YWV A 203 ? 1_555 ARG A 125 ? 1_555 RU2 NH1 ARG 4 YWV None 'Metal coordination' 
 # 
 _struct_sheet.id               AA1 
 _struct_sheet.type             ? 
