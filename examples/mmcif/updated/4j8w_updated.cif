@@ -1161,19 +1161,21 @@ _pdbx_nonpoly_atom_coordination.auth_comp_id
 _pdbx_nonpoly_atom_coordination.auth_atom_id 
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
-_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_calculated 
+_pdbx_nonpoly_atom_coordination.software_remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 irregular    irregular      .   FindGeo    Unexpected 
-2 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 sandwich_6_3 'sandwich 6 3' SAS MetalCoord Expected   
-3 P . 1MK OS1 ? H 203  1MK OS1 ? 9 irregular    irregular      .   FindGeo    Unexpected 
-4 P . 1MK OS1 ? H 203  1MK OS1 ? 8 sandwich_6_2 'sandwich 6 2' SAM MetalCoord Expected   
-5 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 irregular    irregular      .   FindGeo    Unexpected 
-6 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 sandwich_6_3 'sandwich 6 3' SAS MetalCoord Expected   
+1 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 irregular    . irregular      .   FindGeo    Unexpected 
+2 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 sandwich_6_3 . 'sandwich 6 3' SAS MetalCoord Expected   
+3 P . 1MK OS1 ? H 203  1MK OS1 ? 9 irregular    . irregular      .   FindGeo    Unexpected 
+4 P . 1MK OS1 ? H 203  1MK OS1 ? 8 sandwich_6_2 . 'sandwich 6 2' SAM MetalCoord Expected   
+5 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 irregular    . irregular      .   FindGeo    Unexpected 
+6 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 sandwich_6_3 . 'sandwich 6 3' SAS MetalCoord Expected   
 # 
 loop_
+_pdbx_nonpoly_atom_coordination_sphere.id 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id 
 _pdbx_nonpoly_atom_coordination_sphere.label_seq_id 
@@ -1187,12 +1189,12 @@ _pdbx_nonpoly_atom_coordination_sphere.auth_atom_id
 _pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination_sphere.descriptor 
 _pdbx_nonpoly_atom_coordination_sphere.provenance 
-2 L . 1MK OS1 ? D 1102 1MK OS1 ? '@SAS{Os,C,C,C,C,C,C,N,N,S}' MetalCoord 
-4 P . 1MK OS1 ? H 203  1MK OS1 ? '@SAM{Os,C,C,C,C,C,C,N,S}'   MetalCoord 
-6 Q . 1MK OS1 ? H 204  1MK OS1 ? '@SAS{Os,C,C,C,C,C,C,N,N,S}' MetalCoord 
+1 2 L . 1MK OS1 ? D 1102 1MK OS1 ? '@SAS{Os,C,C,C,C,C,C,N,N,S}' MetalCoord 
+2 4 P . 1MK OS1 ? H 203  1MK OS1 ? '@SAM{Os,C,C,C,C,C,C,N,S}'   MetalCoord 
+3 6 Q . 1MK OS1 ? H 204  1MK OS1 ? '@SAS{Os,C,C,C,C,C,C,N,N,S}' MetalCoord 
 # 
 loop_
-_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.sphere_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
@@ -1203,33 +1205,34 @@ _pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
-2 L .  1MK C13 ? D 1102 1MK C13 ? 1 
-2 L .  1MK C14 ? D 1102 1MK C14 ? 2 
-2 L .  1MK C15 ? D 1102 1MK C15 ? 3 
-2 L .  1MK C16 ? D 1102 1MK C16 ? 4 
-2 L .  1MK C17 ? D 1102 1MK C17 ? 5 
-2 L .  1MK C18 ? D 1102 1MK C18 ? 6 
-2 L .  1MK N1  ? D 1102 1MK N1  ? 7 
-2 D 82 HIS NE2 ? D 79   HIS NE2 ? 8 
-2 L .  1MK S1  ? D 1102 1MK S1  ? 9 
-4 P .  1MK C13 ? H 203  1MK C13 ? 1 
-4 P .  1MK C14 ? H 203  1MK C14 ? 2 
-4 P .  1MK C15 ? H 203  1MK C15 ? 3 
-4 P .  1MK C16 ? H 203  1MK C16 ? 4 
-4 P .  1MK C17 ? H 203  1MK C17 ? 5 
-4 P .  1MK C18 ? H 203  1MK C18 ? 6 
-4 P .  1MK N1  ? H 203  1MK N1  ? 7 
-4 P .  1MK S1  ? H 203  1MK S1  ? 8 
-6 Q .  1MK C13 ? H 204  1MK C13 ? 1 
-6 Q .  1MK C14 ? H 204  1MK C14 ? 2 
-6 Q .  1MK C15 ? H 204  1MK C15 ? 3 
-6 Q .  1MK C16 ? H 204  1MK C16 ? 4 
-6 Q .  1MK C17 ? H 204  1MK C17 ? 5 
-6 Q .  1MK C18 ? H 204  1MK C18 ? 6 
-6 Q .  1MK N1  ? H 204  1MK N1  ? 7 
-6 H 82 HIS NE2 ? H 79   HIS NE2 ? 8 
-6 Q .  1MK S1  ? H 204  1MK S1  ? 9 
+1 L .  1MK C13 ? D 1102 1MK C13 ? x,y,z 1 
+1 L .  1MK C14 ? D 1102 1MK C14 ? x,y,z 2 
+1 L .  1MK C15 ? D 1102 1MK C15 ? x,y,z 3 
+1 L .  1MK C16 ? D 1102 1MK C16 ? x,y,z 4 
+1 L .  1MK C17 ? D 1102 1MK C17 ? x,y,z 5 
+1 L .  1MK C18 ? D 1102 1MK C18 ? x,y,z 6 
+1 L .  1MK N1  ? D 1102 1MK N1  ? x,y,z 7 
+1 D 82 HIS NE2 ? D 79   HIS NE2 ? x,y,z 8 
+1 L .  1MK S1  ? D 1102 1MK S1  ? x,y,z 9 
+2 P .  1MK C13 ? H 203  1MK C13 ? x,y,z 1 
+2 P .  1MK C14 ? H 203  1MK C14 ? x,y,z 2 
+2 P .  1MK C15 ? H 203  1MK C15 ? x,y,z 3 
+2 P .  1MK C16 ? H 203  1MK C16 ? x,y,z 4 
+2 P .  1MK C17 ? H 203  1MK C17 ? x,y,z 5 
+2 P .  1MK C18 ? H 203  1MK C18 ? x,y,z 6 
+2 P .  1MK N1  ? H 203  1MK N1  ? x,y,z 7 
+2 P .  1MK S1  ? H 203  1MK S1  ? x,y,z 8 
+3 Q .  1MK C13 ? H 204  1MK C13 ? x,y,z 1 
+3 Q .  1MK C14 ? H 204  1MK C14 ? x,y,z 2 
+3 Q .  1MK C15 ? H 204  1MK C15 ? x,y,z 3 
+3 Q .  1MK C16 ? H 204  1MK C16 ? x,y,z 4 
+3 Q .  1MK C17 ? H 204  1MK C17 ? x,y,z 5 
+3 Q .  1MK C18 ? H 204  1MK C18 ? x,y,z 6 
+3 Q .  1MK N1  ? H 204  1MK N1  ? x,y,z 7 
+3 H 82 HIS NE2 ? H 79   HIS NE2 ? x,y,z 8 
+3 Q .  1MK S1  ? H 204  1MK S1  ? x,y,z 9 
 # 
 loop_
 _software.name 

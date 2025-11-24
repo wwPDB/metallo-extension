@@ -425,14 +425,16 @@ _pdbx_nonpoly_atom_coordination.auth_comp_id
 _pdbx_nonpoly_atom_coordination.auth_atom_id 
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
-_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_calculated 
+_pdbx_nonpoly_atom_coordination.software_remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 'trigonal prism (distorted)' 'trigonal prismatic' TPR FindGeo    'No reference' 
-1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 trigonal-prism               'trigonal prismatic' TRP MetalCoord 'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 'trigonal prism' distorted 'trigonal prismatic' TPR FindGeo    'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 trigonal-prism   .         'trigonal prismatic' TRP MetalCoord 'No reference' 
 # 
+_pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id   B 
 _pdbx_nonpoly_atom_coordination_sphere.label_seq_id    . 
@@ -448,7 +450,7 @@ _pdbx_nonpoly_atom_coordination_sphere.descriptor      '@TRP{Co,N,N,N,N,N,O}'
 _pdbx_nonpoly_atom_coordination_sphere.provenance      MetalCoord 
 # 
 loop_
-_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.sphere_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
@@ -459,13 +461,14 @@ _pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
-1 B . 9CO N4 ? A 201 9CO N4 ? 1 
-1 B . 9CO N5 ? A 201 9CO N5 ? 2 
-1 B . 9CO N6 ? A 201 9CO N6 ? 3 
-1 B . 9CO N7 ? A 201 9CO N7 ? 4 
-1 B . 9CO N8 ? A 201 9CO N8 ? 5 
-1 B . 9CO O4 ? A 201 9CO O4 ? 6 
+1 B . 9CO N4 ? A 201 9CO N4 ? x,y,z 1 
+1 B . 9CO N5 ? A 201 9CO N5 ? x,y,z 2 
+1 B . 9CO N6 ? A 201 9CO N6 ? x,y,z 3 
+1 B . 9CO N7 ? A 201 9CO N7 ? x,y,z 4 
+1 B . 9CO N8 ? A 201 9CO N8 ? x,y,z 5 
+1 B . 9CO O4 ? A 201 9CO O4 ? x,y,z 6 
 # 
 loop_
 _software.citation_id 
