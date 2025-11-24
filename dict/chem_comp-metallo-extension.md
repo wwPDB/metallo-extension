@@ -3,7 +3,7 @@
 ---
 Title: Introduction to metallic ligand annotation dictionary extension  
 Author: A. Biester, E. Peisach  
-Date: 21-Aug-2025  
+Date: 24-Nov-2025  
 email: ezra.peisach@rcsb.org  
 ---
 # Metallic ligand annotation update on Chemical Component Dictionary
