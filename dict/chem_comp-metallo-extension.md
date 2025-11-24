@@ -3,7 +3,7 @@
 ---
 Title: Introduction to metallic ligand annotation dictionary extension  
 Author: A. Biester, E. Peisach  
-Date: 24-Nov-2025  
+Date: 21-Aug-2025  
 email: ezra.peisach@rcsb.org  
 ---
 # Metallic ligand annotation update on Chemical Component Dictionary
@@ -83,7 +83,7 @@ category.
 : The coordination number of the target atom.
 
 
-* **_pdbx_chem_comp_atom_coordination.geometry**
+* **_pdbx_chem_comp_atom_coordination.geometry_calculated**
 : This data item contains the geometry output from a software program (for example, FindGeo or MetalCoord).
 The geometry derived from observed geometries in atomic coordinate files.
 
