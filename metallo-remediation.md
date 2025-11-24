@@ -68,7 +68,7 @@ _pdbx_chem_comp_atom_coordination.geometry_id
 _pdbx_chem_comp_atom_coordination.comp_id 
 _pdbx_chem_comp_atom_coordination.atom_id 
 _pdbx_chem_comp_atom_coordination.number 
-_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_calculated 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
 _pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
@@ -209,14 +209,16 @@ _pdbx_nonpoly_atom_coordination.auth_comp_id
 _pdbx_nonpoly_atom_coordination.auth_atom_id 
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
-_pdbx_nonpoly_atom_coordination.geometry 
+_pdbx_nonpoly_atom_coordination.geometry_calculated
+_pdbx_nonpoly_atom_coordination.software_remark
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 C . 1PT PT ? A 77 1PT PT ? 4 'square plane (regular)' 'square planar' SPL FindGeo    Expected 
-1 C . 1PT PT ? A 77 1PT PT ? 4 square-planar            'square planar' SPL MetalCoord Expected 
+1 C . 1PT PT ? A 77 1PT PT ? 4 'square plane' regular 'square planar' SPL FindGeo    Expected 
+1 C . 1PT PT ? A 77 1PT PT ? 4 square-planar  .       'square planar' SPL MetalCoord Expected 
 #
+_pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
 _pdbx_nonpoly_atom_coordination_sphere.label_asym_id   C 
 _pdbx_nonpoly_atom_coordination_sphere.label_seq_id    . 
@@ -232,7 +234,7 @@ _pdbx_nonpoly_atom_coordination_sphere.descriptor      '@SPL{Pt,N,N,N,N}'
 _pdbx_nonpoly_atom_coordination_sphere.provenance      MetalCoord 
 # 
 loop_
-_pdbx_nonpoly_atom_coordination_sphere_order.geometry_id 
+_pdbx_nonpoly_atom_coordination_sphere_order.sphere_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_asym_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_seq_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.label_comp_id 
@@ -243,11 +245,12 @@ _pdbx_nonpoly_atom_coordination_sphere_order.auth_seq_id
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_comp_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id 
 _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
+_pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
-1 C . 1PT N1 ? A 77 1PT N1 ? 1 
-1 C . 1PT N2 ? A 77 1PT N2 ? 2 
-1 A 6 DG  N7 ? A 6  DG  N7 ? 3 
-1 A 7 DG  N7 ? A 7  DG  N7 ? 4 
+1 C . 1PT N1 ? A 77 1PT N1 ? x,y,z 1 
+1 C . 1PT N2 ? A 77 1PT N2 ? x,y,z 2 
+1 A 6 DG  N7 ? A 6  DG  N7 ? x,y,z 3 
+1 A 7 DG  N7 ? A 7  DG  N7 ? x,y,z 4 
 ```
 ### Example of protein-metal interaction
 In coordinate files, metal-protein interactions will be annotated in the pdbx_modification_feature category as shown in the example below for chemical component 5wqq, an entry containing chemical component SF4.
