@@ -299,7 +299,7 @@ _pdbx_chem_comp_atom_coordination.geometry_id
 _pdbx_chem_comp_atom_coordination.comp_id 
 _pdbx_chem_comp_atom_coordination.atom_id 
 _pdbx_chem_comp_atom_coordination.number 
-_pdbx_chem_comp_atom_coordination.geometry 
+_pdbx_chem_comp_atom_coordination.geometry_calculated 
 _pdbx_chem_comp_atom_coordination.geometry_generic 
 _pdbx_chem_comp_atom_coordination.geometry_abbr 
 _pdbx_chem_comp_atom_coordination.provenance 
