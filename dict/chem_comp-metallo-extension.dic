@@ -3,7 +3,7 @@ data_chem_comp-metallo-extension.dic
 _pdbx_dictionary_component.datablock_id   chem_comp-metallo-extension.dic
 _pdbx_dictionary_component.dictionary_component_id   chem_comp-metallo-extension.dic
 _pdbx_dictionary_component.title          "PDBx/mmCIF extension to support metalloprotein annotation"
-_pdbx_dictionary_component.version        0.13
+_pdbx_dictionary_component.version        0.14
 
 
 loop_
@@ -132,7 +132,12 @@ chem_comp-metallo-extension.dic 0.13  2025-11-24
   + Change _pdbx_chem_comp_atom_coordination.geometry to
     _pdbx_chem_comp_atom_coordination.geometry_calculated
 ;
-
+chem_comp-metallo-extension.dic 0.14  2025-07-06
+;  
+  Changes (ab/ep)
+  + Update enumeratons for _pdbx_chem_comp_atom_coordination.geometry_generic
+    and _pdbx_nonpoly_atom_coordination.geometry_generic
+;
 
 
 loop_
@@ -1357,6 +1362,7 @@ save__pdbx_chem_comp_atom_coordination.geometry_calculated
     _item.category_id             pdbx_chem_comp_atom_coordination
     _item.mandatory_code          yes
     _item_type.code               line
+    save_
 
 save__pdbx_chem_comp_atom_coordination.geometry_generic
     _item_description.description
@@ -1395,9 +1401,12 @@ save__pdbx_chem_comp_atom_coordination.geometry_generic
           'trigonal planar tricapped'               ?
           'octahedral'                              ?
           'trigonal prismatic'                      ?
-          'pentagonal bipyramidal with vacancy'     ?
-          'octahedral monocapped with vacancy'      ?
-          'trigonal prismatic monocapped with vacancy'  ?
+          'pentagonal bipyramidal with axial vacancy'       ?
+	  'pentagonal bipyramidal with equatorial vacancy'  ?
+	  'octahedral monocapped with capped face vacancy'  ?
+	  'octahedral monocapped with non-capped face vacancy' ?
+	  'trigonal prismatic monocapped with capped face vacancy'      ?
+	  'trigonal prismatic monocapped with non-capped face vacancy'  ?
           'sandwich 4h 2'                           ?
           'sandwich 4 2'                            ?
           'sandwich 5 1'                            ?
@@ -1405,8 +1414,10 @@ save__pdbx_chem_comp_atom_coordination.geometry_generic
           'hexagonal planar'                        ?
           'pentagonal bipyramidal'                  ?
           'trigonal prismatic monocapped'           ?
-          'octahedral monocapped'                   ?
-          'hexagonal bipyramidal with vacancy'      ?
+	  'octahedral edge monocapped'              ?
+	  'octahedral face monocapped'              ?
+	  'hexagonal bipyramidal with axial vacancy'       ?
+	  'hexagonal bipyramidal with equatorial vacancy'  ?
           'cubic with vacancy'                      ?
           'square antiprismatic with vacancy'       ?
           'sandwich 6 1'                            ?
@@ -1416,8 +1427,10 @@ save__pdbx_chem_comp_atom_coordination.geometry_generic
           'hexagonal bipyramidal'                   ?
           'cubic'                                   ?
           'square antiprismatic'                    ?
-          'octahedral bicapped'                     ?
-          'trigonal prismatic bicapped'             ?
+	  'octahedral cis bicapped'                 ?
+	  'octahedral trans bicapped'               ?
+	  'trigonal prismatic square-face bicapped' ?
+	  'trigonal prismatic triangular-face bicapped'  ?
           'sandwich 4h 4h'                          ?
           'sandwich 7 1'                            ?
           'sandwich 4h 4'                           ?
@@ -1687,7 +1700,7 @@ save__pdbx_chem_comp_atom_coordination_sphere.representative_entry_id
    _item_type.code                ucode
 
    _pdbx_item_context.type        CHEM_COMP_INT
-   _pdbx_item_context.item_name   '_pdbx_chem_comp_atom_coordination.representative_entry_id'
+   _pdbx_item_context.item_name   '_pdbx_chem_comp_atom_coordination_sphere.representative_entry_id'
 save_
 
 ##################################
@@ -2042,9 +2055,12 @@ save__pdbx_nonpoly_atom_coordination.geometry_generic
           'trigonal planar tricapped'               ?
           'octahedral'                              ?
           'trigonal prismatic'                      ?
-          'pentagonal bipyramidal with vacancy'     ?
-          'octahedral monocapped with vacancy'      ?
-          'trigonal prismatic monocapped with vacancy'  ?
+          'pentagonal bipyramidal with axial vacancy'       ?
+	  'pentagonal bipyramidal with equatorial vacancy'  ?
+	  'octahedral monocapped with capped face vacancy'  ?
+	  'octahedral monocapped with non-capped face vacancy' ?
+	  'trigonal prismatic monocapped with capped face vacancy'      ?
+	  'trigonal prismatic monocapped with non-capped face vacancy'  ?
           'sandwich 4h 2'                           ?
           'sandwich 4 2'                            ?
           'sandwich 5 1'                            ?
@@ -2052,8 +2068,10 @@ save__pdbx_nonpoly_atom_coordination.geometry_generic
           'hexagonal planar'                        ?
           'pentagonal bipyramidal'                  ?
           'trigonal prismatic monocapped'           ?
-          'octahedral monocapped'                   ?
-          'hexagonal bipyramidal with vacancy'      ?
+	  'octahedral edge monocapped'              ?
+	  'octahedral face monocapped'              ?
+	  'hexagonal bipyramidal with axial vacancy'       ?
+	  'hexagonal bipyramidal with equatorial vacancy'  ?
           'cubic with vacancy'                      ?
           'square antiprismatic with vacancy'       ?
           'sandwich 6 1'                            ?
@@ -2063,8 +2081,10 @@ save__pdbx_nonpoly_atom_coordination.geometry_generic
           'hexagonal bipyramidal'                   ?
           'cubic'                                   ?
           'square antiprismatic'                    ?
-          'octahedral bicapped'                     ?
-          'trigonal prismatic bicapped'             ?
+	  'octahedral cis bicapped'                 ?
+	  'octahedral trans bicapped'               ?
+	  'trigonal prismatic square-face bicapped' ?
+	  'trigonal prismatic triangular-face bicapped'  ?
           'sandwich 4h 4h'                          ?
           'sandwich 7 1'                            ?
           'sandwich 4h 4'                           ?

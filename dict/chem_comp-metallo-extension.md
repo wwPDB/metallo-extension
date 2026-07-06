@@ -3,7 +3,7 @@
 ---
 Title: Introduction to metallic ligand annotation dictionary extension  
 Author: A. Biester, E. Peisach  
-Date: 24-Nov-2025  
+Date: 21-Aug-2025  
 email: ezra.peisach@rcsb.org  
 ---
 # Metallic ligand annotation update on Chemical Component Dictionary
@@ -104,16 +104,20 @@ a unified naming scheme. As software programs sometimes have different names for
       * cuboctahedral
       * dodecahedral
       * hexagonal bipyramidal
-      * hexagonal bipyramidal with vacancy
+      * hexagonal bipyramidal with axial vacancy
+      * hexagonal bipyramidal with equatorial vacancy
       * hexagonal planar
       * irregular
       * linear
       * linear bicapped
       * linear monocapped
       * octahedral
-      * octahedral bicapped
-      * octahedral monocapped
-      * octahedral monocapped with vacancy
+      * octahedral cis bicapped
+      * octahedral edge monocapped
+      * octahedral face monocapped
+      * octahedral monocapped with capped face vacancy
+      * octahedral monocapped with non-capped face vacancy
+      * octahedral trans bicapped
       * paired octahedral
       * penta trigonal planar
       * penta trigonal planar i
@@ -121,7 +125,8 @@ a unified naming scheme. As software programs sometimes have different names for
       * penta trigonal planar v
       * pentagonal antiprismatic
       * pentagonal bipyramidal
-      * pentagonal bipyramidal with vacancy
+      * pentagonal bipyramidal with axial vacancy
+      * pentagonal bipyramidal with equatorial vacancy
       * pentagonal prismatic
       * pyramidal
       * sandwich 4 2
@@ -198,9 +203,11 @@ a unified naming scheme. As software programs sometimes have different names for
       * trigonal prism tricapped
       * trigonal prismatic
       * trigonal prismatic all face capped
-      * trigonal prismatic bicapped
       * trigonal prismatic monocapped
-      * trigonal prismatic monocapped with vacancy
+      * trigonal prismatic monocapped with capped face vacancy
+      * trigonal prismatic monocapped with non-capped face vacancy
+      * trigonal prismatic square-face bicapped
+      * trigonal prismatic triangular-face bicapped
       * trigonal prismatic with vacancy
       * trigonal pyramidal
 
@@ -220,7 +227,6 @@ _pdbx_chem_comp_atom_coordination_sphere.descriptor. For instance, square planar
       * FindGeo
       * MetalCoord
       * PDB
-
 
 
 ## pdbx_chem_comp_atom_coordination_sphere
@@ -262,7 +268,6 @@ an atom. The descriptor is derived from observed coordination environments
       * PDB
 
 
-
 ## pdbx_chem_comp_pcm
 Data items in the PDBX_CHEM_COMP_PCM category provide
 information about the protein modifications that are described
@@ -274,9 +279,9 @@ by the chemical component.
 
     *Enumeration:*
 
-      * Metal coordination
       * ...
-
+      * Metal coordination
+      *	...
 
 
 # Metallic ligand annotation update in PDB model coordinates files
@@ -391,16 +396,20 @@ in the coordinate file.
       * cuboctahedral
       * dodecahedral
       * hexagonal bipyramidal
-      * hexagonal bipyramidal with vacancy
+      * hexagonal bipyramidal with axial vacancy
+      * hexagonal bipyramidal with equatorial vacancy
       * hexagonal planar
       * irregular
       * linear
       * linear bicapped
       * linear monocapped
       * octahedral
-      * octahedral bicapped
-      * octahedral monocapped
-      * octahedral monocapped with vacancy
+      * octahedral cis bicapped
+      * octahedral edge monocapped
+      * octahedral face monocapped
+      * octahedral monocapped with capped face vacancy
+      * octahedral monocapped with non-capped face vacancy
+      * octahedral trans bicapped
       * paired octahedral
       * penta trigonal planar
       * penta trigonal planar i
@@ -408,7 +417,8 @@ in the coordinate file.
       * penta trigonal planar v
       * pentagonal antiprismatic
       * pentagonal bipyramidal
-      * pentagonal bipyramidal with vacancy
+      * pentagonal bipyramidal with axial vacancy
+      * pentagonal bipyramidal with equatorial vacancy
       * pentagonal prismatic
       * pyramidal
       * sandwich 4 2
@@ -485,9 +495,11 @@ in the coordinate file.
       * trigonal prism tricapped
       * trigonal prismatic
       * trigonal prismatic all face capped
-      * trigonal prismatic bicapped
       * trigonal prismatic monocapped
-      * trigonal prismatic monocapped with vacancy
+      * trigonal prismatic monocapped with capped face vacancy
+      * trigonal prismatic monocapped with non-capped face vacancy
+      * trigonal prismatic square-face bicapped
+      * trigonal prismatic triangular-face bicapped
       * trigonal prismatic with vacancy
       * trigonal pyramidal
 
@@ -714,9 +726,10 @@ modeled in the entry.
 : The category of protein modification.
 
     *Enumeration:*
-
+    
+      *	...
       * Metal coordination
-      * ...
+      *	...
 
 
 
