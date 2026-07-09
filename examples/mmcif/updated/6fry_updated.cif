@@ -431,8 +431,8 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 'trigonal prism' ? 'trigonal prismatic' TPR FindGeo    'No reference' 
-1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 trigonal-prism   ? 'trigonal prismatic' TRP MetalCoord 'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 'trigonal prism' distorted 'trigonal prismatic' TPR FindGeo    'No reference' 
+1 B . 9CO CO1 ? A 201 9CO CO1 ? 6 trigonal-prism   distorted 'trigonal prismatic' TRP MetalCoord 'No reference' 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 

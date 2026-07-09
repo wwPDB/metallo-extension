@@ -1088,14 +1088,14 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 irregular                ? irregular                  ?   FindGeo    Unexpected 
-2 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 bicapped-trigonal-planar ? 'trigonal planar bicapped' BTP MetalCoord Unexpected 
-3 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 irregular                ? irregular                  ?   FindGeo    Unexpected 
-4 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 hexagonal-planar         ? 'hexagonal planar'         HPL MetalCoord Unexpected 
-5 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 irregular                ? irregular                  ?   FindGeo    Unexpected 
-6 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 square-non-planar        ? 'square non-planar'        SNP MetalCoord Unexpected 
-7 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 irregular                ? irregular                  ?   FindGeo    Unexpected 
-8 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 bicapped-trigonal-planar ? 'trigonal planar bicapped' BTP MetalCoord Unexpected 
+1 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 irregular                irregular irregular                  ?   FindGeo    Unexpected 
+2 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 bicapped-trigonal-planar distorted 'trigonal planar bicapped' BTP MetalCoord Unexpected 
+3 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 irregular                irregular irregular                  ?   FindGeo    Unexpected 
+4 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 hexagonal-planar         distorted 'hexagonal planar'         HPL MetalCoord Unexpected 
+5 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 irregular                irregular irregular                  ?   FindGeo    Unexpected 
+6 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 square-non-planar        distorted 'square non-planar'        SNP MetalCoord Unexpected 
+7 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 irregular                irregular irregular                  ?   FindGeo    Unexpected 
+8 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 bicapped-trigonal-planar distorted 'trigonal planar bicapped' BTP MetalCoord Unexpected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 

@@ -1167,12 +1167,12 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 irregular    ?       irregular      ?   FindGeo    Unexpected 
-2 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 sandwich_6_3 regular 'sandwich 6 3' SAS MetalCoord Expected   
-3 P . 1MK OS1 ? H 203  1MK OS1 ? 9 irregular    ?       irregular      ?   FindGeo    Unexpected 
-4 P . 1MK OS1 ? H 203  1MK OS1 ? 8 sandwich_6_2 regular 'sandwich 6 2' SAM MetalCoord Expected   
-5 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 irregular    ?       irregular      ?   FindGeo    Unexpected 
-6 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 sandwich_6_3 regular 'sandwich 6 3' SAS MetalCoord Expected   
+1 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 irregular    irregular irregular      ?   FindGeo    Unexpected 
+2 L . 1MK OS1 ? D 1102 1MK OS1 ? 9 sandwich_6_3 regular   'sandwich 6 3' SAS MetalCoord Expected   
+3 P . 1MK OS1 ? H 203  1MK OS1 ? 9 irregular    irregular irregular      ?   FindGeo    Unexpected 
+4 P . 1MK OS1 ? H 203  1MK OS1 ? 8 sandwich_6_2 regular   'sandwich 6 2' SAM MetalCoord Expected   
+5 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 irregular    irregular irregular      ?   FindGeo    Unexpected 
+6 Q . 1MK OS1 ? H 204  1MK OS1 ? 9 sandwich_6_3 regular   'sandwich 6 3' SAS MetalCoord Expected   
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 

@@ -949,20 +949,20 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 Y  . AF3 AL ? A 602  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-1 Y  . AF3 AL ? A 602  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
-2 CA . AF3 AL ? B 702  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-2 CA . AF3 AL ? B 702  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
-3 GA . AF3 AL ? C 802  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-3 GA . AF3 AL ? C 802  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
-4 KA . AF3 AL ? D 902  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-4 KA . AF3 AL ? D 902  AF3 AL ? 4 trigonal-pyramid                            ?       'trigonal pyramidal' TPY MetalCoord Expected 
-5 OA . AF3 AL ? E 1002 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-5 OA . AF3 AL ? E 1002 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
-6 SA . AF3 AL ? F 1102 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-6 SA . AF3 AL ? F 1102 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
-7 WA . AF3 AL ? G 1202 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
-7 WA . AF3 AL ? G 1202 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+1 Y  . AF3 AL ? A 602  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+1 Y  . AF3 AL ? A 602  AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
+2 CA . AF3 AL ? B 702  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+2 CA . AF3 AL ? B 702  AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
+3 GA . AF3 AL ? C 802  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+3 GA . AF3 AL ? C 802  AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
+4 KA . AF3 AL ? D 902  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+4 KA . AF3 AL ? D 902  AF3 AL ? 4 trigonal-pyramid                            distorted 'trigonal pyramidal' TPY MetalCoord Expected 
+5 OA . AF3 AL ? E 1002 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+5 OA . AF3 AL ? E 1002 AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
+6 SA . AF3 AL ? F 1102 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+6 SA . AF3 AL ? F 1102 AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
+7 WA . AF3 AL ? G 1202 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
+7 WA . AF3 AL ? G 1202 AF3 AL ? 4 trigonal-pyramid                            regular   'trigonal pyramidal' TPY MetalCoord Expected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 

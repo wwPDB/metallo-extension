@@ -1317,8 +1317,8 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 D . AF3 AL ? A 999 AF3 AL ? 3 'trigonal plane' ? 'trigonal planar' TRI FindGeo    Unexpected 
-1 D . AF3 AL ? A 999 AF3 AL ? 3 trigonal-planar  ? 'trigonal planar' TPL MetalCoord Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 'trigonal plane' 'coordination number exception' 'trigonal planar' TRI FindGeo    Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 trigonal-planar  'coordination number exception' 'trigonal planar' TPL MetalCoord Unexpected 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 

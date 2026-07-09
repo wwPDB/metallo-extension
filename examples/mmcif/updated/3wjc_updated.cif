@@ -1163,8 +1163,8 @@ _pdbx_nonpoly_atom_coordination.geometry_generic
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 C . RMD RH ? A 201 RMD RH ? 9 sandwich_5_4 ? 'sandwich 5 4' SAR MetalCoord 'No reference' 
-2 F . RMD RH ? B 201 RMD RH ? 9 sandwich_5_4 ? 'sandwich 5 4' SAR MetalCoord 'No reference' 
+1 C . RMD RH ? A 201 RMD RH ? 9 sandwich_5_4 'coordination number exception' 'sandwich 5 4' SAR MetalCoord 'No reference' 
+2 F . RMD RH ? B 201 RMD RH ? 9 sandwich_5_4 'coordination number exception' 'sandwich 5 4' SAR MetalCoord 'No reference' 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 
