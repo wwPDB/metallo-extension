@@ -366,13 +366,13 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
 1 B . HEM FE ? A 0 HEM FE ? 6 octahedron regular octahedral OCT FindGeo    Expected 
-1 B . HEM FE ? A 0 HEM FE ? 6 octahedral .       octahedral OCT MetalCoord Expected 
+1 B . HEM FE ? A 0 HEM FE ? 6 octahedral regular octahedral OCT MetalCoord Expected 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 

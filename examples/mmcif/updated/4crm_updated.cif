@@ -1233,27 +1233,27 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1  D . SF4 FE1 ? P 1610 SF4 FE1 ? 3 'tetrahedron with a vacancy'                 regular   pyramidal                       TEV FindGeo    Unexpected 
-2  D . SF4 FE1 ? P 1610 SF4 FE1 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial)'  distorted 'trigonal pyramidal'            BVA FindGeo    Unexpected 
-3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-4  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 'square pyramid with a vacancy (equatorial)' distorted 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
-5  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 tetrahedral                                  .         tetrahedral                     TET MetalCoord Expected   
-6  D . SF4 FE4 ? P 1610 SF4 FE4 ? 3 'tetrahedron with a vacancy'                 regular   pyramidal                       TEV FindGeo    Unexpected 
-7  D . SF4 FE4 ? P 1610 SF4 FE4 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-8  E . SF4 FE1 ? P 1611 SF4 FE1 ? 3 'tetrahedron with a vacancy'                 regular   pyramidal                       TEV FindGeo    Unexpected 
-9  E . SF4 FE1 ? P 1611 SF4 FE1 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial)'  distorted 'trigonal pyramidal'            BVA FindGeo    Unexpected 
-10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-11 E . SF4 FE3 ? P 1611 SF4 FE3 ? 3 'tetrahedron with a vacancy'                 regular   pyramidal                       TEV FindGeo    Unexpected 
-12 E . SF4 FE3 ? P 1611 SF4 FE3 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
-13 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 'square pyramid with a vacancy (equatorial)' distorted 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
-14 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 trigonal-pyramid                             .         'trigonal pyramidal'            TPY MetalCoord Unexpected 
+1  D . SF4 FE1 ? P 1610 SF4 FE1 ? 3 'tetrahedron with a vacancy'                 ? pyramidal                       TEV FindGeo    Unexpected 
+2  D . SF4 FE1 ? P 1610 SF4 FE1 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial)'  ? 'trigonal pyramidal'            BVA FindGeo    Unexpected 
+3  D . SF4 FE2 ? P 1610 SF4 FE2 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+4  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 'square pyramid with a vacancy (equatorial)' ? 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
+5  D . SF4 FE3 ? P 1610 SF4 FE3 ? 4 tetrahedral                                  ? tetrahedral                     TET MetalCoord Expected   
+6  D . SF4 FE4 ? P 1610 SF4 FE4 ? 3 'tetrahedron with a vacancy'                 ? pyramidal                       TEV FindGeo    Unexpected 
+7  D . SF4 FE4 ? P 1610 SF4 FE4 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+8  E . SF4 FE1 ? P 1611 SF4 FE1 ? 3 'tetrahedron with a vacancy'                 ? pyramidal                       TEV FindGeo    Unexpected 
+9  E . SF4 FE1 ? P 1611 SF4 FE1 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 'trigonal bipyramid with a vacancy (axial)'  ? 'trigonal pyramidal'            BVA FindGeo    Unexpected 
+10 E . SF4 FE2 ? P 1611 SF4 FE2 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+11 E . SF4 FE3 ? P 1611 SF4 FE3 ? 3 'tetrahedron with a vacancy'                 ? pyramidal                       TEV FindGeo    Unexpected 
+12 E . SF4 FE3 ? P 1611 SF4 FE3 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
+13 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 'square pyramid with a vacancy (equatorial)' ? 'square pyramidal with vacancy' PYV FindGeo    Unexpected 
+14 E . SF4 FE4 ? P 1611 SF4 FE4 ? 4 trigonal-pyramid                             ? 'trigonal pyramidal'            TPY MetalCoord Unexpected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 
@@ -1294,37 +1294,37 @@ _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code
 _pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
 1 D .  SF4 S2 ? P 1610 SF4 S2 ? x,y,z 1 
-1 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 2 
-1 D .  SF4 S4 ? P 1610 SF4 S4 ? x,y,z 3 
-1 A 29 CYS SG ? P 29   CYS SG ? x,y,z 4 
+1 D .  SF4 S4 ? P 1610 SF4 S4 ? x,y,z 2 
+1 A 29 CYS SG ? P 29   CYS SG ? x,y,z 3 
+1 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 4 
 2 D .  SF4 S1 ? P 1610 SF4 S1 ? x,y,z 1 
-2 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 2 
-2 D .  SF4 S4 ? P 1610 SF4 S4 ? x,y,z 3 
-2 A 55 CYS SG ? P 55   CYS SG ? x,y,z 4 
+2 D .  SF4 S4 ? P 1610 SF4 S4 ? x,y,z 2 
+2 A 55 CYS SG ? P 55   CYS SG ? x,y,z 3 
+2 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 4 
 3 D .  SF4 S1 ? P 1610 SF4 S1 ? x,y,z 1 
 3 D .  SF4 S2 ? P 1610 SF4 S2 ? x,y,z 2 
 3 D .  SF4 S4 ? P 1610 SF4 S4 ? x,y,z 3 
 3 A 61 CYS SG ? P 61   CYS SG ? x,y,z 4 
 4 D .  SF4 S1 ? P 1610 SF4 S1 ? x,y,z 1 
 4 D .  SF4 S2 ? P 1610 SF4 S2 ? x,y,z 2 
-4 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 3 
-4 A 58 CYS SG ? P 58   CYS SG ? x,y,z 4 
-5 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 1 
-5 E .  SF4 S3 ? P 1611 SF4 S3 ? x,y,z 2 
-5 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 3 
-5 A 25 CYS SG ? P 25   CYS SG ? x,y,z 4 
+4 A 58 CYS SG ? P 58   CYS SG ? x,y,z 3 
+4 D .  SF4 S3 ? P 1610 SF4 S3 ? x,y,z 4 
+5 E .  SF4 S3 ? P 1611 SF4 S3 ? x,y,z 1 
+5 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 2 
+5 A 25 CYS SG ? P 25   CYS SG ? x,y,z 3 
+5 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 4 
 6 E .  SF4 S1 ? P 1611 SF4 S1 ? x,y,z 1 
 6 E .  SF4 S3 ? P 1611 SF4 S3 ? x,y,z 2 
-6 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 3 
-6 A 21 CYS SG ? P 21   CYS SG ? x,y,z 4 
+6 A 21 CYS SG ? P 21   CYS SG ? x,y,z 3 
+6 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 4 
 7 E .  SF4 S1 ? P 1611 SF4 S1 ? x,y,z 1 
-7 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 2 
-7 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 3 
-7 A 65 CYS SG ? P 65   CYS SG ? x,y,z 4 
+7 E .  SF4 S4 ? P 1611 SF4 S4 ? x,y,z 2 
+7 A 65 CYS SG ? P 65   CYS SG ? x,y,z 3 
+7 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 4 
 8 E .  SF4 S1 ? P 1611 SF4 S1 ? x,y,z 1 
-8 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 2 
-8 E .  SF4 S3 ? P 1611 SF4 S3 ? x,y,z 3 
-8 A 16 CYS SG ? P 16   CYS SG ? x,y,z 4 
+8 E .  SF4 S3 ? P 1611 SF4 S3 ? x,y,z 2 
+8 A 16 CYS SG ? P 16   CYS SG ? x,y,z 3 
+8 E .  SF4 S2 ? P 1611 SF4 S2 ? x,y,z 4 
 # 
 _cell.entry_id           4CRM 
 _cell.length_a           1.000 

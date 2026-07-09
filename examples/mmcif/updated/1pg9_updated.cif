@@ -216,13 +216,13 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
 1 C . 1PT PT ? A 77 1PT PT ? 4 'square plane' regular 'square planar' SPL FindGeo    Expected 
-1 C . 1PT PT ? A 77 1PT PT ? 4 square-planar  .       'square planar' SPL MetalCoord Expected 
+1 C . 1PT PT ? A 77 1PT PT ? 4 square-planar  regular 'square planar' SPL MetalCoord Expected 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
@@ -254,9 +254,9 @@ _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code
 _pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
 1 C . 1PT N1 ? A 77 1PT N1 ? x,y,z 1 
-1 C . 1PT N2 ? A 77 1PT N2 ? x,y,z 2 
-1 A 6 DG  N7 ? A 6  DG  N7 ? x,y,z 3 
-1 A 7 DG  N7 ? A 7  DG  N7 ? x,y,z 4 
+1 A 7 DG  N7 ? A 7  DG  N7 ? x,y,z 2 
+1 C . 1PT N2 ? A 77 1PT N2 ? x,y,z 3 
+1 A 6 DG  N7 ? A 6  DG  N7 ? x,y,z 4 
 # 
 _exptl.entry_id          1PG9 
 _exptl.method            'SOLUTION NMR' 

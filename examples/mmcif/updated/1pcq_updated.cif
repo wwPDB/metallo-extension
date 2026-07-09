@@ -944,25 +944,25 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 Y  . AF3 AL ? A 602  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-1 Y  . AF3 AL ? A 602  AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-2 CA . AF3 AL ? B 702  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-2 CA . AF3 AL ? B 702  AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-3 GA . AF3 AL ? C 802  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-3 GA . AF3 AL ? C 802  AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-4 KA . AF3 AL ? D 902  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-4 KA . AF3 AL ? D 902  AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-5 OA . AF3 AL ? E 1002 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-5 OA . AF3 AL ? E 1002 AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-6 SA . AF3 AL ? F 1102 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-6 SA . AF3 AL ? F 1102 AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
-7 WA . AF3 AL ? G 1202 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' distorted 'trigonal pyramidal' BVA FindGeo    Expected 
-7 WA . AF3 AL ? G 1202 AF3 AL ? 4 trigonal-pyramid                            .         'trigonal pyramidal' TPY MetalCoord Expected 
+1 Y  . AF3 AL ? A 602  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+1 Y  . AF3 AL ? A 602  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+2 CA . AF3 AL ? B 702  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+2 CA . AF3 AL ? B 702  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+3 GA . AF3 AL ? C 802  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+3 GA . AF3 AL ? C 802  AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+4 KA . AF3 AL ? D 902  AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+4 KA . AF3 AL ? D 902  AF3 AL ? 4 trigonal-pyramid                            ?       'trigonal pyramidal' TPY MetalCoord Expected 
+5 OA . AF3 AL ? E 1002 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+5 OA . AF3 AL ? E 1002 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+6 SA . AF3 AL ? F 1102 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+6 SA . AF3 AL ? F 1102 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
+7 WA . AF3 AL ? G 1202 AF3 AL ? 4 'trigonal bipyramid with a vacancy (axial)' ?       'trigonal pyramidal' BVA FindGeo    Expected 
+7 WA . AF3 AL ? G 1202 AF3 AL ? 4 trigonal-pyramid                            regular 'trigonal pyramidal' TPY MetalCoord Expected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 
@@ -979,13 +979,13 @@ _pdbx_nonpoly_atom_coordination_sphere.auth_atom_id
 _pdbx_nonpoly_atom_coordination_sphere.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination_sphere.descriptor 
 _pdbx_nonpoly_atom_coordination_sphere.provenance 
-1 1 Y  . AF3 AL ? A 602  AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-2 2 CA . AF3 AL ? B 702  AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-3 3 GA . AF3 AL ? C 802  AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-4 4 KA . AF3 AL ? D 902  AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-5 5 OA . AF3 AL ? E 1002 AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-6 6 SA . AF3 AL ? F 1102 AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
-7 7 WA . AF3 AL ? G 1202 AF3 AL ? '@TPY{Al,O,F,F,F}' MetalCoord 
+1 1 Y  . AF3 AL ? A 602  AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+2 2 CA . AF3 AL ? B 702  AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+3 3 GA . AF3 AL ? C 802  AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+4 4 KA . AF3 AL ? D 902  AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+5 5 OA . AF3 AL ? E 1002 AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+6 6 SA . AF3 AL ? F 1102 AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
+7 7 WA . AF3 AL ? G 1202 AF3 AL ? '@TPY{Al,F,F,F,O}' MetalCoord 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere_order.sphere_id 
@@ -1001,34 +1001,34 @@ _pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id
 _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
-1 X  . ADP O3B ? A 600  ADP O3B ? x,y,z 1 
-1 Y  . AF3 F1  ? A 602  AF3 F1  ? x,y,z 2 
-1 Y  . AF3 F2  ? A 602  AF3 F2  ? x,y,z 3 
-1 Y  . AF3 F3  ? A 602  AF3 F3  ? x,y,z 4 
-2 BA . ADP O3B ? B 700  ADP O3B ? x,y,z 1 
-2 CA . AF3 F1  ? B 702  AF3 F1  ? x,y,z 2 
-2 CA . AF3 F2  ? B 702  AF3 F2  ? x,y,z 3 
-2 CA . AF3 F3  ? B 702  AF3 F3  ? x,y,z 4 
-3 FA . ADP O3B ? C 800  ADP O3B ? x,y,z 1 
-3 GA . AF3 F1  ? C 802  AF3 F1  ? x,y,z 2 
-3 GA . AF3 F2  ? C 802  AF3 F2  ? x,y,z 3 
-3 GA . AF3 F3  ? C 802  AF3 F3  ? x,y,z 4 
-4 JA . ADP O3B ? D 900  ADP O3B ? x,y,z 1 
-4 KA . AF3 F1  ? D 902  AF3 F1  ? x,y,z 2 
-4 KA . AF3 F2  ? D 902  AF3 F2  ? x,y,z 3 
-4 KA . AF3 F3  ? D 902  AF3 F3  ? x,y,z 4 
-5 NA . ADP O3B ? E 1000 ADP O3B ? x,y,z 1 
-5 OA . AF3 F1  ? E 1002 AF3 F1  ? x,y,z 2 
-5 OA . AF3 F2  ? E 1002 AF3 F2  ? x,y,z 3 
-5 OA . AF3 F3  ? E 1002 AF3 F3  ? x,y,z 4 
-6 RA . ADP O3B ? F 1100 ADP O3B ? x,y,z 1 
-6 SA . AF3 F1  ? F 1102 AF3 F1  ? x,y,z 2 
-6 SA . AF3 F2  ? F 1102 AF3 F2  ? x,y,z 3 
-6 SA . AF3 F3  ? F 1102 AF3 F3  ? x,y,z 4 
-7 VA . ADP O3B ? G 1200 ADP O3B ? x,y,z 1 
-7 WA . AF3 F1  ? G 1202 AF3 F1  ? x,y,z 2 
-7 WA . AF3 F2  ? G 1202 AF3 F2  ? x,y,z 3 
-7 WA . AF3 F3  ? G 1202 AF3 F3  ? x,y,z 4 
+1 Y  . AF3 F1  ? A 602  AF3 F1  ? x,y,z 1 
+1 Y  . AF3 F2  ? A 602  AF3 F2  ? x,y,z 2 
+1 Y  . AF3 F3  ? A 602  AF3 F3  ? x,y,z 3 
+1 X  . ADP O3B ? A 600  ADP O3B ? x,y,z 4 
+2 CA . AF3 F1  ? B 702  AF3 F1  ? x,y,z 1 
+2 CA . AF3 F2  ? B 702  AF3 F2  ? x,y,z 2 
+2 CA . AF3 F3  ? B 702  AF3 F3  ? x,y,z 3 
+2 BA . ADP O3B ? B 700  ADP O3B ? x,y,z 4 
+3 GA . AF3 F1  ? C 802  AF3 F1  ? x,y,z 1 
+3 GA . AF3 F2  ? C 802  AF3 F2  ? x,y,z 2 
+3 GA . AF3 F3  ? C 802  AF3 F3  ? x,y,z 3 
+3 FA . ADP O3B ? C 800  ADP O3B ? x,y,z 4 
+4 KA . AF3 F1  ? D 902  AF3 F1  ? x,y,z 1 
+4 KA . AF3 F2  ? D 902  AF3 F2  ? x,y,z 2 
+4 KA . AF3 F3  ? D 902  AF3 F3  ? x,y,z 3 
+4 JA . ADP O3B ? D 900  ADP O3B ? x,y,z 4 
+5 OA . AF3 F1  ? E 1002 AF3 F1  ? x,y,z 1 
+5 OA . AF3 F2  ? E 1002 AF3 F2  ? x,y,z 2 
+5 OA . AF3 F3  ? E 1002 AF3 F3  ? x,y,z 3 
+5 NA . ADP O3B ? E 1000 ADP O3B ? x,y,z 4 
+6 SA . AF3 F1  ? F 1102 AF3 F1  ? x,y,z 1 
+6 SA . AF3 F2  ? F 1102 AF3 F2  ? x,y,z 2 
+6 SA . AF3 F3  ? F 1102 AF3 F3  ? x,y,z 3 
+6 RA . ADP O3B ? F 1100 ADP O3B ? x,y,z 4 
+7 WA . AF3 F1  ? G 1202 AF3 F1  ? x,y,z 1 
+7 WA . AF3 F2  ? G 1202 AF3 F2  ? x,y,z 2 
+7 WA . AF3 F3  ? G 1202 AF3 F3  ? x,y,z 3 
+7 VA . ADP O3B ? G 1200 ADP O3B ? x,y,z 4 
 # 
 loop_
 _software.classification 

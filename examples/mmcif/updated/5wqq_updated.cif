@@ -878,19 +878,19 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
 1 B . SF4 FE1 ? A 101 SF4 FE1 ? 4 tetrahedron regular tetrahedral TET FindGeo    Expected 
-1 B . SF4 FE1 ? A 101 SF4 FE1 ? 4 tetrahedral .       tetrahedral TET MetalCoord Expected 
+1 B . SF4 FE1 ? A 101 SF4 FE1 ? 4 tetrahedral regular tetrahedral TET MetalCoord Expected 
 2 B . SF4 FE2 ? A 101 SF4 FE2 ? 4 tetrahedron regular tetrahedral TET FindGeo    Expected 
-2 B . SF4 FE2 ? A 101 SF4 FE2 ? 4 tetrahedral .       tetrahedral TET MetalCoord Expected 
+2 B . SF4 FE2 ? A 101 SF4 FE2 ? 4 tetrahedral regular tetrahedral TET MetalCoord Expected 
 3 B . SF4 FE3 ? A 101 SF4 FE3 ? 4 tetrahedron regular tetrahedral TET FindGeo    Expected 
-3 B . SF4 FE3 ? A 101 SF4 FE3 ? 4 tetrahedral .       tetrahedral TET MetalCoord Expected 
+3 B . SF4 FE3 ? A 101 SF4 FE3 ? 4 tetrahedral regular tetrahedral TET MetalCoord Expected 
 4 B . SF4 FE4 ? A 101 SF4 FE4 ? 4 tetrahedron regular tetrahedral TET FindGeo    Expected 
-4 B . SF4 FE4 ? A 101 SF4 FE4 ? 4 tetrahedral .       tetrahedral TET MetalCoord Expected 
+4 B . SF4 FE4 ? A 101 SF4 FE4 ? 4 tetrahedral regular tetrahedral TET MetalCoord Expected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 

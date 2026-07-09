@@ -1083,19 +1083,19 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 irregular                . irregular                  .   FindGeo    Unexpected 
-2 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 bicapped-trigonal-planar . 'trigonal planar bicapped' BTP MetalCoord Unexpected 
-3 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 irregular                . irregular                  .   FindGeo    Unexpected 
-4 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 hexagonal-planar         . 'hexagonal planar'         HPL MetalCoord Unexpected 
-5 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 irregular                . irregular                  .   FindGeo    Unexpected 
-6 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 square-non-planar        . 'square non-planar'        SNP MetalCoord Unexpected 
-7 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 irregular                . irregular                  .   FindGeo    Unexpected 
-8 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 bicapped-trigonal-planar . 'trigonal planar bicapped' BTP MetalCoord Unexpected 
+1 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 irregular                ? irregular                  ?   FindGeo    Unexpected 
+2 K . SF4 FE1 ? I 301 SF4 FE1 ? 5 bicapped-trigonal-planar ? 'trigonal planar bicapped' BTP MetalCoord Unexpected 
+3 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 irregular                ? irregular                  ?   FindGeo    Unexpected 
+4 K . SF4 FE2 ? I 301 SF4 FE2 ? 6 hexagonal-planar         ? 'hexagonal planar'         HPL MetalCoord Unexpected 
+5 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 irregular                ? irregular                  ?   FindGeo    Unexpected 
+6 K . SF4 FE3 ? I 301 SF4 FE3 ? 4 square-non-planar        ? 'square non-planar'        SNP MetalCoord Unexpected 
+7 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 irregular                ? irregular                  ?   FindGeo    Unexpected 
+8 K . SF4 FE4 ? I 301 SF4 FE4 ? 5 bicapped-trigonal-planar ? 'trigonal planar bicapped' BTP MetalCoord Unexpected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 
@@ -1131,26 +1131,26 @@ _pdbx_nonpoly_atom_coordination_sphere_order.auth_atom_id
 _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
-1 K .   SF4 S2 ? I 301 SF4 S2 ? x,y,z 1 
-1 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 2 
-1 K .   SF4 S4 ? I 301 SF4 S4 ? x,y,z 3 
-1 I 189 CYS SG ? I 190 CYS SG ? x,y,z 4 
+1 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 1 
+1 I 189 CYS SG ? I 190 CYS SG ? x,y,z 2 
+1 K .   SF4 S2 ? I 301 SF4 S2 ? x,y,z 3 
+1 K .   SF4 S4 ? I 301 SF4 S4 ? x,y,z 4 
 1 I 20  CYS SG ? I 21  CYS SG ? x,y,z 5 
 2 K .   SF4 S1 ? I 301 SF4 S1 ? x,y,z 1 
-2 I 192 CYS SG ? I 193 CYS SG ? x,y,z 2 
-2 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 3 
-2 I 189 CYS SG ? I 190 CYS SG ? x,y,z 4 
-2 K .   SF4 S4 ? I 301 SF4 S4 ? x,y,z 5 
-2 I 198 CYS SG ? I 199 CYS SG ? x,y,z 6 
+2 I 198 CYS SG ? I 199 CYS SG ? x,y,z 2 
+2 I 192 CYS SG ? I 193 CYS SG ? x,y,z 3 
+2 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 4 
+2 I 189 CYS SG ? I 190 CYS SG ? x,y,z 5 
+2 K .   SF4 S4 ? I 301 SF4 S4 ? x,y,z 6 
 3 K .   SF4 S1 ? I 301 SF4 S1 ? x,y,z 1 
 3 K .   SF4 S2 ? I 301 SF4 S2 ? x,y,z 2 
 3 K .   SF4 S4 ? I 301 SF4 S4 ? x,y,z 3 
 3 I 198 CYS SG ? I 199 CYS SG ? x,y,z 4 
-4 K .   SF4 S1 ? I 301 SF4 S1 ? x,y,z 1 
-4 K .   SF4 S2 ? I 301 SF4 S2 ? x,y,z 2 
-4 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 3 
-4 I 20  CYS SG ? I 21  CYS SG ? x,y,z 4 
-4 I 192 CYS SG ? I 193 CYS SG ? x,y,z 5 
+4 K .   SF4 S3 ? I 301 SF4 S3 ? x,y,z 1 
+4 I 192 CYS SG ? I 193 CYS SG ? x,y,z 2 
+4 K .   SF4 S2 ? I 301 SF4 S2 ? x,y,z 3 
+4 K .   SF4 S1 ? I 301 SF4 S1 ? x,y,z 4 
+4 I 20  CYS SG ? I 21  CYS SG ? x,y,z 5 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

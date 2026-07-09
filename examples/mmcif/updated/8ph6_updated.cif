@@ -396,27 +396,27 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
 1  C . ZWL RU1 A A 202 ZWL RU1 ? 4 'square plane'   regular 'square planar'    SPL FindGeo    Expected 
-1  C . ZWL RU1 A A 202 ZWL RU1 ? 4 square-planar    .       'square planar'    SPL MetalCoord Expected 
+1  C . ZWL RU1 A A 202 ZWL RU1 ? 4 square-planar    regular 'square planar'    SPL MetalCoord Expected 
 2  C . ZWL RU2 A A 202 ZWL RU2 ? 5 'square pyramid' regular 'square pyramidal' SPY FindGeo    Expected 
-2  C . ZWL RU2 A A 202 ZWL RU2 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+2  C . ZWL RU2 A A 202 ZWL RU2 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 3  D . YWV RU1 A A 203 YWV RU1 ? 4 'square plane'   regular 'square planar'    SPL FindGeo    Expected 
-4  D . YWV RU1 A A 203 YWV RU1 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+4  D . YWV RU1 A A 203 YWV RU1 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 5  D . YWV RU2 A A 203 YWV RU2 ? 5 'square pyramid' regular 'square pyramidal' SPY FindGeo    Expected 
-5  D . YWV RU2 A A 203 YWV RU2 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+5  D . YWV RU2 A A 203 YWV RU2 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 6  E . ZWO RU1 A A 204 ZWO RU1 ? 4 'square plane'   regular 'square planar'    SPL FindGeo    Expected 
-6  E . ZWO RU1 A A 204 ZWO RU1 ? 4 square-planar    .       'square planar'    SPL MetalCoord Expected 
+6  E . ZWO RU1 A A 204 ZWO RU1 ? 4 square-planar    regular 'square planar'    SPL MetalCoord Expected 
 7  E . ZWO RU2 A A 204 ZWO RU2 ? 5 'square pyramid' regular 'square pyramidal' SPY FindGeo    Expected 
-7  E . ZWO RU2 A A 204 ZWO RU2 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+7  E . ZWO RU2 A A 204 ZWO RU2 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 8  F . ZXE RU1 ? A 205 ZXE RU1 ? 4 'square plane'   regular 'square planar'    SPL FindGeo    Expected 
-9  F . ZXE RU1 ? A 205 ZXE RU1 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+9  F . ZXE RU1 ? A 205 ZXE RU1 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 10 F . ZXE RU2 ? A 205 ZXE RU2 ? 5 'square pyramid' regular 'square pyramidal' SPY FindGeo    Expected 
-10 F . ZXE RU2 ? A 205 ZXE RU2 ? 5 square-pyramid   .       'square pyramidal' SQP MetalCoord Expected 
+10 F . ZXE RU2 ? A 205 ZXE RU2 ? 5 square-pyramid   regular 'square pyramidal' SQP MetalCoord Expected 
 # 
 loop_
 _pdbx_nonpoly_atom_coordination_sphere.id 
@@ -435,8 +435,8 @@ _pdbx_nonpoly_atom_coordination_sphere.descriptor
 _pdbx_nonpoly_atom_coordination_sphere.provenance 
 1 1  C . ZWL RU1 A A 202 ZWL RU1 ? '@SPL{Ru,N,O,O,O}'   MetalCoord 
 2 2  C . ZWL RU2 A A 202 ZWL RU2 ? '@SQP{Ru,N,O,O,O,O}' MetalCoord 
-3 4  D . YWV RU1 A A 203 YWV RU1 ? '@SQP{Ru,N,N,O,O,O}' MetalCoord 
-4 5  D . YWV RU2 A A 203 YWV RU2 ? '@SQP{Ru,N,N,O,O,O}' MetalCoord 
+3 4  D . YWV RU1 A A 203 YWV RU1 ? '@SQP{Ru,N,O,O,N,O}' MetalCoord 
+4 5  D . YWV RU2 A A 203 YWV RU2 ? '@SQP{Ru,N,O,O,N,O}' MetalCoord 
 5 6  E . ZWO RU1 A A 204 ZWO RU1 ? '@SPL{Ru,N,O,O,O}'   MetalCoord 
 6 7  E . ZWO RU2 A A 204 ZWO RU2 ? '@SQP{Ru,N,O,O,O,O}' MetalCoord 
 7 9  F . ZXE RU1 ? A 205 ZXE RU1 ? '@SQP{Ru,N,O,O,O,O}' MetalCoord 
@@ -457,8 +457,8 @@ _pdbx_nonpoly_atom_coordination_sphere_order.PDB_ins_code
 _pdbx_nonpoly_atom_coordination_sphere_order.symmetry_operation 
 _pdbx_nonpoly_atom_coordination_sphere_order.atom_place 
 1 C .   ZWL N1  A A 202 ZWL N1  ? x,y,z              1 
-1 C .   ZWL O1  A A 202 ZWL O1  ? x,y,z              2 
-1 C .   ZWL O3  A A 202 ZWL O3  ? x,y,z              3 
+1 C .   ZWL O3  A A 202 ZWL O3  ? x,y,z              2 
+1 C .   ZWL O1  A A 202 ZWL O1  ? x,y,z              3 
 1 A 101 ASP OD1 ? A 101 ASP OD1 ? x,y,z              4 
 2 C .   ZWL N2  A A 202 ZWL N2  ? x,y,z              1 
 2 C .   ZWL O2  A A 202 ZWL O2  ? x,y,z              2 
@@ -466,18 +466,18 @@ _pdbx_nonpoly_atom_coordination_sphere_order.atom_place
 2 A 101 ASP OD2 ? A 101 ASP OD2 ? x,y,z              4 
 2 G .   HOH O   A A 354 HOH O   ? x,y,z              5 
 3 D .   YWV N1  A A 203 YWV N1  ? x,y,z              1 
-3 A 125 ARG NH2 A A 125 ARG NH2 ? x,y,z              2 
+3 D .   YWV O1  A A 203 YWV O1  ? x,y,z              2 
 3 A 119 ASP OD1 ? A 119 ASP OD1 ? x,y,z              3 
-3 D .   YWV O1  A A 203 YWV O1  ? x,y,z              4 
+3 A 125 ARG NH2 A A 125 ARG NH2 ? x,y,z              4 
 3 F .   ZXE O8  ? A 205 ZXE O8  ? y-1/2,-x-1/2,z+1/4 5 
 4 D .   YWV N2  A A 203 YWV N2  ? x,y,z              1 
-4 A 125 ARG NH1 A A 125 ARG NH1 ? x,y,z              2 
+4 D .   YWV O2  A A 203 YWV O2  ? x,y,z              2 
 4 A 119 ASP OD2 ? A 119 ASP OD2 ? x,y,z              3 
-4 D .   YWV O2  A A 203 YWV O2  ? x,y,z              4 
+4 A 125 ARG NH1 A A 125 ARG NH1 ? x,y,z              4 
 4 G .   HOH O   ? A 429 HOH O   ? x,y,z              5 
 5 E .   ZWO N1  A A 204 ZWO N1  ? x,y,z              1 
-5 E .   ZWO O1  A A 204 ZWO O1  ? x,y,z              2 
-5 E .   ZWO O3  A A 204 ZWO O3  ? x,y,z              3 
+5 E .   ZWO O3  A A 204 ZWO O3  ? x,y,z              2 
+5 E .   ZWO O1  A A 204 ZWO O1  ? x,y,z              3 
 5 E .   ZWO O5  A A 204 ZWO O5  ? x,y,z              4 
 6 E .   ZWO N2  A A 204 ZWO N2  ? x,y,z              1 
 6 E .   ZWO O2  A A 204 ZWO O2  ? x,y,z              2 

@@ -1312,13 +1312,13 @@ _pdbx_nonpoly_atom_coordination.auth_atom_id
 _pdbx_nonpoly_atom_coordination.PDB_ins_code 
 _pdbx_nonpoly_atom_coordination.number 
 _pdbx_nonpoly_atom_coordination.geometry_calculated 
-_pdbx_nonpoly_atom_coordination.software_remark 
+_pdbx_nonpoly_atom_coordination.remark 
 _pdbx_nonpoly_atom_coordination.geometry_generic 
 _pdbx_nonpoly_atom_coordination.geometry_abbr 
 _pdbx_nonpoly_atom_coordination.provenance 
 _pdbx_nonpoly_atom_coordination.assessment 
-1 D . AF3 AL ? A 999 AF3 AL ? 3 'trigonal plane' regular 'trigonal planar' TRI FindGeo    Unexpected 
-1 D . AF3 AL ? A 999 AF3 AL ? 3 trigonal-planar  .       'trigonal planar' TPL MetalCoord Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 'trigonal plane' ? 'trigonal planar' TRI FindGeo    Unexpected 
+1 D . AF3 AL ? A 999 AF3 AL ? 3 trigonal-planar  ? 'trigonal planar' TPL MetalCoord Unexpected 
 # 
 _pdbx_nonpoly_atom_coordination_sphere.id              1 
 _pdbx_nonpoly_atom_coordination_sphere.geometry_id     1 
